@@ -1,0 +1,105 @@
+H1{   FONT-FAMILY: Verdana, Arial, sans-serif; color:#222277; padding:0px; padding-left:3px; margin:10px; margin-left:0px; font-size:16px; text-decoration:none; border-bottom:1px solid #9999ff;}
+
+H2{   FONT-FAMILY: Verdana, Arial, sans-serif; color:#00214d; padding:0px; margin:10px; margin-left:0px;  font-size:13px; font-weight:bold;}
+
+H4{  color:#ffffff; text-align:center; background:#4444ff; padding:0px; margin:0px; font-size:18px; text-decoration:underline;}
+
+.smalltext{font-size:12px; line-height:135%;  color:#444499;}
+
+#breadcrumb A:link{ color:#ff0000;}
+#breadcrumb A:visited{ color:#ff0000;}
+#breadcrumb A:hover{ color:#ff9999;}
+
+A:link{ color:#444499;}
+
+A:visited{ color:#444499;}
+
+A:hover{ color:#9999ff;}
+
+p{ margin-top:10px; margin-bottom:10px;}
+
+.papername{ font-style:italic; color:#ff4444;}
+
+#save A:link {
+ COLOR: #ffffff; font-family: georgia; text-decoration:underline;
+}
+
+#save A:visited {
+ COLOR: #ffffff; font-family: georgia; text-decoration:underline;
+}
+
+#save A:hover { COLOR: #a52a2a; TEXT-DECORATION: underline}
+
+#menu A:link {
+ DISPLAY: block;  WIDTH: 100%; COLOR: #003366; padding:0px; margin:0px; border:0px;
+padding-top:6px; padding-bottom:6px; margin-top:0px; font-family: georgia; text-decoration:none;
+}
+
+#menu A:visited {
+ DISPLAY: block;  WIDTH: 100%;  COLOR: #003366; padding:0px; margin:0px; border:0px;
+padding-top:6px; padding-bottom:6px; margin-top:0px; font-family: georgia; text-decoration:none;
+}
+
+#menu A:hover { COLOR: #a52a2a; TEXT-DECORATION: underline}
+
+#menusub A:link {
+ DISPLAY: block;  WIDTH: 100%; COLOR: #003366; padding:0px; margin:0px; border:0px;
+padding-top:2px; padding-bottom:2px; margin-top:0px; font-family: georgia; text-decoration:none;
+}
+
+#menusub A:visited {
+ DISPLAY: block;  WIDTH: 100%;  COLOR: #003366; padding:0px; margin:0px; border:0px;
+padding-top:2px; padding-bottom:2px; margin-top:0px; font-family: georgia; text-decoration:none;
+}
+
+#menusub A:hover { COLOR: #a52a2a; TEXT-DECORATION: underline}
+
+#menusub2 A:link {
+ DISPLAY: block;  WIDTH: 100%; COLOR: #ff0000; padding:0px; margin:0px; border:0px; BACKGROUND-COLOR: #e0e0ff;
+padding-top:2px; padding-bottom:2px; margin-top:0px; font-family: georgia; text-decoration:none;
+}
+
+#menusub2 A:visited {
+ DISPLAY: block;  WIDTH: 100%;  COLOR: #ff0000; padding:0px; margin:0px; border:0px; BACKGROUND-COLOR: #e0e0ff;
+padding-top:2px; padding-bottom:2px; margin-top:0px; font-family: georgia; text-decoration:none; 
+}
+
+#menusub2 A:hover { COLOR: #a52a2a; TEXT-DECORATION: underline}
+
+
+#notsel A:link {
+ DISPLAY: block;  WIDTH: 100%; COLOR: #003366; padding:0px; margin:0px; border:0px; background-color:#f0f0ff;
+padding-top:6px; padding-bottom:6px; margin-top:0px; font-family: georgia; text-decoration:none;
+}
+
+#notsel A:visited {
+ DISPLAY: block;  WIDTH: 100%;  COLOR: #003366; padding:0px; margin:0px; border:0px; background-color:#f0f0ff;
+padding-top:6px; padding-bottom:6px; margin-top:0px; font-family: georgia; text-decoration:none;
+}
+
+#notsel A:hover { COLOR: #a52a2a; TEXT-DECORATION: underline}
+
+#but A:link{ color:#000000;}
+
+
+#selected{
+ DISPLAY: block;  WIDTH: 100%; COLOR: #003366; font-weight:bold; padding:0px; margin:0px; border:0px;
+padding-top:6px; padding-bottom:6px; margin-top:0px; font-family: georgia; BACKGROUND-COLOR: #f0f0ff; text-decoration:none;
+}
+
+#selected2{
+ DISPLAY: block;  WIDTH: 100%; COLOR: #ffffff; font-weight:bold; padding:0px; margin:0px; border:0px;
+padding-top:2px; padding-bottom:2px; margin-top:0px; font-family: georgia; BACKGROUND-COLOR: #e0e0ff; text-decoration:none;
+}
+
+#notselected2 A:link {
+DISPLAY: block;  WIDTH: 100%; COLOR: #003366; font-weight:bold; padding:0px; margin:0px; border:0px;
+padding-top:6px; padding-bottom:6px; margin-top:0px; font-family: georgia; BACKGROUND-COLOR: #f0f0ff; text-decoration:none;
+}
+
+#notselected2 A:visited {
+DISPLAY: block;  WIDTH: 100%; COLOR: #003366; font-weight:bold; padding:0px; margin:0px; border:0px;
+padding-top:6px; padding-bottom:6px; margin-top:0px; font-family: georgia; BACKGROUND-COLOR: #f0f0ff; text-decoration:none;
+}
+
+#notselected2 A:hover { COLOR: #a52a2a; TEXT-DECORATION: underline}
