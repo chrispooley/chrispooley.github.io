@@ -1,0 +1,272 @@
+
+Age categories: 
+  age: age0-4, age5-9, age10-14, age15-19, age20-24, age25-29, age30-34, age35-39, age40-44, age45-49, age50-54, age55-59, age60-64, age65-69, age70-74, age75-79, age80+, CH
+
+Demographic categories: 
+  strain: all
+
+Priors:
+  zero = Fixed(0)
+  E mean occupancy = Fixed(3.8)
+  I Infectivity = Fixed(1)
+  I mean occupancy = Fixed(4)
+  C mean occupancy = Fixed(3.1)
+  A Infectivity = Fixed(0.55)
+  A mean occupancy = Fixed(4)
+  H mean occupancy = Fixed(13)
+  T mean occupancy 0-19 = Uniform(4,20)
+  T mean occupancy 20-24 = Uniform(4,20)
+  T mean occupancy 25-29 = Uniform(4,20)
+  T mean occupancy 30-34 = Uniform(4,20)
+  T mean occupancy 35-39 = Uniform(4,20)
+  T mean occupancy 40-44 = Uniform(4,20)
+  T mean occupancy 45-49 = Uniform(4,20)
+  T mean occupancy 50-54 = Uniform(4,20)
+  T mean occupancy 55-59 = Uniform(4,20)
+  T mean occupancy 60-64 = Uniform(4,20)
+  T mean occupancy 65-69 = Uniform(4,20)
+  T mean occupancy 70-74 = Uniform(4,20)
+  T mean occupancy 75-79 = Uniform(4,20)
+  T mean occupancy 80+ = Uniform(4,20)
+  E->A 0-4 = Dir(*)
+  E->A 5-9 = Dir(*)
+  E->A 10-14 = Dir(*)
+  E->A 15-19 = Dir(*)
+  E->A 20-24 = Dir(*)
+  E->A 25-29 = Dir(*)
+  E->A 30-34 = Dir(*)
+  E->A 35-39 = Dir(*)
+  E->A 40-44 = Dir(*)
+  E->A 45-49 = Dir(*)
+  E->A 50-54 = Dir(*)
+  E->A 55-59 = Dir(*)
+  E->A 60-64 = Dir(*)
+  E->A 65-69 = Dir(*)
+  E->A 70-74 = Dir(*)
+  E->A 75-79 = Dir(*)
+  E->A 80+ = Dir(*)
+  E->I 0-4 = Dir(*)
+  E->I 5-9 = Dir(*)
+  E->I 10-14 = Dir(*)
+  E->I 15-19 = Dir(*)
+  E->I 20-24 = Dir(*)
+  E->I 25-29 = Dir(*)
+  E->I 30-34 = Dir(*)
+  E->I 35-39 = Dir(*)
+  E->I 40-44 = Dir(*)
+  E->I 45-49 = Dir(*)
+  E->I 50-54 = Dir(*)
+  E->I 55-59 = Dir(*)
+  E->I 60-64 = Dir(*)
+  E->I 65-69 = Dir(*)
+  E->I 70-74 = Dir(*)
+  E->I 75-79 = Dir(*)
+  E->I 80+ = Dir(*)
+  I->T 0-4 = Dir(1)
+  I->T 5-9 = Dir(1)
+  I->T 10-14 = Dir(1)
+  I->T 15-19 = Dir(1)
+  I->T 20-24 = Dir(1)
+  I->T 25-29 = Dir(1)
+  I->T 30-34 = Dir(1)
+  I->T 35-39 = Dir(1)
+  I->T 40-44 = Dir(1)
+  I->T 45-49 = Dir(1)
+  I->T 50-54 = Dir(1)
+  I->T 55-59 = Dir(1)
+  I->T 60-64 = Dir(1)
+  I->T 65-69 = Dir(1)
+  I->T 70-74 = Dir(1)
+  I->T 75-79 = Dir(1)
+  I->T 80+ = Dir(1)
+  I->C 0-4 = Dir(0.3)
+  I->C 5-9 = Dir(0.3)
+  I->C 10-14 = Dir(0.3)
+  I->C 15-19 = Dir(0.3)
+  I->C 20-24 = Dir(0.3)
+  I->C 25-29 = Dir(0.3)
+  I->C 30-34 = Dir(0.3)
+  I->C 35-39 = Dir(0.3)
+  I->C 40-44 = Dir(0.3)
+  I->C 45-49 = Dir(0.3)
+  I->C 50-54 = Dir(0.3)
+  I->C 55-59 = Dir(0.3)
+  I->C 60-64 = Dir(0.3)
+  I->C 65-69 = Dir(0.4)
+  I->C 70-74 = Dir(0.6)
+  I->C 75-79 = Dir(0.8)
+  I->C 80+ = Dir(1)
+  H->R 0-4 = Dir(1)
+  H->R 5-9 = Dir(1)
+  H->R 10-14 = Dir(1)
+  H->R 15-19 = Dir(1)
+  H->R 20-24 = Dir(1)
+  H->R 25-29 = Dir(1)
+  H->R 30-34 = Dir(1)
+  H->R 35-39 = Dir(1)
+  H->R 40-44 = Dir(1)
+  H->R 45-49 = Dir(1)
+  H->R 50-54 = Dir(1)
+  H->R 55-59 = Dir(1)
+  H->R 60-64 = Dir(1)
+  H->R 65-69 = Dir(1)
+  H->R 70-74 = Dir(1)
+  H->R 75-79 = Dir(1)
+  H->R 80+ = Dir(1)
+  H->D 0-4 = Dir(0.3)
+  H->D 5-9 = Dir(0.3)
+  H->D 10-14 = Dir(0.3)
+  H->D 15-19 = Dir(0.3)
+  H->D 20-24 = Dir(0.3)
+  H->D 25-29 = Dir(0.3)
+  H->D 30-34 = Dir(0.3)
+  H->D 35-39 = Dir(0.3)
+  H->D 40-44 = Dir(0.3)
+  H->D 45-49 = Dir(0.3)
+  H->D 50-54 = Dir(0.3)
+  H->D 55-59 = Dir(0.3)
+  H->D 60-64 = Dir(0.3)
+  H->D 65-69 = Dir(0.4)
+  H->D 70-74 = Dir(0.6)
+  H->D 75-79 = Dir(0.8)
+  H->D 80+ = Dir(1)
+  R_0 = Uniform(0.4,5)
+  R_1 = Uniform(0.4,5)
+  R_2 = Uniform(0.4,5)
+  R_3 = Uniform(0.4,5)
+  R_4 = Uniform(0.4,2.5)
+  R_5 = Uniform(0.4,2.5)
+  R_6 = Uniform(0.4,2.5)
+  R_7 = Uniform(0.4,2.5)
+  R_8 = Uniform(0.4,2.5)
+  R_9 = Uniform(0.4,2.5)
+  R_10 = Uniform(0.4,2.5)
+  R_11 = Uniform(0.4,2.5)
+  R_12 = Uniform(0.4,2.5)
+  R_13 = Uniform(0.4,2.5)
+  R_14 = Uniform(0.4,2.5)
+  R_15 = Uniform(0.4,2.5)
+  R_16 = Uniform(0.4,2.5)
+  R_17 = Uniform(0.4,2.5)
+  R_18 = Uniform(0.4,2.5)
+  R_19 = Uniform(0.4,2.5)
+  R_20 = Uniform(0.4,2.5)
+  R_21 = Uniform(0.4,2.5)
+  R_22 = Uniform(0.4,2.5)
+  R_23 = Uniform(0.4,2.5)
+  R_24 = Uniform(0.4,2.5)
+  R_25 = Uniform(0.4,2.5)
+  R_26 = Uniform(0.4,2.5)
+  R_27 = Uniform(0.4,2.5)
+  R_28 = Uniform(0.4,2.5)
+  R_29 = Uniform(0.4,2.5)
+  R_30 = Uniform(0.4,2.5)
+  R_31 = Uniform(0.4,2.5)
+  R_32 = Uniform(0.4,2.5)
+  R_33 = Uniform(0.4,2.5)
+  R_34 = Uniform(0.4,2.5)
+  R_35 = Uniform(0.4,2.5)
+  one = Fixed(1)
+  efoi = Fixed(1)
+  Mixing factor 0-4 = MDir(0.5)
+  Mixing factor 5-9 = MDir(0.5)
+  Mixing factor 10-14 = MDir(0.5)
+  Mixing factor 15-19 = MDir(0.5)
+  Mixing factor 20-24 = MDir(0.5)
+  Mixing factor 25-29 = MDir(0.5)
+  Mixing factor 30-34 = MDir(0.5)
+  Mixing factor 35-39 = MDir(0.5)
+  Mixing factor 40-44 = MDir(0.5)
+  Mixing factor 45-49 = MDir(0.5)
+  Mixing factor 50-54 = MDir(0.5)
+  Mixing factor 55-59 = MDir(0.5)
+  Mixing factor 60-64 = MDir(0.5)
+  Mixing factor 65-69 = MDir(0.5)
+  Mixing factor 70-74 = MDir(0.5)
+  Mixing factor 75-79 = MDir(0.5)
+  Mixing factor 80+ = MDir(0.5)
+  Mixing factor CH = MDir(0.5)
+
+Dirichlet distributions:
+  Mixing factor 0-4 0.0565596   Mixing factor 5-9 0.0617972   Mixing factor 10-14 0.060264   Mixing factor 15-19 0.0547   Mixing factor 20-24 0.0612828   Mixing factor 25-29 0.0668228   Mixing factor 30-34 0.0674924   Mixing factor 35-39 0.0657436   Mixing factor 40-44 0.0609945   Mixing factor 45-49 0.0641639   Mixing factor 50-54 0.0687244   Mixing factor 55-59 0.0671724   Mixing factor 60-64 0.0574781   Mixing factor 65-69 0.0496729   Mixing factor 70-74 0.0497644   Mixing factor 75-79 0.0347842   Mixing factor 80+ 0.0451586   Mixing factor CH 0.00742402   
+  E->A 0-4 1   E->I 0-4 1   
+  E->A 5-9 1   E->I 5-9 1   
+  E->A 10-14 1   E->I 10-14 1   
+  E->A 15-19 1   E->I 15-19 1   
+  E->A 20-24 1   E->I 20-24 1   
+  E->A 25-29 1   E->I 25-29 1   
+  E->A 30-34 1   E->I 30-34 1   
+  E->A 35-39 1   E->I 35-39 1   
+  E->A 40-44 1   E->I 40-44 1   
+  E->A 45-49 1   E->I 45-49 1   
+  E->A 50-54 1   E->I 50-54 1   
+  E->A 55-59 1   E->I 55-59 1   
+  E->A 60-64 1   E->I 60-64 1   
+  E->A 65-69 1   E->I 65-69 1   
+  E->A 70-74 1   E->I 70-74 1   
+  E->A 75-79 1   E->I 75-79 1   
+  E->A 80+ 1   E->I 80+ 1   
+  I->T 0-4 1   I->C 0-4 1   
+  I->T 5-9 1   I->C 5-9 1   
+  I->T 10-14 1   I->C 10-14 1   
+  I->T 15-19 1   I->C 15-19 1   
+  I->T 20-24 1   I->C 20-24 1   
+  I->T 25-29 1   I->C 25-29 1   
+  I->T 30-34 1   I->C 30-34 1   
+  I->T 35-39 1   I->C 35-39 1   
+  I->T 40-44 1   I->C 40-44 1   
+  I->T 45-49 1   I->C 45-49 1   
+  I->T 50-54 1   I->C 50-54 1   
+  I->T 55-59 1   I->C 55-59 1   
+  I->T 60-64 1   I->C 60-64 1   
+  I->T 65-69 1   I->C 65-69 1   
+  I->T 70-74 1   I->C 70-74 1   
+  I->T 75-79 1   I->C 75-79 1   
+  I->T 80+ 1   I->C 80+ 1   
+  H->R 0-4 1   H->D 0-4 1   
+  H->R 5-9 1   H->D 5-9 1   
+  H->R 10-14 1   H->D 10-14 1   
+  H->R 15-19 1   H->D 15-19 1   
+  H->R 20-24 1   H->D 20-24 1   
+  H->R 25-29 1   H->D 25-29 1   
+  H->R 30-34 1   H->D 30-34 1   
+  H->R 35-39 1   H->D 35-39 1   
+  H->R 40-44 1   H->D 40-44 1   
+  H->R 45-49 1   H->D 45-49 1   
+  H->R 50-54 1   H->D 50-54 1   
+  H->R 55-59 1   H->D 55-59 1   
+  H->R 60-64 1   H->D 60-64 1   
+  H->R 65-69 1   H->D 65-69 1   
+  H->R 70-74 1   H->D 70-74 1   
+  H->R 75-79 1   H->D 75-79 1   
+  H->R 80+ 1   H->D 80+ 1   
+
+Compartments:
+  S
+  E   Exponential    mean = 'E mean occupancy' | 'E mean occupancy' | 'E mean occupancy' | 'E mean occupancy' | 'E mean occupancy' | 'E mean occupancy' | 'E mean occupancy' | 'E mean occupancy' | 'E mean occupancy' | 'E mean occupancy' | 'E mean occupancy' | 'E mean occupancy' | 'E mean occupancy' | 'E mean occupancy' | 'E mean occupancy' | 'E mean occupancy' | 'E mean occupancy' | 'E mean occupancy'
+  I   Exponential    mean = 'I mean occupancy' | 'I mean occupancy' | 'I mean occupancy' | 'I mean occupancy' | 'I mean occupancy' | 'I mean occupancy' | 'I mean occupancy' | 'I mean occupancy' | 'I mean occupancy' | 'I mean occupancy' | 'I mean occupancy' | 'I mean occupancy' | 'I mean occupancy' | 'I mean occupancy' | 'I mean occupancy' | 'I mean occupancy' | 'I mean occupancy' | 'I mean occupancy'  Infectivity: I Infectivity
+  C   Exponential    mean = 'C mean occupancy' | 'C mean occupancy' | 'C mean occupancy' | 'C mean occupancy' | 'C mean occupancy' | 'C mean occupancy' | 'C mean occupancy' | 'C mean occupancy' | 'C mean occupancy' | 'C mean occupancy' | 'C mean occupancy' | 'C mean occupancy' | 'C mean occupancy' | 'C mean occupancy' | 'C mean occupancy' | 'C mean occupancy' | 'C mean occupancy' | 'C mean occupancy'
+  A   Exponential    mean = 'A mean occupancy' | 'A mean occupancy' | 'A mean occupancy' | 'A mean occupancy' | 'A mean occupancy' | 'A mean occupancy' | 'A mean occupancy' | 'A mean occupancy' | 'A mean occupancy' | 'A mean occupancy' | 'A mean occupancy' | 'A mean occupancy' | 'A mean occupancy' | 'A mean occupancy' | 'A mean occupancy' | 'A mean occupancy' | 'A mean occupancy' | 'A mean occupancy'  Infectivity: A Infectivity
+  H   Exponential    mean = 'H mean occupancy' | 'H mean occupancy' | 'H mean occupancy' | 'H mean occupancy' | 'H mean occupancy' | 'H mean occupancy' | 'H mean occupancy' | 'H mean occupancy' | 'H mean occupancy' | 'H mean occupancy' | 'H mean occupancy' | 'H mean occupancy' | 'H mean occupancy' | 'H mean occupancy' | 'H mean occupancy' | 'H mean occupancy' | 'H mean occupancy' | 'H mean occupancy'
+  T   Exponential    mean = 'T mean occupancy 0-19' | 'T mean occupancy 0-19' | 'T mean occupancy 0-19' | 'T mean occupancy 0-19' | 'T mean occupancy 20-24' | 'T mean occupancy 25-29' | 'T mean occupancy 30-34' | 'T mean occupancy 35-39' | 'T mean occupancy 40-44' | 'T mean occupancy 45-49' | 'T mean occupancy 50-54' | 'T mean occupancy 55-59' | 'T mean occupancy 60-64' | 'T mean occupancy 65-69' | 'T mean occupancy 70-74' | 'T mean occupancy 75-79' | 'T mean occupancy 80+' | 'T mean occupancy 80+'  Dependency: age
+  R
+  D
+
+Transitions:
+  S->E Infection
+  E->A with probability 'E->A 0-4' | 'E->A 5-9' | 'E->A 10-14' | 'E->A 15-19' | 'E->A 20-24' | 'E->A 25-29' | 'E->A 30-34' | 'E->A 35-39' | 'E->A 40-44' | 'E->A 45-49' | 'E->A 50-54' | 'E->A 55-59' | 'E->A 60-64' | 'E->A 65-69' | 'E->A 70-74' | 'E->A 75-79' | 'E->A 80+' | 'E->A 80+'
+  Dependency: age
+  E->I with probability 'E->I 0-4' | 'E->I 5-9' | 'E->I 10-14' | 'E->I 15-19' | 'E->I 20-24' | 'E->I 25-29' | 'E->I 30-34' | 'E->I 35-39' | 'E->I 40-44' | 'E->I 45-49' | 'E->I 50-54' | 'E->I 55-59' | 'E->I 60-64' | 'E->I 65-69' | 'E->I 70-74' | 'E->I 75-79' | 'E->I 80+' | 'E->I 80+'
+  Dependency: age
+  I->T with probability 'I->T 0-4' | 'I->T 5-9' | 'I->T 10-14' | 'I->T 15-19' | 'I->T 20-24' | 'I->T 25-29' | 'I->T 30-34' | 'I->T 35-39' | 'I->T 40-44' | 'I->T 45-49' | 'I->T 50-54' | 'I->T 55-59' | 'I->T 60-64' | 'I->T 65-69' | 'I->T 70-74' | 'I->T 75-79' | 'I->T 80+' | 'I->T 80+'
+  Dependency: age
+  I->C with probability 'I->C 0-4' | 'I->C 5-9' | 'I->C 10-14' | 'I->C 15-19' | 'I->C 20-24' | 'I->C 25-29' | 'I->C 30-34' | 'I->C 35-39' | 'I->C 40-44' | 'I->C 45-49' | 'I->C 50-54' | 'I->C 55-59' | 'I->C 60-64' | 'I->C 65-69' | 'I->C 70-74' | 'I->C 75-79' | 'I->C 80+' | 'I->C 80+'
+  Dependency: age
+  C->H
+  H->R with probability 'H->R 0-4' | 'H->R 5-9' | 'H->R 10-14' | 'H->R 15-19' | 'H->R 20-24' | 'H->R 25-29' | 'H->R 30-34' | 'H->R 35-39' | 'H->R 40-44' | 'H->R 45-49' | 'H->R 50-54' | 'H->R 55-59' | 'H->R 60-64' | 'H->R 65-69' | 'H->R 70-74' | 'H->R 75-79' | 'H->R 80+' | 'H->R 80+'
+  Dependency: age
+  H->D with probability 'H->D 0-4' | 'H->D 5-9' | 'H->D 10-14' | 'H->D 15-19' | 'H->D 20-24' | 'H->D 25-29' | 'H->D 30-34' | 'H->D 35-39' | 'H->D 40-44' | 'H->D 45-49' | 'H->D 50-54' | 'H->D 55-59' | 'H->D 60-64' | 'H->D 65-69' | 'H->D 70-74' | 'H->D 75-79' | 'H->D 80+' | 'H->D 80+'
+  Dependency: age
+  A->T
+  T->R
+

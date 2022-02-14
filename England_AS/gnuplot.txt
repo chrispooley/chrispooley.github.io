@@ -1,0 +1,1827 @@
+set terminal postscript enhanced color font ',20' dl 3
+set output 'Output_England6/Diagnostic_Graphs.ps'
+set datafile separator ','
+set style line 1 lt 1 lc rgb '#ff2222' lw 5
+set style line 2 lt 2 lc rgb '#ffaaaa' lw 5
+set style line 3 lt 1 lc rgb '#22ff22' lw 5
+set style line 4 lt 2 lc rgb '#aaffaa' lw 5
+set style line 5 lt 1 lc rgb '#2222ff' lw 5
+set style line 6 lt 2 lc rgb '#aaaaff' lw 5
+set style line 7 lt 1 lc rgb '#222222' lw 5
+set style line 8 lt 2 lc rgb '#222222' lw 5
+set style line 9 lt 3 lc rgb '#ff2222' lw 5
+set style line 10 lt 5 lc rgb '#ffaaaa' lw 5
+set style line 11 lt 4 lc rgb '#22ff22' lw 5
+set style line 12 lt 5 lc rgb '#aaffaa' lw 5
+set style line 13 lt 4 lc rgb '#2222ff' lw 5
+set style line 14 lt 5 lc rgb '#aaaaff' lw 5
+set style line 15 lt 4 lc rgb '#222222' lw 5
+set style line 16 lt 5 lc rgb '#222222' lw 5
+set style line 17 lt 1 lc rgb '#ffff22' lw 5
+set style line 18 lt 2 lc rgb '#ffff22' lw 5
+set style line 19 lt 1 lc rgb '#22ffff' lw 5
+set style line 20 lt 2 lc rgb '#22ffff' lw 5
+set style line 21 lt 1 lc rgb '#ff22ff' lw 5
+set style line 22 lt 2 lc rgb '#ff22ff' lw 5
+set style line 80 lt 1 lc rgb '#222222' lw 2
+set style line 81 lt 2 lc rgb '#ff2222' lw 2
+set style line 82 lt 2 lc rgb '#22ff22' lw 2
+set style line 83 lt 2 lc rgb '#2222ff' lw 2
+set title 'log(EF cut-off) as a function of generation'
+set autoscale
+set tics font ', 20'
+set key font ', 22'
+set xlabel 'Generation' font ',22'
+set ylabel 'log(EF cut-off)' font ',22'
+set ytics
+unset multiplot
+plot 'Output_England6/Diagnostics/Generation.csv' using 1:4 with lines ls 7 title 'Error function'
+
+
+set title 'Posterior estimate for T mean occupancy 0-19 as a function of generation'
+set autoscale
+set tics font ', 20'
+set key font ', 22'
+set xlabel 'Generation' font ',22'
+set ylabel 'T mean occupancy 0-19' font ',22'
+set ytics
+unset multiplot
+set yrange [4:20]
+plot 'Output_England6/Diagnostics/Generation.csv' using 1:33 with lines ls 5 title 'Posterior', 'Output_England6/Diagnostics/Generation.csv' using 1:34 with lines ls 6 notitle, 'Output_England6/Diagnostics/Generation.csv' using 1:35 with lines ls 6 notitle
+
+set title 'Posterior estimate for T mean occupancy 20-24 as a function of generation'
+set autoscale
+set tics font ', 20'
+set key font ', 22'
+set xlabel 'Generation' font ',22'
+set ylabel 'T mean occupancy 20-24' font ',22'
+set ytics
+unset multiplot
+set yrange [4:20]
+plot 'Output_England6/Diagnostics/Generation.csv' using 1:36 with lines ls 5 title 'Posterior', 'Output_England6/Diagnostics/Generation.csv' using 1:37 with lines ls 6 notitle, 'Output_England6/Diagnostics/Generation.csv' using 1:38 with lines ls 6 notitle
+
+set title 'Posterior estimate for T mean occupancy 25-29 as a function of generation'
+set autoscale
+set tics font ', 20'
+set key font ', 22'
+set xlabel 'Generation' font ',22'
+set ylabel 'T mean occupancy 25-29' font ',22'
+set ytics
+unset multiplot
+set yrange [4:20]
+plot 'Output_England6/Diagnostics/Generation.csv' using 1:39 with lines ls 5 title 'Posterior', 'Output_England6/Diagnostics/Generation.csv' using 1:40 with lines ls 6 notitle, 'Output_England6/Diagnostics/Generation.csv' using 1:41 with lines ls 6 notitle
+
+set title 'Posterior estimate for T mean occupancy 30-34 as a function of generation'
+set autoscale
+set tics font ', 20'
+set key font ', 22'
+set xlabel 'Generation' font ',22'
+set ylabel 'T mean occupancy 30-34' font ',22'
+set ytics
+unset multiplot
+set yrange [4:20]
+plot 'Output_England6/Diagnostics/Generation.csv' using 1:42 with lines ls 5 title 'Posterior', 'Output_England6/Diagnostics/Generation.csv' using 1:43 with lines ls 6 notitle, 'Output_England6/Diagnostics/Generation.csv' using 1:44 with lines ls 6 notitle
+
+set title 'Posterior estimate for T mean occupancy 35-39 as a function of generation'
+set autoscale
+set tics font ', 20'
+set key font ', 22'
+set xlabel 'Generation' font ',22'
+set ylabel 'T mean occupancy 35-39' font ',22'
+set ytics
+unset multiplot
+set yrange [4:20]
+plot 'Output_England6/Diagnostics/Generation.csv' using 1:45 with lines ls 5 title 'Posterior', 'Output_England6/Diagnostics/Generation.csv' using 1:46 with lines ls 6 notitle, 'Output_England6/Diagnostics/Generation.csv' using 1:47 with lines ls 6 notitle
+
+set title 'Posterior estimate for T mean occupancy 40-44 as a function of generation'
+set autoscale
+set tics font ', 20'
+set key font ', 22'
+set xlabel 'Generation' font ',22'
+set ylabel 'T mean occupancy 40-44' font ',22'
+set ytics
+unset multiplot
+set yrange [4:20]
+plot 'Output_England6/Diagnostics/Generation.csv' using 1:48 with lines ls 5 title 'Posterior', 'Output_England6/Diagnostics/Generation.csv' using 1:49 with lines ls 6 notitle, 'Output_England6/Diagnostics/Generation.csv' using 1:50 with lines ls 6 notitle
+
+set title 'Posterior estimate for T mean occupancy 45-49 as a function of generation'
+set autoscale
+set tics font ', 20'
+set key font ', 22'
+set xlabel 'Generation' font ',22'
+set ylabel 'T mean occupancy 45-49' font ',22'
+set ytics
+unset multiplot
+set yrange [4:20]
+plot 'Output_England6/Diagnostics/Generation.csv' using 1:51 with lines ls 5 title 'Posterior', 'Output_England6/Diagnostics/Generation.csv' using 1:52 with lines ls 6 notitle, 'Output_England6/Diagnostics/Generation.csv' using 1:53 with lines ls 6 notitle
+
+set title 'Posterior estimate for T mean occupancy 50-54 as a function of generation'
+set autoscale
+set tics font ', 20'
+set key font ', 22'
+set xlabel 'Generation' font ',22'
+set ylabel 'T mean occupancy 50-54' font ',22'
+set ytics
+unset multiplot
+set yrange [4:20]
+plot 'Output_England6/Diagnostics/Generation.csv' using 1:54 with lines ls 5 title 'Posterior', 'Output_England6/Diagnostics/Generation.csv' using 1:55 with lines ls 6 notitle, 'Output_England6/Diagnostics/Generation.csv' using 1:56 with lines ls 6 notitle
+
+set title 'Posterior estimate for T mean occupancy 55-59 as a function of generation'
+set autoscale
+set tics font ', 20'
+set key font ', 22'
+set xlabel 'Generation' font ',22'
+set ylabel 'T mean occupancy 55-59' font ',22'
+set ytics
+unset multiplot
+set yrange [4:20]
+plot 'Output_England6/Diagnostics/Generation.csv' using 1:57 with lines ls 5 title 'Posterior', 'Output_England6/Diagnostics/Generation.csv' using 1:58 with lines ls 6 notitle, 'Output_England6/Diagnostics/Generation.csv' using 1:59 with lines ls 6 notitle
+
+set title 'Posterior estimate for T mean occupancy 60-64 as a function of generation'
+set autoscale
+set tics font ', 20'
+set key font ', 22'
+set xlabel 'Generation' font ',22'
+set ylabel 'T mean occupancy 60-64' font ',22'
+set ytics
+unset multiplot
+set yrange [4:20]
+plot 'Output_England6/Diagnostics/Generation.csv' using 1:60 with lines ls 5 title 'Posterior', 'Output_England6/Diagnostics/Generation.csv' using 1:61 with lines ls 6 notitle, 'Output_England6/Diagnostics/Generation.csv' using 1:62 with lines ls 6 notitle
+
+set title 'Posterior estimate for T mean occupancy 65-69 as a function of generation'
+set autoscale
+set tics font ', 20'
+set key font ', 22'
+set xlabel 'Generation' font ',22'
+set ylabel 'T mean occupancy 65-69' font ',22'
+set ytics
+unset multiplot
+set yrange [4:20]
+plot 'Output_England6/Diagnostics/Generation.csv' using 1:63 with lines ls 5 title 'Posterior', 'Output_England6/Diagnostics/Generation.csv' using 1:64 with lines ls 6 notitle, 'Output_England6/Diagnostics/Generation.csv' using 1:65 with lines ls 6 notitle
+
+set title 'Posterior estimate for T mean occupancy 70-74 as a function of generation'
+set autoscale
+set tics font ', 20'
+set key font ', 22'
+set xlabel 'Generation' font ',22'
+set ylabel 'T mean occupancy 70-74' font ',22'
+set ytics
+unset multiplot
+set yrange [4:20]
+plot 'Output_England6/Diagnostics/Generation.csv' using 1:66 with lines ls 5 title 'Posterior', 'Output_England6/Diagnostics/Generation.csv' using 1:67 with lines ls 6 notitle, 'Output_England6/Diagnostics/Generation.csv' using 1:68 with lines ls 6 notitle
+
+set title 'Posterior estimate for T mean occupancy 75-79 as a function of generation'
+set autoscale
+set tics font ', 20'
+set key font ', 22'
+set xlabel 'Generation' font ',22'
+set ylabel 'T mean occupancy 75-79' font ',22'
+set ytics
+unset multiplot
+set yrange [4:20]
+plot 'Output_England6/Diagnostics/Generation.csv' using 1:69 with lines ls 5 title 'Posterior', 'Output_England6/Diagnostics/Generation.csv' using 1:70 with lines ls 6 notitle, 'Output_England6/Diagnostics/Generation.csv' using 1:71 with lines ls 6 notitle
+
+set title 'Posterior estimate for T mean occupancy 80+ as a function of generation'
+set autoscale
+set tics font ', 20'
+set key font ', 22'
+set xlabel 'Generation' font ',22'
+set ylabel 'T mean occupancy 80+' font ',22'
+set ytics
+unset multiplot
+set yrange [4:20]
+plot 'Output_England6/Diagnostics/Generation.csv' using 1:72 with lines ls 5 title 'Posterior', 'Output_England6/Diagnostics/Generation.csv' using 1:73 with lines ls 6 notitle, 'Output_England6/Diagnostics/Generation.csv' using 1:74 with lines ls 6 notitle
+
+set title 'Posterior estimate for E->A 0-4 as a function of generation'
+set autoscale
+set tics font ', 20'
+set key font ', 22'
+set xlabel 'Generation' font ',22'
+set ylabel 'E->A 0-4' font ',22'
+set ytics
+unset multiplot
+plot 'Output_England6/Diagnostics/Generation.csv' using 1:75 with lines ls 5 title 'Posterior', 'Output_England6/Diagnostics/Generation.csv' using 1:76 with lines ls 6 notitle, 'Output_England6/Diagnostics/Generation.csv' using 1:77 with lines ls 6 notitle
+
+set title 'Posterior estimate for E->A 5-9 as a function of generation'
+set autoscale
+set tics font ', 20'
+set key font ', 22'
+set xlabel 'Generation' font ',22'
+set ylabel 'E->A 5-9' font ',22'
+set ytics
+unset multiplot
+plot 'Output_England6/Diagnostics/Generation.csv' using 1:78 with lines ls 5 title 'Posterior', 'Output_England6/Diagnostics/Generation.csv' using 1:79 with lines ls 6 notitle, 'Output_England6/Diagnostics/Generation.csv' using 1:80 with lines ls 6 notitle
+
+set title 'Posterior estimate for E->A 10-14 as a function of generation'
+set autoscale
+set tics font ', 20'
+set key font ', 22'
+set xlabel 'Generation' font ',22'
+set ylabel 'E->A 10-14' font ',22'
+set ytics
+unset multiplot
+plot 'Output_England6/Diagnostics/Generation.csv' using 1:81 with lines ls 5 title 'Posterior', 'Output_England6/Diagnostics/Generation.csv' using 1:82 with lines ls 6 notitle, 'Output_England6/Diagnostics/Generation.csv' using 1:83 with lines ls 6 notitle
+
+set title 'Posterior estimate for E->A 15-19 as a function of generation'
+set autoscale
+set tics font ', 20'
+set key font ', 22'
+set xlabel 'Generation' font ',22'
+set ylabel 'E->A 15-19' font ',22'
+set ytics
+unset multiplot
+plot 'Output_England6/Diagnostics/Generation.csv' using 1:84 with lines ls 5 title 'Posterior', 'Output_England6/Diagnostics/Generation.csv' using 1:85 with lines ls 6 notitle, 'Output_England6/Diagnostics/Generation.csv' using 1:86 with lines ls 6 notitle
+
+set title 'Posterior estimate for E->A 20-24 as a function of generation'
+set autoscale
+set tics font ', 20'
+set key font ', 22'
+set xlabel 'Generation' font ',22'
+set ylabel 'E->A 20-24' font ',22'
+set ytics
+unset multiplot
+plot 'Output_England6/Diagnostics/Generation.csv' using 1:87 with lines ls 5 title 'Posterior', 'Output_England6/Diagnostics/Generation.csv' using 1:88 with lines ls 6 notitle, 'Output_England6/Diagnostics/Generation.csv' using 1:89 with lines ls 6 notitle
+
+set title 'Posterior estimate for E->A 25-29 as a function of generation'
+set autoscale
+set tics font ', 20'
+set key font ', 22'
+set xlabel 'Generation' font ',22'
+set ylabel 'E->A 25-29' font ',22'
+set ytics
+unset multiplot
+plot 'Output_England6/Diagnostics/Generation.csv' using 1:90 with lines ls 5 title 'Posterior', 'Output_England6/Diagnostics/Generation.csv' using 1:91 with lines ls 6 notitle, 'Output_England6/Diagnostics/Generation.csv' using 1:92 with lines ls 6 notitle
+
+set title 'Posterior estimate for E->A 30-34 as a function of generation'
+set autoscale
+set tics font ', 20'
+set key font ', 22'
+set xlabel 'Generation' font ',22'
+set ylabel 'E->A 30-34' font ',22'
+set ytics
+unset multiplot
+plot 'Output_England6/Diagnostics/Generation.csv' using 1:93 with lines ls 5 title 'Posterior', 'Output_England6/Diagnostics/Generation.csv' using 1:94 with lines ls 6 notitle, 'Output_England6/Diagnostics/Generation.csv' using 1:95 with lines ls 6 notitle
+
+set title 'Posterior estimate for E->A 35-39 as a function of generation'
+set autoscale
+set tics font ', 20'
+set key font ', 22'
+set xlabel 'Generation' font ',22'
+set ylabel 'E->A 35-39' font ',22'
+set ytics
+unset multiplot
+plot 'Output_England6/Diagnostics/Generation.csv' using 1:96 with lines ls 5 title 'Posterior', 'Output_England6/Diagnostics/Generation.csv' using 1:97 with lines ls 6 notitle, 'Output_England6/Diagnostics/Generation.csv' using 1:98 with lines ls 6 notitle
+
+set title 'Posterior estimate for E->A 40-44 as a function of generation'
+set autoscale
+set tics font ', 20'
+set key font ', 22'
+set xlabel 'Generation' font ',22'
+set ylabel 'E->A 40-44' font ',22'
+set ytics
+unset multiplot
+plot 'Output_England6/Diagnostics/Generation.csv' using 1:99 with lines ls 5 title 'Posterior', 'Output_England6/Diagnostics/Generation.csv' using 1:100 with lines ls 6 notitle, 'Output_England6/Diagnostics/Generation.csv' using 1:101 with lines ls 6 notitle
+
+set title 'Posterior estimate for E->A 45-49 as a function of generation'
+set autoscale
+set tics font ', 20'
+set key font ', 22'
+set xlabel 'Generation' font ',22'
+set ylabel 'E->A 45-49' font ',22'
+set ytics
+unset multiplot
+plot 'Output_England6/Diagnostics/Generation.csv' using 1:102 with lines ls 5 title 'Posterior', 'Output_England6/Diagnostics/Generation.csv' using 1:103 with lines ls 6 notitle, 'Output_England6/Diagnostics/Generation.csv' using 1:104 with lines ls 6 notitle
+
+set title 'Posterior estimate for E->A 50-54 as a function of generation'
+set autoscale
+set tics font ', 20'
+set key font ', 22'
+set xlabel 'Generation' font ',22'
+set ylabel 'E->A 50-54' font ',22'
+set ytics
+unset multiplot
+plot 'Output_England6/Diagnostics/Generation.csv' using 1:105 with lines ls 5 title 'Posterior', 'Output_England6/Diagnostics/Generation.csv' using 1:106 with lines ls 6 notitle, 'Output_England6/Diagnostics/Generation.csv' using 1:107 with lines ls 6 notitle
+
+set title 'Posterior estimate for E->A 55-59 as a function of generation'
+set autoscale
+set tics font ', 20'
+set key font ', 22'
+set xlabel 'Generation' font ',22'
+set ylabel 'E->A 55-59' font ',22'
+set ytics
+unset multiplot
+plot 'Output_England6/Diagnostics/Generation.csv' using 1:108 with lines ls 5 title 'Posterior', 'Output_England6/Diagnostics/Generation.csv' using 1:109 with lines ls 6 notitle, 'Output_England6/Diagnostics/Generation.csv' using 1:110 with lines ls 6 notitle
+
+set title 'Posterior estimate for E->A 60-64 as a function of generation'
+set autoscale
+set tics font ', 20'
+set key font ', 22'
+set xlabel 'Generation' font ',22'
+set ylabel 'E->A 60-64' font ',22'
+set ytics
+unset multiplot
+plot 'Output_England6/Diagnostics/Generation.csv' using 1:111 with lines ls 5 title 'Posterior', 'Output_England6/Diagnostics/Generation.csv' using 1:112 with lines ls 6 notitle, 'Output_England6/Diagnostics/Generation.csv' using 1:113 with lines ls 6 notitle
+
+set title 'Posterior estimate for E->A 65-69 as a function of generation'
+set autoscale
+set tics font ', 20'
+set key font ', 22'
+set xlabel 'Generation' font ',22'
+set ylabel 'E->A 65-69' font ',22'
+set ytics
+unset multiplot
+plot 'Output_England6/Diagnostics/Generation.csv' using 1:114 with lines ls 5 title 'Posterior', 'Output_England6/Diagnostics/Generation.csv' using 1:115 with lines ls 6 notitle, 'Output_England6/Diagnostics/Generation.csv' using 1:116 with lines ls 6 notitle
+
+set title 'Posterior estimate for E->A 70-74 as a function of generation'
+set autoscale
+set tics font ', 20'
+set key font ', 22'
+set xlabel 'Generation' font ',22'
+set ylabel 'E->A 70-74' font ',22'
+set ytics
+unset multiplot
+plot 'Output_England6/Diagnostics/Generation.csv' using 1:117 with lines ls 5 title 'Posterior', 'Output_England6/Diagnostics/Generation.csv' using 1:118 with lines ls 6 notitle, 'Output_England6/Diagnostics/Generation.csv' using 1:119 with lines ls 6 notitle
+
+set title 'Posterior estimate for E->A 75-79 as a function of generation'
+set autoscale
+set tics font ', 20'
+set key font ', 22'
+set xlabel 'Generation' font ',22'
+set ylabel 'E->A 75-79' font ',22'
+set ytics
+unset multiplot
+plot 'Output_England6/Diagnostics/Generation.csv' using 1:120 with lines ls 5 title 'Posterior', 'Output_England6/Diagnostics/Generation.csv' using 1:121 with lines ls 6 notitle, 'Output_England6/Diagnostics/Generation.csv' using 1:122 with lines ls 6 notitle
+
+set title 'Posterior estimate for E->A 80+ as a function of generation'
+set autoscale
+set tics font ', 20'
+set key font ', 22'
+set xlabel 'Generation' font ',22'
+set ylabel 'E->A 80+' font ',22'
+set ytics
+unset multiplot
+plot 'Output_England6/Diagnostics/Generation.csv' using 1:123 with lines ls 5 title 'Posterior', 'Output_England6/Diagnostics/Generation.csv' using 1:124 with lines ls 6 notitle, 'Output_England6/Diagnostics/Generation.csv' using 1:125 with lines ls 6 notitle
+
+set title 'Posterior estimate for E->I 0-4 as a function of generation'
+set autoscale
+set tics font ', 20'
+set key font ', 22'
+set xlabel 'Generation' font ',22'
+set ylabel 'E->I 0-4' font ',22'
+set ytics
+unset multiplot
+plot 'Output_England6/Diagnostics/Generation.csv' using 1:126 with lines ls 5 title 'Posterior', 'Output_England6/Diagnostics/Generation.csv' using 1:127 with lines ls 6 notitle, 'Output_England6/Diagnostics/Generation.csv' using 1:128 with lines ls 6 notitle
+
+set title 'Posterior estimate for E->I 5-9 as a function of generation'
+set autoscale
+set tics font ', 20'
+set key font ', 22'
+set xlabel 'Generation' font ',22'
+set ylabel 'E->I 5-9' font ',22'
+set ytics
+unset multiplot
+plot 'Output_England6/Diagnostics/Generation.csv' using 1:129 with lines ls 5 title 'Posterior', 'Output_England6/Diagnostics/Generation.csv' using 1:130 with lines ls 6 notitle, 'Output_England6/Diagnostics/Generation.csv' using 1:131 with lines ls 6 notitle
+
+set title 'Posterior estimate for E->I 10-14 as a function of generation'
+set autoscale
+set tics font ', 20'
+set key font ', 22'
+set xlabel 'Generation' font ',22'
+set ylabel 'E->I 10-14' font ',22'
+set ytics
+unset multiplot
+plot 'Output_England6/Diagnostics/Generation.csv' using 1:132 with lines ls 5 title 'Posterior', 'Output_England6/Diagnostics/Generation.csv' using 1:133 with lines ls 6 notitle, 'Output_England6/Diagnostics/Generation.csv' using 1:134 with lines ls 6 notitle
+
+set title 'Posterior estimate for E->I 15-19 as a function of generation'
+set autoscale
+set tics font ', 20'
+set key font ', 22'
+set xlabel 'Generation' font ',22'
+set ylabel 'E->I 15-19' font ',22'
+set ytics
+unset multiplot
+plot 'Output_England6/Diagnostics/Generation.csv' using 1:135 with lines ls 5 title 'Posterior', 'Output_England6/Diagnostics/Generation.csv' using 1:136 with lines ls 6 notitle, 'Output_England6/Diagnostics/Generation.csv' using 1:137 with lines ls 6 notitle
+
+set title 'Posterior estimate for E->I 20-24 as a function of generation'
+set autoscale
+set tics font ', 20'
+set key font ', 22'
+set xlabel 'Generation' font ',22'
+set ylabel 'E->I 20-24' font ',22'
+set ytics
+unset multiplot
+plot 'Output_England6/Diagnostics/Generation.csv' using 1:138 with lines ls 5 title 'Posterior', 'Output_England6/Diagnostics/Generation.csv' using 1:139 with lines ls 6 notitle, 'Output_England6/Diagnostics/Generation.csv' using 1:140 with lines ls 6 notitle
+
+set title 'Posterior estimate for E->I 25-29 as a function of generation'
+set autoscale
+set tics font ', 20'
+set key font ', 22'
+set xlabel 'Generation' font ',22'
+set ylabel 'E->I 25-29' font ',22'
+set ytics
+unset multiplot
+plot 'Output_England6/Diagnostics/Generation.csv' using 1:141 with lines ls 5 title 'Posterior', 'Output_England6/Diagnostics/Generation.csv' using 1:142 with lines ls 6 notitle, 'Output_England6/Diagnostics/Generation.csv' using 1:143 with lines ls 6 notitle
+
+set title 'Posterior estimate for E->I 30-34 as a function of generation'
+set autoscale
+set tics font ', 20'
+set key font ', 22'
+set xlabel 'Generation' font ',22'
+set ylabel 'E->I 30-34' font ',22'
+set ytics
+unset multiplot
+plot 'Output_England6/Diagnostics/Generation.csv' using 1:144 with lines ls 5 title 'Posterior', 'Output_England6/Diagnostics/Generation.csv' using 1:145 with lines ls 6 notitle, 'Output_England6/Diagnostics/Generation.csv' using 1:146 with lines ls 6 notitle
+
+set title 'Posterior estimate for E->I 35-39 as a function of generation'
+set autoscale
+set tics font ', 20'
+set key font ', 22'
+set xlabel 'Generation' font ',22'
+set ylabel 'E->I 35-39' font ',22'
+set ytics
+unset multiplot
+plot 'Output_England6/Diagnostics/Generation.csv' using 1:147 with lines ls 5 title 'Posterior', 'Output_England6/Diagnostics/Generation.csv' using 1:148 with lines ls 6 notitle, 'Output_England6/Diagnostics/Generation.csv' using 1:149 with lines ls 6 notitle
+
+set title 'Posterior estimate for E->I 40-44 as a function of generation'
+set autoscale
+set tics font ', 20'
+set key font ', 22'
+set xlabel 'Generation' font ',22'
+set ylabel 'E->I 40-44' font ',22'
+set ytics
+unset multiplot
+plot 'Output_England6/Diagnostics/Generation.csv' using 1:150 with lines ls 5 title 'Posterior', 'Output_England6/Diagnostics/Generation.csv' using 1:151 with lines ls 6 notitle, 'Output_England6/Diagnostics/Generation.csv' using 1:152 with lines ls 6 notitle
+
+set title 'Posterior estimate for E->I 45-49 as a function of generation'
+set autoscale
+set tics font ', 20'
+set key font ', 22'
+set xlabel 'Generation' font ',22'
+set ylabel 'E->I 45-49' font ',22'
+set ytics
+unset multiplot
+plot 'Output_England6/Diagnostics/Generation.csv' using 1:153 with lines ls 5 title 'Posterior', 'Output_England6/Diagnostics/Generation.csv' using 1:154 with lines ls 6 notitle, 'Output_England6/Diagnostics/Generation.csv' using 1:155 with lines ls 6 notitle
+
+set title 'Posterior estimate for E->I 50-54 as a function of generation'
+set autoscale
+set tics font ', 20'
+set key font ', 22'
+set xlabel 'Generation' font ',22'
+set ylabel 'E->I 50-54' font ',22'
+set ytics
+unset multiplot
+plot 'Output_England6/Diagnostics/Generation.csv' using 1:156 with lines ls 5 title 'Posterior', 'Output_England6/Diagnostics/Generation.csv' using 1:157 with lines ls 6 notitle, 'Output_England6/Diagnostics/Generation.csv' using 1:158 with lines ls 6 notitle
+
+set title 'Posterior estimate for E->I 55-59 as a function of generation'
+set autoscale
+set tics font ', 20'
+set key font ', 22'
+set xlabel 'Generation' font ',22'
+set ylabel 'E->I 55-59' font ',22'
+set ytics
+unset multiplot
+plot 'Output_England6/Diagnostics/Generation.csv' using 1:159 with lines ls 5 title 'Posterior', 'Output_England6/Diagnostics/Generation.csv' using 1:160 with lines ls 6 notitle, 'Output_England6/Diagnostics/Generation.csv' using 1:161 with lines ls 6 notitle
+
+set title 'Posterior estimate for E->I 60-64 as a function of generation'
+set autoscale
+set tics font ', 20'
+set key font ', 22'
+set xlabel 'Generation' font ',22'
+set ylabel 'E->I 60-64' font ',22'
+set ytics
+unset multiplot
+plot 'Output_England6/Diagnostics/Generation.csv' using 1:162 with lines ls 5 title 'Posterior', 'Output_England6/Diagnostics/Generation.csv' using 1:163 with lines ls 6 notitle, 'Output_England6/Diagnostics/Generation.csv' using 1:164 with lines ls 6 notitle
+
+set title 'Posterior estimate for E->I 65-69 as a function of generation'
+set autoscale
+set tics font ', 20'
+set key font ', 22'
+set xlabel 'Generation' font ',22'
+set ylabel 'E->I 65-69' font ',22'
+set ytics
+unset multiplot
+plot 'Output_England6/Diagnostics/Generation.csv' using 1:165 with lines ls 5 title 'Posterior', 'Output_England6/Diagnostics/Generation.csv' using 1:166 with lines ls 6 notitle, 'Output_England6/Diagnostics/Generation.csv' using 1:167 with lines ls 6 notitle
+
+set title 'Posterior estimate for E->I 70-74 as a function of generation'
+set autoscale
+set tics font ', 20'
+set key font ', 22'
+set xlabel 'Generation' font ',22'
+set ylabel 'E->I 70-74' font ',22'
+set ytics
+unset multiplot
+plot 'Output_England6/Diagnostics/Generation.csv' using 1:168 with lines ls 5 title 'Posterior', 'Output_England6/Diagnostics/Generation.csv' using 1:169 with lines ls 6 notitle, 'Output_England6/Diagnostics/Generation.csv' using 1:170 with lines ls 6 notitle
+
+set title 'Posterior estimate for E->I 75-79 as a function of generation'
+set autoscale
+set tics font ', 20'
+set key font ', 22'
+set xlabel 'Generation' font ',22'
+set ylabel 'E->I 75-79' font ',22'
+set ytics
+unset multiplot
+plot 'Output_England6/Diagnostics/Generation.csv' using 1:171 with lines ls 5 title 'Posterior', 'Output_England6/Diagnostics/Generation.csv' using 1:172 with lines ls 6 notitle, 'Output_England6/Diagnostics/Generation.csv' using 1:173 with lines ls 6 notitle
+
+set title 'Posterior estimate for E->I 80+ as a function of generation'
+set autoscale
+set tics font ', 20'
+set key font ', 22'
+set xlabel 'Generation' font ',22'
+set ylabel 'E->I 80+' font ',22'
+set ytics
+unset multiplot
+plot 'Output_England6/Diagnostics/Generation.csv' using 1:174 with lines ls 5 title 'Posterior', 'Output_England6/Diagnostics/Generation.csv' using 1:175 with lines ls 6 notitle, 'Output_England6/Diagnostics/Generation.csv' using 1:176 with lines ls 6 notitle
+
+set title 'Posterior estimate for I->T 0-4 as a function of generation'
+set autoscale
+set tics font ', 20'
+set key font ', 22'
+set xlabel 'Generation' font ',22'
+set ylabel 'I->T 0-4' font ',22'
+set ytics
+unset multiplot
+plot 'Output_England6/Diagnostics/Generation.csv' using 1:177 with lines ls 5 title 'Posterior', 'Output_England6/Diagnostics/Generation.csv' using 1:178 with lines ls 6 notitle, 'Output_England6/Diagnostics/Generation.csv' using 1:179 with lines ls 6 notitle
+
+set title 'Posterior estimate for I->T 5-9 as a function of generation'
+set autoscale
+set tics font ', 20'
+set key font ', 22'
+set xlabel 'Generation' font ',22'
+set ylabel 'I->T 5-9' font ',22'
+set ytics
+unset multiplot
+plot 'Output_England6/Diagnostics/Generation.csv' using 1:180 with lines ls 5 title 'Posterior', 'Output_England6/Diagnostics/Generation.csv' using 1:181 with lines ls 6 notitle, 'Output_England6/Diagnostics/Generation.csv' using 1:182 with lines ls 6 notitle
+
+set title 'Posterior estimate for I->T 10-14 as a function of generation'
+set autoscale
+set tics font ', 20'
+set key font ', 22'
+set xlabel 'Generation' font ',22'
+set ylabel 'I->T 10-14' font ',22'
+set ytics
+unset multiplot
+plot 'Output_England6/Diagnostics/Generation.csv' using 1:183 with lines ls 5 title 'Posterior', 'Output_England6/Diagnostics/Generation.csv' using 1:184 with lines ls 6 notitle, 'Output_England6/Diagnostics/Generation.csv' using 1:185 with lines ls 6 notitle
+
+set title 'Posterior estimate for I->T 15-19 as a function of generation'
+set autoscale
+set tics font ', 20'
+set key font ', 22'
+set xlabel 'Generation' font ',22'
+set ylabel 'I->T 15-19' font ',22'
+set ytics
+unset multiplot
+plot 'Output_England6/Diagnostics/Generation.csv' using 1:186 with lines ls 5 title 'Posterior', 'Output_England6/Diagnostics/Generation.csv' using 1:187 with lines ls 6 notitle, 'Output_England6/Diagnostics/Generation.csv' using 1:188 with lines ls 6 notitle
+
+set title 'Posterior estimate for I->T 20-24 as a function of generation'
+set autoscale
+set tics font ', 20'
+set key font ', 22'
+set xlabel 'Generation' font ',22'
+set ylabel 'I->T 20-24' font ',22'
+set ytics
+unset multiplot
+plot 'Output_England6/Diagnostics/Generation.csv' using 1:189 with lines ls 5 title 'Posterior', 'Output_England6/Diagnostics/Generation.csv' using 1:190 with lines ls 6 notitle, 'Output_England6/Diagnostics/Generation.csv' using 1:191 with lines ls 6 notitle
+
+set title 'Posterior estimate for I->T 25-29 as a function of generation'
+set autoscale
+set tics font ', 20'
+set key font ', 22'
+set xlabel 'Generation' font ',22'
+set ylabel 'I->T 25-29' font ',22'
+set ytics
+unset multiplot
+plot 'Output_England6/Diagnostics/Generation.csv' using 1:192 with lines ls 5 title 'Posterior', 'Output_England6/Diagnostics/Generation.csv' using 1:193 with lines ls 6 notitle, 'Output_England6/Diagnostics/Generation.csv' using 1:194 with lines ls 6 notitle
+
+set title 'Posterior estimate for I->T 30-34 as a function of generation'
+set autoscale
+set tics font ', 20'
+set key font ', 22'
+set xlabel 'Generation' font ',22'
+set ylabel 'I->T 30-34' font ',22'
+set ytics
+unset multiplot
+plot 'Output_England6/Diagnostics/Generation.csv' using 1:195 with lines ls 5 title 'Posterior', 'Output_England6/Diagnostics/Generation.csv' using 1:196 with lines ls 6 notitle, 'Output_England6/Diagnostics/Generation.csv' using 1:197 with lines ls 6 notitle
+
+set title 'Posterior estimate for I->T 35-39 as a function of generation'
+set autoscale
+set tics font ', 20'
+set key font ', 22'
+set xlabel 'Generation' font ',22'
+set ylabel 'I->T 35-39' font ',22'
+set ytics
+unset multiplot
+plot 'Output_England6/Diagnostics/Generation.csv' using 1:198 with lines ls 5 title 'Posterior', 'Output_England6/Diagnostics/Generation.csv' using 1:199 with lines ls 6 notitle, 'Output_England6/Diagnostics/Generation.csv' using 1:200 with lines ls 6 notitle
+
+set title 'Posterior estimate for I->T 40-44 as a function of generation'
+set autoscale
+set tics font ', 20'
+set key font ', 22'
+set xlabel 'Generation' font ',22'
+set ylabel 'I->T 40-44' font ',22'
+set ytics
+unset multiplot
+plot 'Output_England6/Diagnostics/Generation.csv' using 1:201 with lines ls 5 title 'Posterior', 'Output_England6/Diagnostics/Generation.csv' using 1:202 with lines ls 6 notitle, 'Output_England6/Diagnostics/Generation.csv' using 1:203 with lines ls 6 notitle
+
+set title 'Posterior estimate for I->T 45-49 as a function of generation'
+set autoscale
+set tics font ', 20'
+set key font ', 22'
+set xlabel 'Generation' font ',22'
+set ylabel 'I->T 45-49' font ',22'
+set ytics
+unset multiplot
+plot 'Output_England6/Diagnostics/Generation.csv' using 1:204 with lines ls 5 title 'Posterior', 'Output_England6/Diagnostics/Generation.csv' using 1:205 with lines ls 6 notitle, 'Output_England6/Diagnostics/Generation.csv' using 1:206 with lines ls 6 notitle
+
+set title 'Posterior estimate for I->T 50-54 as a function of generation'
+set autoscale
+set tics font ', 20'
+set key font ', 22'
+set xlabel 'Generation' font ',22'
+set ylabel 'I->T 50-54' font ',22'
+set ytics
+unset multiplot
+plot 'Output_England6/Diagnostics/Generation.csv' using 1:207 with lines ls 5 title 'Posterior', 'Output_England6/Diagnostics/Generation.csv' using 1:208 with lines ls 6 notitle, 'Output_England6/Diagnostics/Generation.csv' using 1:209 with lines ls 6 notitle
+
+set title 'Posterior estimate for I->T 55-59 as a function of generation'
+set autoscale
+set tics font ', 20'
+set key font ', 22'
+set xlabel 'Generation' font ',22'
+set ylabel 'I->T 55-59' font ',22'
+set ytics
+unset multiplot
+plot 'Output_England6/Diagnostics/Generation.csv' using 1:210 with lines ls 5 title 'Posterior', 'Output_England6/Diagnostics/Generation.csv' using 1:211 with lines ls 6 notitle, 'Output_England6/Diagnostics/Generation.csv' using 1:212 with lines ls 6 notitle
+
+set title 'Posterior estimate for I->T 60-64 as a function of generation'
+set autoscale
+set tics font ', 20'
+set key font ', 22'
+set xlabel 'Generation' font ',22'
+set ylabel 'I->T 60-64' font ',22'
+set ytics
+unset multiplot
+plot 'Output_England6/Diagnostics/Generation.csv' using 1:213 with lines ls 5 title 'Posterior', 'Output_England6/Diagnostics/Generation.csv' using 1:214 with lines ls 6 notitle, 'Output_England6/Diagnostics/Generation.csv' using 1:215 with lines ls 6 notitle
+
+set title 'Posterior estimate for I->T 65-69 as a function of generation'
+set autoscale
+set tics font ', 20'
+set key font ', 22'
+set xlabel 'Generation' font ',22'
+set ylabel 'I->T 65-69' font ',22'
+set ytics
+unset multiplot
+plot 'Output_England6/Diagnostics/Generation.csv' using 1:216 with lines ls 5 title 'Posterior', 'Output_England6/Diagnostics/Generation.csv' using 1:217 with lines ls 6 notitle, 'Output_England6/Diagnostics/Generation.csv' using 1:218 with lines ls 6 notitle
+
+set title 'Posterior estimate for I->T 70-74 as a function of generation'
+set autoscale
+set tics font ', 20'
+set key font ', 22'
+set xlabel 'Generation' font ',22'
+set ylabel 'I->T 70-74' font ',22'
+set ytics
+unset multiplot
+plot 'Output_England6/Diagnostics/Generation.csv' using 1:219 with lines ls 5 title 'Posterior', 'Output_England6/Diagnostics/Generation.csv' using 1:220 with lines ls 6 notitle, 'Output_England6/Diagnostics/Generation.csv' using 1:221 with lines ls 6 notitle
+
+set title 'Posterior estimate for I->T 75-79 as a function of generation'
+set autoscale
+set tics font ', 20'
+set key font ', 22'
+set xlabel 'Generation' font ',22'
+set ylabel 'I->T 75-79' font ',22'
+set ytics
+unset multiplot
+plot 'Output_England6/Diagnostics/Generation.csv' using 1:222 with lines ls 5 title 'Posterior', 'Output_England6/Diagnostics/Generation.csv' using 1:223 with lines ls 6 notitle, 'Output_England6/Diagnostics/Generation.csv' using 1:224 with lines ls 6 notitle
+
+set title 'Posterior estimate for I->T 80+ as a function of generation'
+set autoscale
+set tics font ', 20'
+set key font ', 22'
+set xlabel 'Generation' font ',22'
+set ylabel 'I->T 80+' font ',22'
+set ytics
+unset multiplot
+plot 'Output_England6/Diagnostics/Generation.csv' using 1:225 with lines ls 5 title 'Posterior', 'Output_England6/Diagnostics/Generation.csv' using 1:226 with lines ls 6 notitle, 'Output_England6/Diagnostics/Generation.csv' using 1:227 with lines ls 6 notitle
+
+set title 'Posterior estimate for I->C 0-4 as a function of generation'
+set autoscale
+set tics font ', 20'
+set key font ', 22'
+set xlabel 'Generation' font ',22'
+set ylabel 'I->C 0-4' font ',22'
+set ytics
+unset multiplot
+plot 'Output_England6/Diagnostics/Generation.csv' using 1:228 with lines ls 5 title 'Posterior', 'Output_England6/Diagnostics/Generation.csv' using 1:229 with lines ls 6 notitle, 'Output_England6/Diagnostics/Generation.csv' using 1:230 with lines ls 6 notitle
+
+set title 'Posterior estimate for I->C 5-9 as a function of generation'
+set autoscale
+set tics font ', 20'
+set key font ', 22'
+set xlabel 'Generation' font ',22'
+set ylabel 'I->C 5-9' font ',22'
+set ytics
+unset multiplot
+plot 'Output_England6/Diagnostics/Generation.csv' using 1:231 with lines ls 5 title 'Posterior', 'Output_England6/Diagnostics/Generation.csv' using 1:232 with lines ls 6 notitle, 'Output_England6/Diagnostics/Generation.csv' using 1:233 with lines ls 6 notitle
+
+set title 'Posterior estimate for I->C 10-14 as a function of generation'
+set autoscale
+set tics font ', 20'
+set key font ', 22'
+set xlabel 'Generation' font ',22'
+set ylabel 'I->C 10-14' font ',22'
+set ytics
+unset multiplot
+plot 'Output_England6/Diagnostics/Generation.csv' using 1:234 with lines ls 5 title 'Posterior', 'Output_England6/Diagnostics/Generation.csv' using 1:235 with lines ls 6 notitle, 'Output_England6/Diagnostics/Generation.csv' using 1:236 with lines ls 6 notitle
+
+set title 'Posterior estimate for I->C 15-19 as a function of generation'
+set autoscale
+set tics font ', 20'
+set key font ', 22'
+set xlabel 'Generation' font ',22'
+set ylabel 'I->C 15-19' font ',22'
+set ytics
+unset multiplot
+plot 'Output_England6/Diagnostics/Generation.csv' using 1:237 with lines ls 5 title 'Posterior', 'Output_England6/Diagnostics/Generation.csv' using 1:238 with lines ls 6 notitle, 'Output_England6/Diagnostics/Generation.csv' using 1:239 with lines ls 6 notitle
+
+set title 'Posterior estimate for I->C 20-24 as a function of generation'
+set autoscale
+set tics font ', 20'
+set key font ', 22'
+set xlabel 'Generation' font ',22'
+set ylabel 'I->C 20-24' font ',22'
+set ytics
+unset multiplot
+plot 'Output_England6/Diagnostics/Generation.csv' using 1:240 with lines ls 5 title 'Posterior', 'Output_England6/Diagnostics/Generation.csv' using 1:241 with lines ls 6 notitle, 'Output_England6/Diagnostics/Generation.csv' using 1:242 with lines ls 6 notitle
+
+set title 'Posterior estimate for I->C 25-29 as a function of generation'
+set autoscale
+set tics font ', 20'
+set key font ', 22'
+set xlabel 'Generation' font ',22'
+set ylabel 'I->C 25-29' font ',22'
+set ytics
+unset multiplot
+plot 'Output_England6/Diagnostics/Generation.csv' using 1:243 with lines ls 5 title 'Posterior', 'Output_England6/Diagnostics/Generation.csv' using 1:244 with lines ls 6 notitle, 'Output_England6/Diagnostics/Generation.csv' using 1:245 with lines ls 6 notitle
+
+set title 'Posterior estimate for I->C 30-34 as a function of generation'
+set autoscale
+set tics font ', 20'
+set key font ', 22'
+set xlabel 'Generation' font ',22'
+set ylabel 'I->C 30-34' font ',22'
+set ytics
+unset multiplot
+plot 'Output_England6/Diagnostics/Generation.csv' using 1:246 with lines ls 5 title 'Posterior', 'Output_England6/Diagnostics/Generation.csv' using 1:247 with lines ls 6 notitle, 'Output_England6/Diagnostics/Generation.csv' using 1:248 with lines ls 6 notitle
+
+set title 'Posterior estimate for I->C 35-39 as a function of generation'
+set autoscale
+set tics font ', 20'
+set key font ', 22'
+set xlabel 'Generation' font ',22'
+set ylabel 'I->C 35-39' font ',22'
+set ytics
+unset multiplot
+plot 'Output_England6/Diagnostics/Generation.csv' using 1:249 with lines ls 5 title 'Posterior', 'Output_England6/Diagnostics/Generation.csv' using 1:250 with lines ls 6 notitle, 'Output_England6/Diagnostics/Generation.csv' using 1:251 with lines ls 6 notitle
+
+set title 'Posterior estimate for I->C 40-44 as a function of generation'
+set autoscale
+set tics font ', 20'
+set key font ', 22'
+set xlabel 'Generation' font ',22'
+set ylabel 'I->C 40-44' font ',22'
+set ytics
+unset multiplot
+plot 'Output_England6/Diagnostics/Generation.csv' using 1:252 with lines ls 5 title 'Posterior', 'Output_England6/Diagnostics/Generation.csv' using 1:253 with lines ls 6 notitle, 'Output_England6/Diagnostics/Generation.csv' using 1:254 with lines ls 6 notitle
+
+set title 'Posterior estimate for I->C 45-49 as a function of generation'
+set autoscale
+set tics font ', 20'
+set key font ', 22'
+set xlabel 'Generation' font ',22'
+set ylabel 'I->C 45-49' font ',22'
+set ytics
+unset multiplot
+plot 'Output_England6/Diagnostics/Generation.csv' using 1:255 with lines ls 5 title 'Posterior', 'Output_England6/Diagnostics/Generation.csv' using 1:256 with lines ls 6 notitle, 'Output_England6/Diagnostics/Generation.csv' using 1:257 with lines ls 6 notitle
+
+set title 'Posterior estimate for I->C 50-54 as a function of generation'
+set autoscale
+set tics font ', 20'
+set key font ', 22'
+set xlabel 'Generation' font ',22'
+set ylabel 'I->C 50-54' font ',22'
+set ytics
+unset multiplot
+plot 'Output_England6/Diagnostics/Generation.csv' using 1:258 with lines ls 5 title 'Posterior', 'Output_England6/Diagnostics/Generation.csv' using 1:259 with lines ls 6 notitle, 'Output_England6/Diagnostics/Generation.csv' using 1:260 with lines ls 6 notitle
+
+set title 'Posterior estimate for I->C 55-59 as a function of generation'
+set autoscale
+set tics font ', 20'
+set key font ', 22'
+set xlabel 'Generation' font ',22'
+set ylabel 'I->C 55-59' font ',22'
+set ytics
+unset multiplot
+plot 'Output_England6/Diagnostics/Generation.csv' using 1:261 with lines ls 5 title 'Posterior', 'Output_England6/Diagnostics/Generation.csv' using 1:262 with lines ls 6 notitle, 'Output_England6/Diagnostics/Generation.csv' using 1:263 with lines ls 6 notitle
+
+set title 'Posterior estimate for I->C 60-64 as a function of generation'
+set autoscale
+set tics font ', 20'
+set key font ', 22'
+set xlabel 'Generation' font ',22'
+set ylabel 'I->C 60-64' font ',22'
+set ytics
+unset multiplot
+plot 'Output_England6/Diagnostics/Generation.csv' using 1:264 with lines ls 5 title 'Posterior', 'Output_England6/Diagnostics/Generation.csv' using 1:265 with lines ls 6 notitle, 'Output_England6/Diagnostics/Generation.csv' using 1:266 with lines ls 6 notitle
+
+set title 'Posterior estimate for I->C 65-69 as a function of generation'
+set autoscale
+set tics font ', 20'
+set key font ', 22'
+set xlabel 'Generation' font ',22'
+set ylabel 'I->C 65-69' font ',22'
+set ytics
+unset multiplot
+plot 'Output_England6/Diagnostics/Generation.csv' using 1:267 with lines ls 5 title 'Posterior', 'Output_England6/Diagnostics/Generation.csv' using 1:268 with lines ls 6 notitle, 'Output_England6/Diagnostics/Generation.csv' using 1:269 with lines ls 6 notitle
+
+set title 'Posterior estimate for I->C 70-74 as a function of generation'
+set autoscale
+set tics font ', 20'
+set key font ', 22'
+set xlabel 'Generation' font ',22'
+set ylabel 'I->C 70-74' font ',22'
+set ytics
+unset multiplot
+plot 'Output_England6/Diagnostics/Generation.csv' using 1:270 with lines ls 5 title 'Posterior', 'Output_England6/Diagnostics/Generation.csv' using 1:271 with lines ls 6 notitle, 'Output_England6/Diagnostics/Generation.csv' using 1:272 with lines ls 6 notitle
+
+set title 'Posterior estimate for I->C 75-79 as a function of generation'
+set autoscale
+set tics font ', 20'
+set key font ', 22'
+set xlabel 'Generation' font ',22'
+set ylabel 'I->C 75-79' font ',22'
+set ytics
+unset multiplot
+plot 'Output_England6/Diagnostics/Generation.csv' using 1:273 with lines ls 5 title 'Posterior', 'Output_England6/Diagnostics/Generation.csv' using 1:274 with lines ls 6 notitle, 'Output_England6/Diagnostics/Generation.csv' using 1:275 with lines ls 6 notitle
+
+set title 'Posterior estimate for I->C 80+ as a function of generation'
+set autoscale
+set tics font ', 20'
+set key font ', 22'
+set xlabel 'Generation' font ',22'
+set ylabel 'I->C 80+' font ',22'
+set ytics
+unset multiplot
+plot 'Output_England6/Diagnostics/Generation.csv' using 1:276 with lines ls 5 title 'Posterior', 'Output_England6/Diagnostics/Generation.csv' using 1:277 with lines ls 6 notitle, 'Output_England6/Diagnostics/Generation.csv' using 1:278 with lines ls 6 notitle
+
+set title 'Posterior estimate for H->R 0-4 as a function of generation'
+set autoscale
+set tics font ', 20'
+set key font ', 22'
+set xlabel 'Generation' font ',22'
+set ylabel 'H->R 0-4' font ',22'
+set ytics
+unset multiplot
+plot 'Output_England6/Diagnostics/Generation.csv' using 1:279 with lines ls 5 title 'Posterior', 'Output_England6/Diagnostics/Generation.csv' using 1:280 with lines ls 6 notitle, 'Output_England6/Diagnostics/Generation.csv' using 1:281 with lines ls 6 notitle
+
+set title 'Posterior estimate for H->R 5-9 as a function of generation'
+set autoscale
+set tics font ', 20'
+set key font ', 22'
+set xlabel 'Generation' font ',22'
+set ylabel 'H->R 5-9' font ',22'
+set ytics
+unset multiplot
+plot 'Output_England6/Diagnostics/Generation.csv' using 1:282 with lines ls 5 title 'Posterior', 'Output_England6/Diagnostics/Generation.csv' using 1:283 with lines ls 6 notitle, 'Output_England6/Diagnostics/Generation.csv' using 1:284 with lines ls 6 notitle
+
+set title 'Posterior estimate for H->R 10-14 as a function of generation'
+set autoscale
+set tics font ', 20'
+set key font ', 22'
+set xlabel 'Generation' font ',22'
+set ylabel 'H->R 10-14' font ',22'
+set ytics
+unset multiplot
+plot 'Output_England6/Diagnostics/Generation.csv' using 1:285 with lines ls 5 title 'Posterior', 'Output_England6/Diagnostics/Generation.csv' using 1:286 with lines ls 6 notitle, 'Output_England6/Diagnostics/Generation.csv' using 1:287 with lines ls 6 notitle
+
+set title 'Posterior estimate for H->R 15-19 as a function of generation'
+set autoscale
+set tics font ', 20'
+set key font ', 22'
+set xlabel 'Generation' font ',22'
+set ylabel 'H->R 15-19' font ',22'
+set ytics
+unset multiplot
+plot 'Output_England6/Diagnostics/Generation.csv' using 1:288 with lines ls 5 title 'Posterior', 'Output_England6/Diagnostics/Generation.csv' using 1:289 with lines ls 6 notitle, 'Output_England6/Diagnostics/Generation.csv' using 1:290 with lines ls 6 notitle
+
+set title 'Posterior estimate for H->R 20-24 as a function of generation'
+set autoscale
+set tics font ', 20'
+set key font ', 22'
+set xlabel 'Generation' font ',22'
+set ylabel 'H->R 20-24' font ',22'
+set ytics
+unset multiplot
+plot 'Output_England6/Diagnostics/Generation.csv' using 1:291 with lines ls 5 title 'Posterior', 'Output_England6/Diagnostics/Generation.csv' using 1:292 with lines ls 6 notitle, 'Output_England6/Diagnostics/Generation.csv' using 1:293 with lines ls 6 notitle
+
+set title 'Posterior estimate for H->R 25-29 as a function of generation'
+set autoscale
+set tics font ', 20'
+set key font ', 22'
+set xlabel 'Generation' font ',22'
+set ylabel 'H->R 25-29' font ',22'
+set ytics
+unset multiplot
+plot 'Output_England6/Diagnostics/Generation.csv' using 1:294 with lines ls 5 title 'Posterior', 'Output_England6/Diagnostics/Generation.csv' using 1:295 with lines ls 6 notitle, 'Output_England6/Diagnostics/Generation.csv' using 1:296 with lines ls 6 notitle
+
+set title 'Posterior estimate for H->R 30-34 as a function of generation'
+set autoscale
+set tics font ', 20'
+set key font ', 22'
+set xlabel 'Generation' font ',22'
+set ylabel 'H->R 30-34' font ',22'
+set ytics
+unset multiplot
+plot 'Output_England6/Diagnostics/Generation.csv' using 1:297 with lines ls 5 title 'Posterior', 'Output_England6/Diagnostics/Generation.csv' using 1:298 with lines ls 6 notitle, 'Output_England6/Diagnostics/Generation.csv' using 1:299 with lines ls 6 notitle
+
+set title 'Posterior estimate for H->R 35-39 as a function of generation'
+set autoscale
+set tics font ', 20'
+set key font ', 22'
+set xlabel 'Generation' font ',22'
+set ylabel 'H->R 35-39' font ',22'
+set ytics
+unset multiplot
+plot 'Output_England6/Diagnostics/Generation.csv' using 1:300 with lines ls 5 title 'Posterior', 'Output_England6/Diagnostics/Generation.csv' using 1:301 with lines ls 6 notitle, 'Output_England6/Diagnostics/Generation.csv' using 1:302 with lines ls 6 notitle
+
+set title 'Posterior estimate for H->R 40-44 as a function of generation'
+set autoscale
+set tics font ', 20'
+set key font ', 22'
+set xlabel 'Generation' font ',22'
+set ylabel 'H->R 40-44' font ',22'
+set ytics
+unset multiplot
+plot 'Output_England6/Diagnostics/Generation.csv' using 1:303 with lines ls 5 title 'Posterior', 'Output_England6/Diagnostics/Generation.csv' using 1:304 with lines ls 6 notitle, 'Output_England6/Diagnostics/Generation.csv' using 1:305 with lines ls 6 notitle
+
+set title 'Posterior estimate for H->R 45-49 as a function of generation'
+set autoscale
+set tics font ', 20'
+set key font ', 22'
+set xlabel 'Generation' font ',22'
+set ylabel 'H->R 45-49' font ',22'
+set ytics
+unset multiplot
+plot 'Output_England6/Diagnostics/Generation.csv' using 1:306 with lines ls 5 title 'Posterior', 'Output_England6/Diagnostics/Generation.csv' using 1:307 with lines ls 6 notitle, 'Output_England6/Diagnostics/Generation.csv' using 1:308 with lines ls 6 notitle
+
+set title 'Posterior estimate for H->R 50-54 as a function of generation'
+set autoscale
+set tics font ', 20'
+set key font ', 22'
+set xlabel 'Generation' font ',22'
+set ylabel 'H->R 50-54' font ',22'
+set ytics
+unset multiplot
+plot 'Output_England6/Diagnostics/Generation.csv' using 1:309 with lines ls 5 title 'Posterior', 'Output_England6/Diagnostics/Generation.csv' using 1:310 with lines ls 6 notitle, 'Output_England6/Diagnostics/Generation.csv' using 1:311 with lines ls 6 notitle
+
+set title 'Posterior estimate for H->R 55-59 as a function of generation'
+set autoscale
+set tics font ', 20'
+set key font ', 22'
+set xlabel 'Generation' font ',22'
+set ylabel 'H->R 55-59' font ',22'
+set ytics
+unset multiplot
+plot 'Output_England6/Diagnostics/Generation.csv' using 1:312 with lines ls 5 title 'Posterior', 'Output_England6/Diagnostics/Generation.csv' using 1:313 with lines ls 6 notitle, 'Output_England6/Diagnostics/Generation.csv' using 1:314 with lines ls 6 notitle
+
+set title 'Posterior estimate for H->R 60-64 as a function of generation'
+set autoscale
+set tics font ', 20'
+set key font ', 22'
+set xlabel 'Generation' font ',22'
+set ylabel 'H->R 60-64' font ',22'
+set ytics
+unset multiplot
+plot 'Output_England6/Diagnostics/Generation.csv' using 1:315 with lines ls 5 title 'Posterior', 'Output_England6/Diagnostics/Generation.csv' using 1:316 with lines ls 6 notitle, 'Output_England6/Diagnostics/Generation.csv' using 1:317 with lines ls 6 notitle
+
+set title 'Posterior estimate for H->R 65-69 as a function of generation'
+set autoscale
+set tics font ', 20'
+set key font ', 22'
+set xlabel 'Generation' font ',22'
+set ylabel 'H->R 65-69' font ',22'
+set ytics
+unset multiplot
+plot 'Output_England6/Diagnostics/Generation.csv' using 1:318 with lines ls 5 title 'Posterior', 'Output_England6/Diagnostics/Generation.csv' using 1:319 with lines ls 6 notitle, 'Output_England6/Diagnostics/Generation.csv' using 1:320 with lines ls 6 notitle
+
+set title 'Posterior estimate for H->R 70-74 as a function of generation'
+set autoscale
+set tics font ', 20'
+set key font ', 22'
+set xlabel 'Generation' font ',22'
+set ylabel 'H->R 70-74' font ',22'
+set ytics
+unset multiplot
+plot 'Output_England6/Diagnostics/Generation.csv' using 1:321 with lines ls 5 title 'Posterior', 'Output_England6/Diagnostics/Generation.csv' using 1:322 with lines ls 6 notitle, 'Output_England6/Diagnostics/Generation.csv' using 1:323 with lines ls 6 notitle
+
+set title 'Posterior estimate for H->R 75-79 as a function of generation'
+set autoscale
+set tics font ', 20'
+set key font ', 22'
+set xlabel 'Generation' font ',22'
+set ylabel 'H->R 75-79' font ',22'
+set ytics
+unset multiplot
+plot 'Output_England6/Diagnostics/Generation.csv' using 1:324 with lines ls 5 title 'Posterior', 'Output_England6/Diagnostics/Generation.csv' using 1:325 with lines ls 6 notitle, 'Output_England6/Diagnostics/Generation.csv' using 1:326 with lines ls 6 notitle
+
+set title 'Posterior estimate for H->R 80+ as a function of generation'
+set autoscale
+set tics font ', 20'
+set key font ', 22'
+set xlabel 'Generation' font ',22'
+set ylabel 'H->R 80+' font ',22'
+set ytics
+unset multiplot
+plot 'Output_England6/Diagnostics/Generation.csv' using 1:327 with lines ls 5 title 'Posterior', 'Output_England6/Diagnostics/Generation.csv' using 1:328 with lines ls 6 notitle, 'Output_England6/Diagnostics/Generation.csv' using 1:329 with lines ls 6 notitle
+
+set title 'Posterior estimate for H->D 0-4 as a function of generation'
+set autoscale
+set tics font ', 20'
+set key font ', 22'
+set xlabel 'Generation' font ',22'
+set ylabel 'H->D 0-4' font ',22'
+set ytics
+unset multiplot
+plot 'Output_England6/Diagnostics/Generation.csv' using 1:330 with lines ls 5 title 'Posterior', 'Output_England6/Diagnostics/Generation.csv' using 1:331 with lines ls 6 notitle, 'Output_England6/Diagnostics/Generation.csv' using 1:332 with lines ls 6 notitle
+
+set title 'Posterior estimate for H->D 5-9 as a function of generation'
+set autoscale
+set tics font ', 20'
+set key font ', 22'
+set xlabel 'Generation' font ',22'
+set ylabel 'H->D 5-9' font ',22'
+set ytics
+unset multiplot
+plot 'Output_England6/Diagnostics/Generation.csv' using 1:333 with lines ls 5 title 'Posterior', 'Output_England6/Diagnostics/Generation.csv' using 1:334 with lines ls 6 notitle, 'Output_England6/Diagnostics/Generation.csv' using 1:335 with lines ls 6 notitle
+
+set title 'Posterior estimate for H->D 10-14 as a function of generation'
+set autoscale
+set tics font ', 20'
+set key font ', 22'
+set xlabel 'Generation' font ',22'
+set ylabel 'H->D 10-14' font ',22'
+set ytics
+unset multiplot
+plot 'Output_England6/Diagnostics/Generation.csv' using 1:336 with lines ls 5 title 'Posterior', 'Output_England6/Diagnostics/Generation.csv' using 1:337 with lines ls 6 notitle, 'Output_England6/Diagnostics/Generation.csv' using 1:338 with lines ls 6 notitle
+
+set title 'Posterior estimate for H->D 15-19 as a function of generation'
+set autoscale
+set tics font ', 20'
+set key font ', 22'
+set xlabel 'Generation' font ',22'
+set ylabel 'H->D 15-19' font ',22'
+set ytics
+unset multiplot
+plot 'Output_England6/Diagnostics/Generation.csv' using 1:339 with lines ls 5 title 'Posterior', 'Output_England6/Diagnostics/Generation.csv' using 1:340 with lines ls 6 notitle, 'Output_England6/Diagnostics/Generation.csv' using 1:341 with lines ls 6 notitle
+
+set title 'Posterior estimate for H->D 20-24 as a function of generation'
+set autoscale
+set tics font ', 20'
+set key font ', 22'
+set xlabel 'Generation' font ',22'
+set ylabel 'H->D 20-24' font ',22'
+set ytics
+unset multiplot
+plot 'Output_England6/Diagnostics/Generation.csv' using 1:342 with lines ls 5 title 'Posterior', 'Output_England6/Diagnostics/Generation.csv' using 1:343 with lines ls 6 notitle, 'Output_England6/Diagnostics/Generation.csv' using 1:344 with lines ls 6 notitle
+
+set title 'Posterior estimate for H->D 25-29 as a function of generation'
+set autoscale
+set tics font ', 20'
+set key font ', 22'
+set xlabel 'Generation' font ',22'
+set ylabel 'H->D 25-29' font ',22'
+set ytics
+unset multiplot
+plot 'Output_England6/Diagnostics/Generation.csv' using 1:345 with lines ls 5 title 'Posterior', 'Output_England6/Diagnostics/Generation.csv' using 1:346 with lines ls 6 notitle, 'Output_England6/Diagnostics/Generation.csv' using 1:347 with lines ls 6 notitle
+
+set title 'Posterior estimate for H->D 30-34 as a function of generation'
+set autoscale
+set tics font ', 20'
+set key font ', 22'
+set xlabel 'Generation' font ',22'
+set ylabel 'H->D 30-34' font ',22'
+set ytics
+unset multiplot
+plot 'Output_England6/Diagnostics/Generation.csv' using 1:348 with lines ls 5 title 'Posterior', 'Output_England6/Diagnostics/Generation.csv' using 1:349 with lines ls 6 notitle, 'Output_England6/Diagnostics/Generation.csv' using 1:350 with lines ls 6 notitle
+
+set title 'Posterior estimate for H->D 35-39 as a function of generation'
+set autoscale
+set tics font ', 20'
+set key font ', 22'
+set xlabel 'Generation' font ',22'
+set ylabel 'H->D 35-39' font ',22'
+set ytics
+unset multiplot
+plot 'Output_England6/Diagnostics/Generation.csv' using 1:351 with lines ls 5 title 'Posterior', 'Output_England6/Diagnostics/Generation.csv' using 1:352 with lines ls 6 notitle, 'Output_England6/Diagnostics/Generation.csv' using 1:353 with lines ls 6 notitle
+
+set title 'Posterior estimate for H->D 40-44 as a function of generation'
+set autoscale
+set tics font ', 20'
+set key font ', 22'
+set xlabel 'Generation' font ',22'
+set ylabel 'H->D 40-44' font ',22'
+set ytics
+unset multiplot
+plot 'Output_England6/Diagnostics/Generation.csv' using 1:354 with lines ls 5 title 'Posterior', 'Output_England6/Diagnostics/Generation.csv' using 1:355 with lines ls 6 notitle, 'Output_England6/Diagnostics/Generation.csv' using 1:356 with lines ls 6 notitle
+
+set title 'Posterior estimate for H->D 45-49 as a function of generation'
+set autoscale
+set tics font ', 20'
+set key font ', 22'
+set xlabel 'Generation' font ',22'
+set ylabel 'H->D 45-49' font ',22'
+set ytics
+unset multiplot
+plot 'Output_England6/Diagnostics/Generation.csv' using 1:357 with lines ls 5 title 'Posterior', 'Output_England6/Diagnostics/Generation.csv' using 1:358 with lines ls 6 notitle, 'Output_England6/Diagnostics/Generation.csv' using 1:359 with lines ls 6 notitle
+
+set title 'Posterior estimate for H->D 50-54 as a function of generation'
+set autoscale
+set tics font ', 20'
+set key font ', 22'
+set xlabel 'Generation' font ',22'
+set ylabel 'H->D 50-54' font ',22'
+set ytics
+unset multiplot
+plot 'Output_England6/Diagnostics/Generation.csv' using 1:360 with lines ls 5 title 'Posterior', 'Output_England6/Diagnostics/Generation.csv' using 1:361 with lines ls 6 notitle, 'Output_England6/Diagnostics/Generation.csv' using 1:362 with lines ls 6 notitle
+
+set title 'Posterior estimate for H->D 55-59 as a function of generation'
+set autoscale
+set tics font ', 20'
+set key font ', 22'
+set xlabel 'Generation' font ',22'
+set ylabel 'H->D 55-59' font ',22'
+set ytics
+unset multiplot
+plot 'Output_England6/Diagnostics/Generation.csv' using 1:363 with lines ls 5 title 'Posterior', 'Output_England6/Diagnostics/Generation.csv' using 1:364 with lines ls 6 notitle, 'Output_England6/Diagnostics/Generation.csv' using 1:365 with lines ls 6 notitle
+
+set title 'Posterior estimate for H->D 60-64 as a function of generation'
+set autoscale
+set tics font ', 20'
+set key font ', 22'
+set xlabel 'Generation' font ',22'
+set ylabel 'H->D 60-64' font ',22'
+set ytics
+unset multiplot
+plot 'Output_England6/Diagnostics/Generation.csv' using 1:366 with lines ls 5 title 'Posterior', 'Output_England6/Diagnostics/Generation.csv' using 1:367 with lines ls 6 notitle, 'Output_England6/Diagnostics/Generation.csv' using 1:368 with lines ls 6 notitle
+
+set title 'Posterior estimate for H->D 65-69 as a function of generation'
+set autoscale
+set tics font ', 20'
+set key font ', 22'
+set xlabel 'Generation' font ',22'
+set ylabel 'H->D 65-69' font ',22'
+set ytics
+unset multiplot
+plot 'Output_England6/Diagnostics/Generation.csv' using 1:369 with lines ls 5 title 'Posterior', 'Output_England6/Diagnostics/Generation.csv' using 1:370 with lines ls 6 notitle, 'Output_England6/Diagnostics/Generation.csv' using 1:371 with lines ls 6 notitle
+
+set title 'Posterior estimate for H->D 70-74 as a function of generation'
+set autoscale
+set tics font ', 20'
+set key font ', 22'
+set xlabel 'Generation' font ',22'
+set ylabel 'H->D 70-74' font ',22'
+set ytics
+unset multiplot
+plot 'Output_England6/Diagnostics/Generation.csv' using 1:372 with lines ls 5 title 'Posterior', 'Output_England6/Diagnostics/Generation.csv' using 1:373 with lines ls 6 notitle, 'Output_England6/Diagnostics/Generation.csv' using 1:374 with lines ls 6 notitle
+
+set title 'Posterior estimate for H->D 75-79 as a function of generation'
+set autoscale
+set tics font ', 20'
+set key font ', 22'
+set xlabel 'Generation' font ',22'
+set ylabel 'H->D 75-79' font ',22'
+set ytics
+unset multiplot
+plot 'Output_England6/Diagnostics/Generation.csv' using 1:375 with lines ls 5 title 'Posterior', 'Output_England6/Diagnostics/Generation.csv' using 1:376 with lines ls 6 notitle, 'Output_England6/Diagnostics/Generation.csv' using 1:377 with lines ls 6 notitle
+
+set title 'Posterior estimate for H->D 80+ as a function of generation'
+set autoscale
+set tics font ', 20'
+set key font ', 22'
+set xlabel 'Generation' font ',22'
+set ylabel 'H->D 80+' font ',22'
+set ytics
+unset multiplot
+plot 'Output_England6/Diagnostics/Generation.csv' using 1:378 with lines ls 5 title 'Posterior', 'Output_England6/Diagnostics/Generation.csv' using 1:379 with lines ls 6 notitle, 'Output_England6/Diagnostics/Generation.csv' using 1:380 with lines ls 6 notitle
+
+set title 'Posterior estimate for R_{0} as a function of generation'
+set autoscale
+set tics font ', 20'
+set key font ', 22'
+set xlabel 'Generation' font ',22'
+set ylabel 'R_{0}' font ',22'
+set ytics
+unset multiplot
+set yrange [0.4:5]
+plot 'Output_England6/Diagnostics/Generation.csv' using 1:381 with lines ls 5 title 'Posterior', 'Output_England6/Diagnostics/Generation.csv' using 1:382 with lines ls 6 notitle, 'Output_England6/Diagnostics/Generation.csv' using 1:383 with lines ls 6 notitle
+
+set title 'Posterior estimate for R_{1} as a function of generation'
+set autoscale
+set tics font ', 20'
+set key font ', 22'
+set xlabel 'Generation' font ',22'
+set ylabel 'R_{1}' font ',22'
+set ytics
+unset multiplot
+set yrange [0.4:5]
+plot 'Output_England6/Diagnostics/Generation.csv' using 1:384 with lines ls 5 title 'Posterior', 'Output_England6/Diagnostics/Generation.csv' using 1:385 with lines ls 6 notitle, 'Output_England6/Diagnostics/Generation.csv' using 1:386 with lines ls 6 notitle
+
+set title 'Posterior estimate for R_{2} as a function of generation'
+set autoscale
+set tics font ', 20'
+set key font ', 22'
+set xlabel 'Generation' font ',22'
+set ylabel 'R_{2}' font ',22'
+set ytics
+unset multiplot
+set yrange [0.4:5]
+plot 'Output_England6/Diagnostics/Generation.csv' using 1:387 with lines ls 5 title 'Posterior', 'Output_England6/Diagnostics/Generation.csv' using 1:388 with lines ls 6 notitle, 'Output_England6/Diagnostics/Generation.csv' using 1:389 with lines ls 6 notitle
+
+set title 'Posterior estimate for R_{3} as a function of generation'
+set autoscale
+set tics font ', 20'
+set key font ', 22'
+set xlabel 'Generation' font ',22'
+set ylabel 'R_{3}' font ',22'
+set ytics
+unset multiplot
+set yrange [0.4:5]
+plot 'Output_England6/Diagnostics/Generation.csv' using 1:390 with lines ls 5 title 'Posterior', 'Output_England6/Diagnostics/Generation.csv' using 1:391 with lines ls 6 notitle, 'Output_England6/Diagnostics/Generation.csv' using 1:392 with lines ls 6 notitle
+
+set title 'Posterior estimate for R_{4} as a function of generation'
+set autoscale
+set tics font ', 20'
+set key font ', 22'
+set xlabel 'Generation' font ',22'
+set ylabel 'R_{4}' font ',22'
+set ytics
+unset multiplot
+set yrange [0.4:2.5]
+plot 'Output_England6/Diagnostics/Generation.csv' using 1:393 with lines ls 5 title 'Posterior', 'Output_England6/Diagnostics/Generation.csv' using 1:394 with lines ls 6 notitle, 'Output_England6/Diagnostics/Generation.csv' using 1:395 with lines ls 6 notitle
+
+set title 'Posterior estimate for R_{5} as a function of generation'
+set autoscale
+set tics font ', 20'
+set key font ', 22'
+set xlabel 'Generation' font ',22'
+set ylabel 'R_{5}' font ',22'
+set ytics
+unset multiplot
+set yrange [0.4:2.5]
+plot 'Output_England6/Diagnostics/Generation.csv' using 1:396 with lines ls 5 title 'Posterior', 'Output_England6/Diagnostics/Generation.csv' using 1:397 with lines ls 6 notitle, 'Output_England6/Diagnostics/Generation.csv' using 1:398 with lines ls 6 notitle
+
+set title 'Posterior estimate for R_{6} as a function of generation'
+set autoscale
+set tics font ', 20'
+set key font ', 22'
+set xlabel 'Generation' font ',22'
+set ylabel 'R_{6}' font ',22'
+set ytics
+unset multiplot
+set yrange [0.4:2.5]
+plot 'Output_England6/Diagnostics/Generation.csv' using 1:399 with lines ls 5 title 'Posterior', 'Output_England6/Diagnostics/Generation.csv' using 1:400 with lines ls 6 notitle, 'Output_England6/Diagnostics/Generation.csv' using 1:401 with lines ls 6 notitle
+
+set title 'Posterior estimate for R_{7} as a function of generation'
+set autoscale
+set tics font ', 20'
+set key font ', 22'
+set xlabel 'Generation' font ',22'
+set ylabel 'R_{7}' font ',22'
+set ytics
+unset multiplot
+set yrange [0.4:2.5]
+plot 'Output_England6/Diagnostics/Generation.csv' using 1:402 with lines ls 5 title 'Posterior', 'Output_England6/Diagnostics/Generation.csv' using 1:403 with lines ls 6 notitle, 'Output_England6/Diagnostics/Generation.csv' using 1:404 with lines ls 6 notitle
+
+set title 'Posterior estimate for R_{8} as a function of generation'
+set autoscale
+set tics font ', 20'
+set key font ', 22'
+set xlabel 'Generation' font ',22'
+set ylabel 'R_{8}' font ',22'
+set ytics
+unset multiplot
+set yrange [0.4:2.5]
+plot 'Output_England6/Diagnostics/Generation.csv' using 1:405 with lines ls 5 title 'Posterior', 'Output_England6/Diagnostics/Generation.csv' using 1:406 with lines ls 6 notitle, 'Output_England6/Diagnostics/Generation.csv' using 1:407 with lines ls 6 notitle
+
+set title 'Posterior estimate for R_{9} as a function of generation'
+set autoscale
+set tics font ', 20'
+set key font ', 22'
+set xlabel 'Generation' font ',22'
+set ylabel 'R_{9}' font ',22'
+set ytics
+unset multiplot
+set yrange [0.4:2.5]
+plot 'Output_England6/Diagnostics/Generation.csv' using 1:408 with lines ls 5 title 'Posterior', 'Output_England6/Diagnostics/Generation.csv' using 1:409 with lines ls 6 notitle, 'Output_England6/Diagnostics/Generation.csv' using 1:410 with lines ls 6 notitle
+
+set title 'Posterior estimate for R_{10} as a function of generation'
+set autoscale
+set tics font ', 20'
+set key font ', 22'
+set xlabel 'Generation' font ',22'
+set ylabel 'R_{10}' font ',22'
+set ytics
+unset multiplot
+set yrange [0.4:2.5]
+plot 'Output_England6/Diagnostics/Generation.csv' using 1:411 with lines ls 5 title 'Posterior', 'Output_England6/Diagnostics/Generation.csv' using 1:412 with lines ls 6 notitle, 'Output_England6/Diagnostics/Generation.csv' using 1:413 with lines ls 6 notitle
+
+set title 'Posterior estimate for R_{11} as a function of generation'
+set autoscale
+set tics font ', 20'
+set key font ', 22'
+set xlabel 'Generation' font ',22'
+set ylabel 'R_{11}' font ',22'
+set ytics
+unset multiplot
+set yrange [0.4:2.5]
+plot 'Output_England6/Diagnostics/Generation.csv' using 1:414 with lines ls 5 title 'Posterior', 'Output_England6/Diagnostics/Generation.csv' using 1:415 with lines ls 6 notitle, 'Output_England6/Diagnostics/Generation.csv' using 1:416 with lines ls 6 notitle
+
+set title 'Posterior estimate for R_{12} as a function of generation'
+set autoscale
+set tics font ', 20'
+set key font ', 22'
+set xlabel 'Generation' font ',22'
+set ylabel 'R_{12}' font ',22'
+set ytics
+unset multiplot
+set yrange [0.4:2.5]
+plot 'Output_England6/Diagnostics/Generation.csv' using 1:417 with lines ls 5 title 'Posterior', 'Output_England6/Diagnostics/Generation.csv' using 1:418 with lines ls 6 notitle, 'Output_England6/Diagnostics/Generation.csv' using 1:419 with lines ls 6 notitle
+
+set title 'Posterior estimate for R_{13} as a function of generation'
+set autoscale
+set tics font ', 20'
+set key font ', 22'
+set xlabel 'Generation' font ',22'
+set ylabel 'R_{13}' font ',22'
+set ytics
+unset multiplot
+set yrange [0.4:2.5]
+plot 'Output_England6/Diagnostics/Generation.csv' using 1:420 with lines ls 5 title 'Posterior', 'Output_England6/Diagnostics/Generation.csv' using 1:421 with lines ls 6 notitle, 'Output_England6/Diagnostics/Generation.csv' using 1:422 with lines ls 6 notitle
+
+set title 'Posterior estimate for R_{14} as a function of generation'
+set autoscale
+set tics font ', 20'
+set key font ', 22'
+set xlabel 'Generation' font ',22'
+set ylabel 'R_{14}' font ',22'
+set ytics
+unset multiplot
+set yrange [0.4:2.5]
+plot 'Output_England6/Diagnostics/Generation.csv' using 1:423 with lines ls 5 title 'Posterior', 'Output_England6/Diagnostics/Generation.csv' using 1:424 with lines ls 6 notitle, 'Output_England6/Diagnostics/Generation.csv' using 1:425 with lines ls 6 notitle
+
+set title 'Posterior estimate for R_{15} as a function of generation'
+set autoscale
+set tics font ', 20'
+set key font ', 22'
+set xlabel 'Generation' font ',22'
+set ylabel 'R_{15}' font ',22'
+set ytics
+unset multiplot
+set yrange [0.4:2.5]
+plot 'Output_England6/Diagnostics/Generation.csv' using 1:426 with lines ls 5 title 'Posterior', 'Output_England6/Diagnostics/Generation.csv' using 1:427 with lines ls 6 notitle, 'Output_England6/Diagnostics/Generation.csv' using 1:428 with lines ls 6 notitle
+
+set title 'Posterior estimate for R_{16} as a function of generation'
+set autoscale
+set tics font ', 20'
+set key font ', 22'
+set xlabel 'Generation' font ',22'
+set ylabel 'R_{16}' font ',22'
+set ytics
+unset multiplot
+set yrange [0.4:2.5]
+plot 'Output_England6/Diagnostics/Generation.csv' using 1:429 with lines ls 5 title 'Posterior', 'Output_England6/Diagnostics/Generation.csv' using 1:430 with lines ls 6 notitle, 'Output_England6/Diagnostics/Generation.csv' using 1:431 with lines ls 6 notitle
+
+set title 'Posterior estimate for R_{17} as a function of generation'
+set autoscale
+set tics font ', 20'
+set key font ', 22'
+set xlabel 'Generation' font ',22'
+set ylabel 'R_{17}' font ',22'
+set ytics
+unset multiplot
+set yrange [0.4:2.5]
+plot 'Output_England6/Diagnostics/Generation.csv' using 1:432 with lines ls 5 title 'Posterior', 'Output_England6/Diagnostics/Generation.csv' using 1:433 with lines ls 6 notitle, 'Output_England6/Diagnostics/Generation.csv' using 1:434 with lines ls 6 notitle
+
+set title 'Posterior estimate for R_{18} as a function of generation'
+set autoscale
+set tics font ', 20'
+set key font ', 22'
+set xlabel 'Generation' font ',22'
+set ylabel 'R_{18}' font ',22'
+set ytics
+unset multiplot
+set yrange [0.4:2.5]
+plot 'Output_England6/Diagnostics/Generation.csv' using 1:435 with lines ls 5 title 'Posterior', 'Output_England6/Diagnostics/Generation.csv' using 1:436 with lines ls 6 notitle, 'Output_England6/Diagnostics/Generation.csv' using 1:437 with lines ls 6 notitle
+
+set title 'Posterior estimate for R_{19} as a function of generation'
+set autoscale
+set tics font ', 20'
+set key font ', 22'
+set xlabel 'Generation' font ',22'
+set ylabel 'R_{19}' font ',22'
+set ytics
+unset multiplot
+set yrange [0.4:2.5]
+plot 'Output_England6/Diagnostics/Generation.csv' using 1:438 with lines ls 5 title 'Posterior', 'Output_England6/Diagnostics/Generation.csv' using 1:439 with lines ls 6 notitle, 'Output_England6/Diagnostics/Generation.csv' using 1:440 with lines ls 6 notitle
+
+set title 'Posterior estimate for R_{20} as a function of generation'
+set autoscale
+set tics font ', 20'
+set key font ', 22'
+set xlabel 'Generation' font ',22'
+set ylabel 'R_{20}' font ',22'
+set ytics
+unset multiplot
+set yrange [0.4:2.5]
+plot 'Output_England6/Diagnostics/Generation.csv' using 1:441 with lines ls 5 title 'Posterior', 'Output_England6/Diagnostics/Generation.csv' using 1:442 with lines ls 6 notitle, 'Output_England6/Diagnostics/Generation.csv' using 1:443 with lines ls 6 notitle
+
+set title 'Posterior estimate for R_{21} as a function of generation'
+set autoscale
+set tics font ', 20'
+set key font ', 22'
+set xlabel 'Generation' font ',22'
+set ylabel 'R_{21}' font ',22'
+set ytics
+unset multiplot
+set yrange [0.4:2.5]
+plot 'Output_England6/Diagnostics/Generation.csv' using 1:444 with lines ls 5 title 'Posterior', 'Output_England6/Diagnostics/Generation.csv' using 1:445 with lines ls 6 notitle, 'Output_England6/Diagnostics/Generation.csv' using 1:446 with lines ls 6 notitle
+
+set title 'Posterior estimate for R_{22} as a function of generation'
+set autoscale
+set tics font ', 20'
+set key font ', 22'
+set xlabel 'Generation' font ',22'
+set ylabel 'R_{22}' font ',22'
+set ytics
+unset multiplot
+set yrange [0.4:2.5]
+plot 'Output_England6/Diagnostics/Generation.csv' using 1:447 with lines ls 5 title 'Posterior', 'Output_England6/Diagnostics/Generation.csv' using 1:448 with lines ls 6 notitle, 'Output_England6/Diagnostics/Generation.csv' using 1:449 with lines ls 6 notitle
+
+set title 'Posterior estimate for R_{23} as a function of generation'
+set autoscale
+set tics font ', 20'
+set key font ', 22'
+set xlabel 'Generation' font ',22'
+set ylabel 'R_{23}' font ',22'
+set ytics
+unset multiplot
+set yrange [0.4:2.5]
+plot 'Output_England6/Diagnostics/Generation.csv' using 1:450 with lines ls 5 title 'Posterior', 'Output_England6/Diagnostics/Generation.csv' using 1:451 with lines ls 6 notitle, 'Output_England6/Diagnostics/Generation.csv' using 1:452 with lines ls 6 notitle
+
+set title 'Posterior estimate for R_{24} as a function of generation'
+set autoscale
+set tics font ', 20'
+set key font ', 22'
+set xlabel 'Generation' font ',22'
+set ylabel 'R_{24}' font ',22'
+set ytics
+unset multiplot
+set yrange [0.4:2.5]
+plot 'Output_England6/Diagnostics/Generation.csv' using 1:453 with lines ls 5 title 'Posterior', 'Output_England6/Diagnostics/Generation.csv' using 1:454 with lines ls 6 notitle, 'Output_England6/Diagnostics/Generation.csv' using 1:455 with lines ls 6 notitle
+
+set title 'Posterior estimate for R_{25} as a function of generation'
+set autoscale
+set tics font ', 20'
+set key font ', 22'
+set xlabel 'Generation' font ',22'
+set ylabel 'R_{25}' font ',22'
+set ytics
+unset multiplot
+set yrange [0.4:2.5]
+plot 'Output_England6/Diagnostics/Generation.csv' using 1:456 with lines ls 5 title 'Posterior', 'Output_England6/Diagnostics/Generation.csv' using 1:457 with lines ls 6 notitle, 'Output_England6/Diagnostics/Generation.csv' using 1:458 with lines ls 6 notitle
+
+set title 'Posterior estimate for R_{26} as a function of generation'
+set autoscale
+set tics font ', 20'
+set key font ', 22'
+set xlabel 'Generation' font ',22'
+set ylabel 'R_{26}' font ',22'
+set ytics
+unset multiplot
+set yrange [0.4:2.5]
+plot 'Output_England6/Diagnostics/Generation.csv' using 1:459 with lines ls 5 title 'Posterior', 'Output_England6/Diagnostics/Generation.csv' using 1:460 with lines ls 6 notitle, 'Output_England6/Diagnostics/Generation.csv' using 1:461 with lines ls 6 notitle
+
+set title 'Posterior estimate for R_{27} as a function of generation'
+set autoscale
+set tics font ', 20'
+set key font ', 22'
+set xlabel 'Generation' font ',22'
+set ylabel 'R_{27}' font ',22'
+set ytics
+unset multiplot
+set yrange [0.4:2.5]
+plot 'Output_England6/Diagnostics/Generation.csv' using 1:462 with lines ls 5 title 'Posterior', 'Output_England6/Diagnostics/Generation.csv' using 1:463 with lines ls 6 notitle, 'Output_England6/Diagnostics/Generation.csv' using 1:464 with lines ls 6 notitle
+
+set title 'Posterior estimate for R_{28} as a function of generation'
+set autoscale
+set tics font ', 20'
+set key font ', 22'
+set xlabel 'Generation' font ',22'
+set ylabel 'R_{28}' font ',22'
+set ytics
+unset multiplot
+set yrange [0.4:2.5]
+plot 'Output_England6/Diagnostics/Generation.csv' using 1:465 with lines ls 5 title 'Posterior', 'Output_England6/Diagnostics/Generation.csv' using 1:466 with lines ls 6 notitle, 'Output_England6/Diagnostics/Generation.csv' using 1:467 with lines ls 6 notitle
+
+set title 'Posterior estimate for R_{29} as a function of generation'
+set autoscale
+set tics font ', 20'
+set key font ', 22'
+set xlabel 'Generation' font ',22'
+set ylabel 'R_{29}' font ',22'
+set ytics
+unset multiplot
+set yrange [0.4:2.5]
+plot 'Output_England6/Diagnostics/Generation.csv' using 1:468 with lines ls 5 title 'Posterior', 'Output_England6/Diagnostics/Generation.csv' using 1:469 with lines ls 6 notitle, 'Output_England6/Diagnostics/Generation.csv' using 1:470 with lines ls 6 notitle
+
+set title 'Posterior estimate for R_{30} as a function of generation'
+set autoscale
+set tics font ', 20'
+set key font ', 22'
+set xlabel 'Generation' font ',22'
+set ylabel 'R_{30}' font ',22'
+set ytics
+unset multiplot
+set yrange [0.4:2.5]
+plot 'Output_England6/Diagnostics/Generation.csv' using 1:471 with lines ls 5 title 'Posterior', 'Output_England6/Diagnostics/Generation.csv' using 1:472 with lines ls 6 notitle, 'Output_England6/Diagnostics/Generation.csv' using 1:473 with lines ls 6 notitle
+
+set title 'Posterior estimate for R_{31} as a function of generation'
+set autoscale
+set tics font ', 20'
+set key font ', 22'
+set xlabel 'Generation' font ',22'
+set ylabel 'R_{31}' font ',22'
+set ytics
+unset multiplot
+set yrange [0.4:2.5]
+plot 'Output_England6/Diagnostics/Generation.csv' using 1:474 with lines ls 5 title 'Posterior', 'Output_England6/Diagnostics/Generation.csv' using 1:475 with lines ls 6 notitle, 'Output_England6/Diagnostics/Generation.csv' using 1:476 with lines ls 6 notitle
+
+set title 'Posterior estimate for R_{32} as a function of generation'
+set autoscale
+set tics font ', 20'
+set key font ', 22'
+set xlabel 'Generation' font ',22'
+set ylabel 'R_{32}' font ',22'
+set ytics
+unset multiplot
+set yrange [0.4:2.5]
+plot 'Output_England6/Diagnostics/Generation.csv' using 1:477 with lines ls 5 title 'Posterior', 'Output_England6/Diagnostics/Generation.csv' using 1:478 with lines ls 6 notitle, 'Output_England6/Diagnostics/Generation.csv' using 1:479 with lines ls 6 notitle
+
+set title 'Posterior estimate for R_{33} as a function of generation'
+set autoscale
+set tics font ', 20'
+set key font ', 22'
+set xlabel 'Generation' font ',22'
+set ylabel 'R_{33}' font ',22'
+set ytics
+unset multiplot
+set yrange [0.4:2.5]
+plot 'Output_England6/Diagnostics/Generation.csv' using 1:480 with lines ls 5 title 'Posterior', 'Output_England6/Diagnostics/Generation.csv' using 1:481 with lines ls 6 notitle, 'Output_England6/Diagnostics/Generation.csv' using 1:482 with lines ls 6 notitle
+
+set title 'Posterior estimate for R_{34} as a function of generation'
+set autoscale
+set tics font ', 20'
+set key font ', 22'
+set xlabel 'Generation' font ',22'
+set ylabel 'R_{34}' font ',22'
+set ytics
+unset multiplot
+set yrange [0.4:2.5]
+plot 'Output_England6/Diagnostics/Generation.csv' using 1:483 with lines ls 5 title 'Posterior', 'Output_England6/Diagnostics/Generation.csv' using 1:484 with lines ls 6 notitle, 'Output_England6/Diagnostics/Generation.csv' using 1:485 with lines ls 6 notitle
+
+set title 'Posterior estimate for R_{35} as a function of generation'
+set autoscale
+set tics font ', 20'
+set key font ', 22'
+set xlabel 'Generation' font ',22'
+set ylabel 'R_{35}' font ',22'
+set ytics
+unset multiplot
+set yrange [0.4:2.5]
+plot 'Output_England6/Diagnostics/Generation.csv' using 1:486 with lines ls 5 title 'Posterior', 'Output_England6/Diagnostics/Generation.csv' using 1:487 with lines ls 6 notitle, 'Output_England6/Diagnostics/Generation.csv' using 1:488 with lines ls 6 notitle
+
+set title 'Posterior estimate for Mixing factor 0-4 as a function of generation'
+set autoscale
+set tics font ', 20'
+set key font ', 22'
+set xlabel 'Generation' font ',22'
+set ylabel 'Mixing factor 0-4' font ',22'
+set ytics
+unset multiplot
+plot 'Output_England6/Diagnostics/Generation.csv' using 1:495 with lines ls 5 title 'Posterior', 'Output_England6/Diagnostics/Generation.csv' using 1:496 with lines ls 6 notitle, 'Output_England6/Diagnostics/Generation.csv' using 1:497 with lines ls 6 notitle
+
+set title 'Posterior estimate for Mixing factor 5-9 as a function of generation'
+set autoscale
+set tics font ', 20'
+set key font ', 22'
+set xlabel 'Generation' font ',22'
+set ylabel 'Mixing factor 5-9' font ',22'
+set ytics
+unset multiplot
+plot 'Output_England6/Diagnostics/Generation.csv' using 1:498 with lines ls 5 title 'Posterior', 'Output_England6/Diagnostics/Generation.csv' using 1:499 with lines ls 6 notitle, 'Output_England6/Diagnostics/Generation.csv' using 1:500 with lines ls 6 notitle
+
+set title 'Posterior estimate for Mixing factor 10-14 as a function of generation'
+set autoscale
+set tics font ', 20'
+set key font ', 22'
+set xlabel 'Generation' font ',22'
+set ylabel 'Mixing factor 10-14' font ',22'
+set ytics
+unset multiplot
+plot 'Output_England6/Diagnostics/Generation.csv' using 1:501 with lines ls 5 title 'Posterior', 'Output_England6/Diagnostics/Generation.csv' using 1:502 with lines ls 6 notitle, 'Output_England6/Diagnostics/Generation.csv' using 1:503 with lines ls 6 notitle
+
+set title 'Posterior estimate for Mixing factor 15-19 as a function of generation'
+set autoscale
+set tics font ', 20'
+set key font ', 22'
+set xlabel 'Generation' font ',22'
+set ylabel 'Mixing factor 15-19' font ',22'
+set ytics
+unset multiplot
+plot 'Output_England6/Diagnostics/Generation.csv' using 1:504 with lines ls 5 title 'Posterior', 'Output_England6/Diagnostics/Generation.csv' using 1:505 with lines ls 6 notitle, 'Output_England6/Diagnostics/Generation.csv' using 1:506 with lines ls 6 notitle
+
+set title 'Posterior estimate for Mixing factor 20-24 as a function of generation'
+set autoscale
+set tics font ', 20'
+set key font ', 22'
+set xlabel 'Generation' font ',22'
+set ylabel 'Mixing factor 20-24' font ',22'
+set ytics
+unset multiplot
+plot 'Output_England6/Diagnostics/Generation.csv' using 1:507 with lines ls 5 title 'Posterior', 'Output_England6/Diagnostics/Generation.csv' using 1:508 with lines ls 6 notitle, 'Output_England6/Diagnostics/Generation.csv' using 1:509 with lines ls 6 notitle
+
+set title 'Posterior estimate for Mixing factor 25-29 as a function of generation'
+set autoscale
+set tics font ', 20'
+set key font ', 22'
+set xlabel 'Generation' font ',22'
+set ylabel 'Mixing factor 25-29' font ',22'
+set ytics
+unset multiplot
+plot 'Output_England6/Diagnostics/Generation.csv' using 1:510 with lines ls 5 title 'Posterior', 'Output_England6/Diagnostics/Generation.csv' using 1:511 with lines ls 6 notitle, 'Output_England6/Diagnostics/Generation.csv' using 1:512 with lines ls 6 notitle
+
+set title 'Posterior estimate for Mixing factor 30-34 as a function of generation'
+set autoscale
+set tics font ', 20'
+set key font ', 22'
+set xlabel 'Generation' font ',22'
+set ylabel 'Mixing factor 30-34' font ',22'
+set ytics
+unset multiplot
+plot 'Output_England6/Diagnostics/Generation.csv' using 1:513 with lines ls 5 title 'Posterior', 'Output_England6/Diagnostics/Generation.csv' using 1:514 with lines ls 6 notitle, 'Output_England6/Diagnostics/Generation.csv' using 1:515 with lines ls 6 notitle
+
+set title 'Posterior estimate for Mixing factor 35-39 as a function of generation'
+set autoscale
+set tics font ', 20'
+set key font ', 22'
+set xlabel 'Generation' font ',22'
+set ylabel 'Mixing factor 35-39' font ',22'
+set ytics
+unset multiplot
+plot 'Output_England6/Diagnostics/Generation.csv' using 1:516 with lines ls 5 title 'Posterior', 'Output_England6/Diagnostics/Generation.csv' using 1:517 with lines ls 6 notitle, 'Output_England6/Diagnostics/Generation.csv' using 1:518 with lines ls 6 notitle
+
+set title 'Posterior estimate for Mixing factor 40-44 as a function of generation'
+set autoscale
+set tics font ', 20'
+set key font ', 22'
+set xlabel 'Generation' font ',22'
+set ylabel 'Mixing factor 40-44' font ',22'
+set ytics
+unset multiplot
+plot 'Output_England6/Diagnostics/Generation.csv' using 1:519 with lines ls 5 title 'Posterior', 'Output_England6/Diagnostics/Generation.csv' using 1:520 with lines ls 6 notitle, 'Output_England6/Diagnostics/Generation.csv' using 1:521 with lines ls 6 notitle
+
+set title 'Posterior estimate for Mixing factor 45-49 as a function of generation'
+set autoscale
+set tics font ', 20'
+set key font ', 22'
+set xlabel 'Generation' font ',22'
+set ylabel 'Mixing factor 45-49' font ',22'
+set ytics
+unset multiplot
+plot 'Output_England6/Diagnostics/Generation.csv' using 1:522 with lines ls 5 title 'Posterior', 'Output_England6/Diagnostics/Generation.csv' using 1:523 with lines ls 6 notitle, 'Output_England6/Diagnostics/Generation.csv' using 1:524 with lines ls 6 notitle
+
+set title 'Posterior estimate for Mixing factor 50-54 as a function of generation'
+set autoscale
+set tics font ', 20'
+set key font ', 22'
+set xlabel 'Generation' font ',22'
+set ylabel 'Mixing factor 50-54' font ',22'
+set ytics
+unset multiplot
+plot 'Output_England6/Diagnostics/Generation.csv' using 1:525 with lines ls 5 title 'Posterior', 'Output_England6/Diagnostics/Generation.csv' using 1:526 with lines ls 6 notitle, 'Output_England6/Diagnostics/Generation.csv' using 1:527 with lines ls 6 notitle
+
+set title 'Posterior estimate for Mixing factor 55-59 as a function of generation'
+set autoscale
+set tics font ', 20'
+set key font ', 22'
+set xlabel 'Generation' font ',22'
+set ylabel 'Mixing factor 55-59' font ',22'
+set ytics
+unset multiplot
+plot 'Output_England6/Diagnostics/Generation.csv' using 1:528 with lines ls 5 title 'Posterior', 'Output_England6/Diagnostics/Generation.csv' using 1:529 with lines ls 6 notitle, 'Output_England6/Diagnostics/Generation.csv' using 1:530 with lines ls 6 notitle
+
+set title 'Posterior estimate for Mixing factor 60-64 as a function of generation'
+set autoscale
+set tics font ', 20'
+set key font ', 22'
+set xlabel 'Generation' font ',22'
+set ylabel 'Mixing factor 60-64' font ',22'
+set ytics
+unset multiplot
+plot 'Output_England6/Diagnostics/Generation.csv' using 1:531 with lines ls 5 title 'Posterior', 'Output_England6/Diagnostics/Generation.csv' using 1:532 with lines ls 6 notitle, 'Output_England6/Diagnostics/Generation.csv' using 1:533 with lines ls 6 notitle
+
+set title 'Posterior estimate for Mixing factor 65-69 as a function of generation'
+set autoscale
+set tics font ', 20'
+set key font ', 22'
+set xlabel 'Generation' font ',22'
+set ylabel 'Mixing factor 65-69' font ',22'
+set ytics
+unset multiplot
+plot 'Output_England6/Diagnostics/Generation.csv' using 1:534 with lines ls 5 title 'Posterior', 'Output_England6/Diagnostics/Generation.csv' using 1:535 with lines ls 6 notitle, 'Output_England6/Diagnostics/Generation.csv' using 1:536 with lines ls 6 notitle
+
+set title 'Posterior estimate for Mixing factor 70-74 as a function of generation'
+set autoscale
+set tics font ', 20'
+set key font ', 22'
+set xlabel 'Generation' font ',22'
+set ylabel 'Mixing factor 70-74' font ',22'
+set ytics
+unset multiplot
+plot 'Output_England6/Diagnostics/Generation.csv' using 1:537 with lines ls 5 title 'Posterior', 'Output_England6/Diagnostics/Generation.csv' using 1:538 with lines ls 6 notitle, 'Output_England6/Diagnostics/Generation.csv' using 1:539 with lines ls 6 notitle
+
+set title 'Posterior estimate for Mixing factor 75-79 as a function of generation'
+set autoscale
+set tics font ', 20'
+set key font ', 22'
+set xlabel 'Generation' font ',22'
+set ylabel 'Mixing factor 75-79' font ',22'
+set ytics
+unset multiplot
+plot 'Output_England6/Diagnostics/Generation.csv' using 1:540 with lines ls 5 title 'Posterior', 'Output_England6/Diagnostics/Generation.csv' using 1:541 with lines ls 6 notitle, 'Output_England6/Diagnostics/Generation.csv' using 1:542 with lines ls 6 notitle
+
+set title 'Posterior estimate for Mixing factor 80+ as a function of generation'
+set autoscale
+set tics font ', 20'
+set key font ', 22'
+set xlabel 'Generation' font ',22'
+set ylabel 'Mixing factor 80+' font ',22'
+set ytics
+unset multiplot
+plot 'Output_England6/Diagnostics/Generation.csv' using 1:543 with lines ls 5 title 'Posterior', 'Output_England6/Diagnostics/Generation.csv' using 1:544 with lines ls 6 notitle, 'Output_England6/Diagnostics/Generation.csv' using 1:545 with lines ls 6 notitle
+
+set title 'Posterior estimate for Mixing factor CH as a function of generation'
+set autoscale
+set tics font ', 20'
+set key font ', 22'
+set xlabel 'Generation' font ',22'
+set ylabel 'Mixing factor CH' font ',22'
+set ytics
+unset multiplot
+plot 'Output_England6/Diagnostics/Generation.csv' using 1:546 with lines ls 5 title 'Posterior', 'Output_England6/Diagnostics/Generation.csv' using 1:547 with lines ls 6 notitle, 'Output_England6/Diagnostics/Generation.csv' using 1:548 with lines ls 6 notitle
+
+set title 'Contribution to EF from different data sources'
+set autoscale
+set tics font ', 20'
+set key font ', 22'
+set xlabel 'Generation' font ',22'
+set ylabel 'log(EF contribution)' font ',22'
+set ytics
+unset multiplot
+plot 'Output_England6/Diagnostics/EF_datatable.csv' using 1:2 with lines ls 1 title 'Englandcases age minus CH.csv', 'Output_England6/Diagnostics/EF_datatable.csv' using 1:3 with lines ls 3 title 'death age CH.csv', 'Output_England6/Diagnostics/EF_datatable.csv' using 1:4 with lines ls 5 title 'Inf England by age min max fine cut.csv', 'Output_England6/Diagnostics/EF_datatable.csv' using 1:5 with lines ls 7 title 'England admissions age minus CH.csv', 'Output_England6/Diagnostics/EF_datatable.csv' using 1:6 with lines ls 2 title 'antibody age SD double80.csv', 'Output_England6/Diagnostics/EF_datatable.csv' using 1:7 with lines ls 4 title 'England admissions minus CH.csv'
+
+
+set title 'CPU time as a function of EF'
+set autoscale
+set tics font ', 20'
+set key font ', 22'
+set xlabel 'EF cut-off' font ',22'
+set ylabel 'CPU time (minutes)' font ',22'
+set ytics
+unset multiplot
+set logscale y
+set logscale x
+plot 'Output_England6/Diagnostics/Generation.csv' using 3:2 with lines ls 7 title ''
+unset logscale y
+unset logscale x
+
+
+set title 'Model evidence as a function of log(EF cut-off)'
+set autoscale
+set tics font ', 20'
+set key font ', 22'
+set xlabel 'log(EF cut-off)' font ',22'
+set ylabel 'log(Model evidence)' font ',22'
+set ytics
+unset multiplot
+plot 'Output_England6/Diagnostics/Generation.csv' using 4:7 with lines ls 7 notitle, 'Output_England6/Diagnostics/Generation.csv' using 4:7:8 with yerrorbars ls 7 notitle
+
+
