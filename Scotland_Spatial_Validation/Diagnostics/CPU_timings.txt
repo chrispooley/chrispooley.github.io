@@ -1,0 +1,33 @@
+
+Timings for different parts of the algorithm:
+91% Type I MBPs
+0% Type II MBPs
+1% Parameter Proposals
+100% MCMC Update
+64% Changes to transnum 
+15% Update populations
+4% Update infection map
+0.001% Simulation
+1% Setup model
+1% Initialise state from particle
+25% Calculating means for transitions
+13% Obsevation probability / Error function
+0% Create N 
+0% Beta from R 
+0% Generating final results 
+7% MPI Waiting
+
+Timings for different MCMC proposals:
+91% Univariate / MVN
+0% Splice time
+
+Timings for different subsections:
+77% MBP 
+0.0% MBP initialisation 
+0% Gen
+0.0% Cutoff
+100% Prop
+0.0% Mvn setup
+100% Mbp update
+0.0% Update prop
+

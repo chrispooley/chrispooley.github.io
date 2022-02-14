@@ -1,0 +1,927 @@
+This file provides a description of the source files used to generate the graphs in 'Results/Scotland_Spatial_Sim/Results/Scotland_Spatial_Sim/Graphs_description.txt.pdf'
+
+PAGE 1: "Parameter priors: The prior captures any knowledge regarding parameter values before the data is considered. This table shows the priors places on each of the model parameters.  Click on the parameter names (in blue) to link to where they appear in the model."
+Parameter_estimates.csv
+
+PAGE 2: "Posterior parameter estimates: This table provides posterior estimates for each of the model parameters. The first column gives the parameter name followed by the posterior mean, 95% credible interval and standard deviation.  The effective samples size (ESS) provides an estimate of the number of independent posterior samples generated (exceeding 200 implies convergence) and the Gelman-Rubin statistic (GRS) measures how well independent runs map out the same posterior distribution (less than around 1.05 usually implies convergence). Note, ESS and GRS are not available for all inference methods. Finally a column shows the prior (as defined in the TOML file) for comparison.  Click on the parameter names (in blue) to link to where they appear in the model."
+Parameter_estimates.csv
+
+PAGE 3: "Posterior distribution: This shows the posterior distribution for the model parameter *E->A branch prob.*.  The vertical dashed line give the true value used to simulate the data."
+'Posterior' uses columns 1 and 2 in 'Posterior/parameter/model.csv'
+'Value' uses columns 1 and 2 in '0.600000'
+
+PAGE 4: "Posterior distribution: This shows the posterior distribution for the model parameter *E->I branch prob.*.  The vertical dashed line give the true value used to simulate the data."
+'Posterior' uses columns 3 and 4 in 'Posterior/parameter/model.csv'
+'Value' uses columns 1 and 2 in '0.400000'
+
+PAGE 5: "Posterior distribution: This shows the posterior distribution for the model parameter *I->T branch prob.*.  The vertical dashed line give the true value used to simulate the data."
+'Posterior' uses columns 5 and 6 in 'Posterior/parameter/model.csv'
+'Value' uses columns 1 and 2 in '0.500000'
+
+PAGE 6: "Posterior distribution: This shows the posterior distribution for the model parameter *I->C branch prob.*.  The vertical dashed line give the true value used to simulate the data."
+'Posterior' uses columns 7 and 8 in 'Posterior/parameter/model.csv'
+'Value' uses columns 1 and 2 in '0.500000'
+
+PAGE 7: "Posterior distribution: This shows the posterior distribution for the model parameter *R_0*.  The vertical dashed line give the true value used to simulate the data."
+'Posterior' uses columns 9 and 10 in 'Posterior/parameter/model.csv'
+'Value' uses columns 1 and 2 in '3.627000'
+
+PAGE 8: "Posterior distribution: This shows the posterior distribution for the model parameter *R_1*.  The vertical dashed line give the true value used to simulate the data."
+'Posterior' uses columns 11 and 12 in 'Posterior/parameter/model.csv'
+'Value' uses columns 1 and 2 in '3.168000'
+
+PAGE 9: "Posterior distribution: This shows the posterior distribution for the model parameter *R_2*.  The vertical dashed line give the true value used to simulate the data."
+'Posterior' uses columns 13 and 14 in 'Posterior/parameter/model.csv'
+'Value' uses columns 1 and 2 in '1.503000'
+
+PAGE 10: "Posterior distribution: This shows the posterior distribution for the model parameter *R_3*.  The vertical dashed line give the true value used to simulate the data."
+'Posterior' uses columns 15 and 16 in 'Posterior/parameter/model.csv'
+'Value' uses columns 1 and 2 in '0.602100'
+
+PAGE 11: "Posterior distribution: This shows the posterior distribution for the model parameter *R_4*.  The vertical dashed line give the true value used to simulate the data."
+'Posterior' uses columns 17 and 18 in 'Posterior/parameter/model.csv'
+'Value' uses columns 1 and 2 in '0.523800'
+
+PAGE 12: "Posterior distribution: This shows the posterior distribution for the model parameter *R_5*.  The vertical dashed line give the true value used to simulate the data."
+'Posterior' uses columns 19 and 20 in 'Posterior/parameter/model.csv'
+'Value' uses columns 1 and 2 in '0.621000'
+
+PAGE 13: "Posterior distribution: This shows the posterior distribution for the model parameter *R_6*.  The vertical dashed line give the true value used to simulate the data."
+'Posterior' uses columns 21 and 22 in 'Posterior/parameter/model.csv'
+'Value' uses columns 1 and 2 in '0.756900'
+
+PAGE 14: "Posterior distribution: This shows the posterior distribution for the model parameter *R_7*.  The vertical dashed line give the true value used to simulate the data."
+'Posterior' uses columns 23 and 24 in 'Posterior/parameter/model.csv'
+'Value' uses columns 1 and 2 in '0.757530'
+
+PAGE 15: "Posterior distribution: This shows the posterior distribution for the model parameter *R_8*.  The vertical dashed line give the true value used to simulate the data."
+'Posterior' uses columns 25 and 26 in 'Posterior/parameter/model.csv'
+'Value' uses columns 1 and 2 in '0.729315'
+
+PAGE 16: "Posterior distribution: This shows the posterior distribution for the model parameter *R_9*.  The vertical dashed line give the true value used to simulate the data."
+'Posterior' uses columns 27 and 28 in 'Posterior/parameter/model.csv'
+'Value' uses columns 1 and 2 in '0.722475'
+
+PAGE 17: "Posterior distribution: This shows the posterior distribution for the model parameter *R_10*.  The vertical dashed line give the true value used to simulate the data."
+'Posterior' uses columns 29 and 30 in 'Posterior/parameter/model.csv'
+'Value' uses columns 1 and 2 in '0.762660'
+
+PAGE 18: "Posterior distribution: This shows the posterior distribution for the model parameter *R_11*.  The vertical dashed line give the true value used to simulate the data."
+'Posterior' uses columns 31 and 32 in 'Posterior/parameter/model.csv'
+'Value' uses columns 1 and 2 in '0.880650'
+
+PAGE 19: "Posterior distribution: This shows the posterior distribution for the model parameter *R_12*.  The vertical dashed line give the true value used to simulate the data."
+'Posterior' uses columns 33 and 34 in 'Posterior/parameter/model.csv'
+'Value' uses columns 1 and 2 in '1.051650'
+
+PAGE 20: "Posterior distribution: This shows the posterior distribution for the model parameter *R_13*.  The vertical dashed line give the true value used to simulate the data."
+'Posterior' uses columns 35 and 36 in 'Posterior/parameter/model.csv'
+'Value' uses columns 1 and 2 in '1.239750'
+
+PAGE 21: "Posterior distribution: This shows the posterior distribution for the model parameter *R_14*.  The vertical dashed line give the true value used to simulate the data."
+'Posterior' uses columns 37 and 38 in 'Posterior/parameter/model.csv'
+'Value' uses columns 1 and 2 in '1.385100'
+
+PAGE 22: "Posterior distribution: This shows the posterior distribution for the model parameter *R_15*.  The vertical dashed line give the true value used to simulate the data."
+'Posterior' uses columns 39 and 40 in 'Posterior/parameter/model.csv'
+'Value' uses columns 1 and 2 in '1.487700'
+
+PAGE 23: "Posterior distribution: This shows the posterior distribution for the model parameter *R_16*.  The vertical dashed line give the true value used to simulate the data."
+'Posterior' uses columns 41 and 42 in 'Posterior/parameter/model.csv'
+'Value' uses columns 1 and 2 in '1.513350'
+
+PAGE 24: "Posterior distribution: This shows the posterior distribution for the model parameter *R_17*.  The vertical dashed line give the true value used to simulate the data."
+'Posterior' uses columns 43 and 44 in 'Posterior/parameter/model.csv'
+'Value' uses columns 1 and 2 in '1.197000'
+
+PAGE 25: "Posterior distribution: This shows the posterior distribution for the model parameter *R_18*.  The vertical dashed line give the true value used to simulate the data."
+'Posterior' uses columns 45 and 46 in 'Posterior/parameter/model.csv'
+'Value' uses columns 1 and 2 in '1.145700'
+
+PAGE 26: "Posterior distribution: This shows the posterior distribution for the model parameter *R_19*.  The vertical dashed line give the true value used to simulate the data."
+'Posterior' uses columns 47 and 48 in 'Posterior/parameter/model.csv'
+'Value' uses columns 1 and 2 in '1.051650'
+
+PAGE 27: "Posterior distribution: This shows the posterior distribution for the model parameter *R_20*.  The vertical dashed line give the true value used to simulate the data."
+'Posterior' uses columns 49 and 50 in 'Posterior/parameter/model.csv'
+'Value' uses columns 1 and 2 in '0.825075'
+
+PAGE 28: "Posterior distribution: This shows the posterior distribution for the model parameter *R_21*.  The vertical dashed line give the true value used to simulate the data."
+'Posterior' uses columns 51 and 52 in 'Posterior/parameter/model.csv'
+'Value' uses columns 1 and 2 in '1.248300'
+
+PAGE 29: "Posterior distribution: This shows the posterior distribution for the model parameter *R_22*.  The vertical dashed line give the true value used to simulate the data."
+'Posterior' uses columns 53 and 54 in 'Posterior/parameter/model.csv'
+'Value' uses columns 1 and 2 in '1.590300'
+
+PAGE 30: "Posterior distribution: This shows the posterior distribution for the model parameter *R_23*.  The vertical dashed line give the true value used to simulate the data."
+'Posterior' uses columns 55 and 56 in 'Posterior/parameter/model.csv'
+'Value' uses columns 1 and 2 in '1.316700'
+
+PAGE 31: "Posterior distribution: This shows the posterior distribution for the model parameter *R_24*.  The vertical dashed line give the true value used to simulate the data."
+'Posterior' uses columns 57 and 58 in 'Posterior/parameter/model.csv'
+'Value' uses columns 1 and 2 in '1.043100'
+
+PAGE 32: "Posterior distribution: This shows the posterior distribution for the model parameter *R_25*.  The vertical dashed line give the true value used to simulate the data."
+'Posterior' uses columns 59 and 60 in 'Posterior/parameter/model.csv'
+'Value' uses columns 1 and 2 in '0.880650'
+
+PAGE 33: "Posterior distribution: This shows the posterior distribution for the model parameter *R_26*.  The vertical dashed line give the true value used to simulate the data."
+'Posterior' uses columns 61 and 62 in 'Posterior/parameter/model.csv'
+'Value' uses columns 1 and 2 in '0.843030'
+
+PAGE 34: "Posterior distribution: This shows the posterior distribution for the model parameter *R_27*.  The vertical dashed line give the true value used to simulate the data."
+'Posterior' uses columns 63 and 64 in 'Posterior/parameter/model.csv'
+'Value' uses columns 1 and 2 in '0.863550'
+
+PAGE 35: "Posterior distribution: This shows the posterior distribution for the model parameter *R_28*.  The vertical dashed line give the true value used to simulate the data."
+'Posterior' uses columns 65 and 66 in 'Posterior/parameter/model.csv'
+'Value' uses columns 1 and 2 in '0.906300'
+
+PAGE 36: "Posterior distribution: This shows the posterior distribution for the model parameter *R_29*.  The vertical dashed line give the true value used to simulate the data."
+'Posterior' uses columns 67 and 68 in 'Posterior/parameter/model.csv'
+'Value' uses columns 1 and 2 in '1.051650'
+
+PAGE 37: "Posterior distribution: This shows the posterior distribution for the model parameter *R_30*.  The vertical dashed line give the true value used to simulate the data."
+'Posterior' uses columns 69 and 70 in 'Posterior/parameter/model.csv'
+'Value' uses columns 1 and 2 in '0.974700'
+
+PAGE 38: "Posterior distribution: This shows the posterior distribution for the model parameter *R_31*.  The vertical dashed line give the true value used to simulate the data."
+'Posterior' uses columns 71 and 72 in 'Posterior/parameter/model.csv'
+'Value' uses columns 1 and 2 in '0.940500'
+
+PAGE 39: "Posterior distribution: This shows the posterior distribution for the model parameter *R_32*.  The vertical dashed line give the true value used to simulate the data."
+'Posterior' uses columns 73 and 74 in 'Posterior/parameter/model.csv'
+'Value' uses columns 1 and 2 in '1.094400'
+
+PAGE 40: "Posterior distribution: This shows the posterior distribution for the model parameter *R_33*.  The vertical dashed line give the true value used to simulate the data."
+'Posterior' uses columns 75 and 76 in 'Posterior/parameter/model.csv'
+'Value' uses columns 1 and 2 in '1.342350'
+
+PAGE 41: "Posterior distribution: This shows the posterior distribution for the model parameter *R_34*.  The vertical dashed line give the true value used to simulate the data."
+'Posterior' uses columns 77 and 78 in 'Posterior/parameter/model.csv'
+'Value' uses columns 1 and 2 in '1.701450'
+
+PAGE 42: "Posterior distribution: This shows the posterior distribution for the model parameter *R_35*.  The vertical dashed line give the true value used to simulate the data."
+'Posterior' uses columns 79 and 80 in 'Posterior/parameter/model.csv'
+'Value' uses columns 1 and 2 in '1.846800'
+
+PAGE 43: "Posterior distribution: This shows the posterior distribution for the model parameter *Area effect S12000005*.  The vertical dashed line give the true value used to simulate the data."
+'Posterior' uses columns 81 and 82 in 'Posterior/parameter/model.csv'
+'Value' uses columns 1 and 2 in '1.300000'
+
+PAGE 44: "Posterior distribution: This shows the posterior distribution for the model parameter *Area effect S12000006*.  The vertical dashed line give the true value used to simulate the data."
+'Posterior' uses columns 83 and 84 in 'Posterior/parameter/model.csv'
+'Value' uses columns 1 and 2 in '0.700000'
+
+PAGE 45: "Posterior distribution: This shows the posterior distribution for the model parameter *Area effect S12000008*.  The vertical dashed line give the true value used to simulate the data."
+'Posterior' uses columns 85 and 86 in 'Posterior/parameter/model.csv'
+'Value' uses columns 1 and 2 in '1.200000'
+
+PAGE 46: "Posterior distribution: This shows the posterior distribution for the model parameter *Area effect S12000010*.  The vertical dashed line give the true value used to simulate the data."
+'Posterior' uses columns 87 and 88 in 'Posterior/parameter/model.csv'
+'Value' uses columns 1 and 2 in '0.600000'
+
+PAGE 47: "Posterior distribution: This shows the posterior distribution for the model parameter *Area effect S12000011*.  The vertical dashed line give the true value used to simulate the data."
+'Posterior' uses columns 89 and 90 in 'Posterior/parameter/model.csv'
+'Value' uses columns 1 and 2 in '1.500000'
+
+PAGE 48: "Posterior distribution: This shows the posterior distribution for the model parameter *Area effect S12000013*.  The vertical dashed line give the true value used to simulate the data."
+'Posterior' uses columns 91 and 92 in 'Posterior/parameter/model.csv'
+'Value' uses columns 1 and 2 in '2.300000'
+
+PAGE 49: "Posterior distribution: This shows the posterior distribution for the model parameter *Area effect S12000014*.  The vertical dashed line give the true value used to simulate the data."
+'Posterior' uses columns 93 and 94 in 'Posterior/parameter/model.csv'
+'Value' uses columns 1 and 2 in '0.600000'
+
+PAGE 50: "Posterior distribution: This shows the posterior distribution for the model parameter *Area effect S12000017*.  The vertical dashed line give the true value used to simulate the data."
+'Posterior' uses columns 95 and 96 in 'Posterior/parameter/model.csv'
+'Value' uses columns 1 and 2 in '0.900000'
+
+PAGE 51: "Posterior distribution: This shows the posterior distribution for the model parameter *Area effect S12000018*.  The vertical dashed line give the true value used to simulate the data."
+'Posterior' uses columns 97 and 98 in 'Posterior/parameter/model.csv'
+'Value' uses columns 1 and 2 in '1.300000'
+
+PAGE 52: "Posterior distribution: This shows the posterior distribution for the model parameter *Area effect S12000019*.  The vertical dashed line give the true value used to simulate the data."
+'Posterior' uses columns 99 and 100 in 'Posterior/parameter/model.csv'
+'Value' uses columns 1 and 2 in '2.100000'
+
+PAGE 53: "Posterior distribution: This shows the posterior distribution for the model parameter *Area effect S12000020*.  The vertical dashed line give the true value used to simulate the data."
+'Posterior' uses columns 101 and 102 in 'Posterior/parameter/model.csv'
+'Value' uses columns 1 and 2 in '1.100000'
+
+PAGE 54: "Posterior distribution: This shows the posterior distribution for the model parameter *Area effect S12000021*.  The vertical dashed line give the true value used to simulate the data."
+'Posterior' uses columns 103 and 104 in 'Posterior/parameter/model.csv'
+'Value' uses columns 1 and 2 in '0.600000'
+
+PAGE 55: "Posterior distribution: This shows the posterior distribution for the model parameter *Area effect S12000023*.  The vertical dashed line give the true value used to simulate the data."
+'Posterior' uses columns 105 and 106 in 'Posterior/parameter/model.csv'
+'Value' uses columns 1 and 2 in '0.700000'
+
+PAGE 56: "Posterior distribution: This shows the posterior distribution for the model parameter *Area effect S12000026*.  The vertical dashed line give the true value used to simulate the data."
+'Posterior' uses columns 107 and 108 in 'Posterior/parameter/model.csv'
+'Value' uses columns 1 and 2 in '1.200000'
+
+PAGE 57: "Posterior distribution: This shows the posterior distribution for the model parameter *Area effect S12000027*.  The vertical dashed line give the true value used to simulate the data."
+'Posterior' uses columns 109 and 110 in 'Posterior/parameter/model.csv'
+'Value' uses columns 1 and 2 in '0.900000'
+
+PAGE 58: "Posterior distribution: This shows the posterior distribution for the model parameter *Area effect S12000028*.  The vertical dashed line give the true value used to simulate the data."
+'Posterior' uses columns 111 and 112 in 'Posterior/parameter/model.csv'
+'Value' uses columns 1 and 2 in '0.700000'
+
+PAGE 59: "Posterior distribution: This shows the posterior distribution for the model parameter *Area effect S12000029*.  The vertical dashed line give the true value used to simulate the data."
+'Posterior' uses columns 113 and 114 in 'Posterior/parameter/model.csv'
+'Value' uses columns 1 and 2 in '1.200000'
+
+PAGE 60: "Posterior distribution: This shows the posterior distribution for the model parameter *Area effect S12000030*.  The vertical dashed line give the true value used to simulate the data."
+'Posterior' uses columns 115 and 116 in 'Posterior/parameter/model.csv'
+'Value' uses columns 1 and 2 in '1.500000'
+
+PAGE 61: "Posterior distribution: This shows the posterior distribution for the model parameter *Area effect S12000033*.  The vertical dashed line give the true value used to simulate the data."
+'Posterior' uses columns 117 and 118 in 'Posterior/parameter/model.csv'
+'Value' uses columns 1 and 2 in '1.000000'
+
+PAGE 62: "Posterior distribution: This shows the posterior distribution for the model parameter *Area effect S12000034*.  The vertical dashed line give the true value used to simulate the data."
+'Posterior' uses columns 119 and 120 in 'Posterior/parameter/model.csv'
+'Value' uses columns 1 and 2 in '0.900000'
+
+PAGE 63: "Posterior distribution: This shows the posterior distribution for the model parameter *Area effect S12000035*.  The vertical dashed line give the true value used to simulate the data."
+'Posterior' uses columns 121 and 122 in 'Posterior/parameter/model.csv'
+'Value' uses columns 1 and 2 in '1.300000'
+
+PAGE 64: "Posterior distribution: This shows the posterior distribution for the model parameter *Area effect S12000036*.  The vertical dashed line give the true value used to simulate the data."
+'Posterior' uses columns 123 and 124 in 'Posterior/parameter/model.csv'
+'Value' uses columns 1 and 2 in '0.900000'
+
+PAGE 65: "Posterior distribution: This shows the posterior distribution for the model parameter *Area effect S12000038*.  The vertical dashed line give the true value used to simulate the data."
+'Posterior' uses columns 125 and 126 in 'Posterior/parameter/model.csv'
+'Value' uses columns 1 and 2 in '1.200000'
+
+PAGE 66: "Posterior distribution: This shows the posterior distribution for the model parameter *Area effect S12000039*.  The vertical dashed line give the true value used to simulate the data."
+'Posterior' uses columns 127 and 128 in 'Posterior/parameter/model.csv'
+'Value' uses columns 1 and 2 in '0.700000'
+
+PAGE 67: "Posterior distribution: This shows the posterior distribution for the model parameter *Area effect S12000040*.  The vertical dashed line give the true value used to simulate the data."
+'Posterior' uses columns 129 and 130 in 'Posterior/parameter/model.csv'
+'Value' uses columns 1 and 2 in '0.600000'
+
+PAGE 68: "Posterior distribution: This shows the posterior distribution for the model parameter *Area effect S12000041*.  The vertical dashed line give the true value used to simulate the data."
+'Posterior' uses columns 131 and 132 in 'Posterior/parameter/model.csv'
+'Value' uses columns 1 and 2 in '1.400000'
+
+PAGE 69: "Posterior distribution: This shows the posterior distribution for the model parameter *Area effect S12000042*.  The vertical dashed line give the true value used to simulate the data."
+'Posterior' uses columns 133 and 134 in 'Posterior/parameter/model.csv'
+'Value' uses columns 1 and 2 in '1.000000'
+
+PAGE 70: "Posterior distribution: This shows the posterior distribution for the model parameter *Area effect S12000045*.  The vertical dashed line give the true value used to simulate the data."
+'Posterior' uses columns 135 and 136 in 'Posterior/parameter/model.csv'
+'Value' uses columns 1 and 2 in '0.600000'
+
+PAGE 71: "Posterior distribution: This shows the posterior distribution for the model parameter *Area effect S12000047*.  The vertical dashed line give the true value used to simulate the data."
+'Posterior' uses columns 137 and 138 in 'Posterior/parameter/model.csv'
+'Value' uses columns 1 and 2 in '0.900000'
+
+PAGE 72: "Posterior distribution: This shows the posterior distribution for the model parameter *Area effect S12000048*.  The vertical dashed line give the true value used to simulate the data."
+'Posterior' uses columns 139 and 140 in 'Posterior/parameter/model.csv'
+'Value' uses columns 1 and 2 in '1.100000'
+
+PAGE 73: "Posterior distribution: This shows the posterior distribution for the model parameter *Area effect S12000049*.  The vertical dashed line give the true value used to simulate the data."
+'Posterior' uses columns 141 and 142 in 'Posterior/parameter/model.csv'
+'Value' uses columns 1 and 2 in '1.200000'
+
+PAGE 74: "Posterior distribution: This shows the posterior distribution for the model parameter *Area effect S12000050*.  The vertical dashed line give the true value used to simulate the data."
+'Posterior' uses columns 143 and 144 in 'Posterior/parameter/model.csv'
+'Value' uses columns 1 and 2 in '0.679300'
+
+PAGE 75: "Effective reproduction number &R^{eff}&: This graph shows the temporal variation in the effective reproduction number &R^{eff}&.  &R^{eff}& is defined to be the expected number of cases directly caused by an infected individual. This takes into account the fact that as the epidemic progresses the fraction of susceptible individuals reduces (causing effective transmission upon contact of individuals to become less and less common). &R^{eff}& is always less than &R& and if it reduces below 1 herd immunity in reached (i.e. the disease naturally dies out over time)."
+'Posterior' uses columns 1 and 2 in 'Posterior/spline/Effective R_t.csv'
+'95% CI min' uses columns 1 and 3 in 'Posterior/spline/Effective R_t.csv'
+'95% CI max' uses columns 1 and 4 in 'Posterior/spline/Effective R_t.csv'
+
+PAGE 76: "Reproduction number &R_t&: This graph shows the temporal variation in the reproduction number &R&.  &R_t& is defined as the expected number of cases directly caused by an infected individual, assuming an otherwise suceptible population (note, this does not account for the fact that in reality the susceptible population reduces with time). As such, &R_t& is interpreted as a quantity proportional to the rate at which individuals come into contact with each other (with each contact allowing for the possibility of disease transmission)."
+'Posterior' uses columns 1 and 2 in 'Posterior/spline/R_t.csv'
+'95% CI min' uses columns 1 and 3 in 'Posterior/spline/R_t.csv'
+'95% CI max' uses columns 1 and 4 in 'Posterior/spline/R_t.csv'
+'True' uses columns 1 and 5 in 'Posterior/spline/R_t.csv'
+
+PAGE 77: "External force of infection: The external force of infection sets the average number of infections per unit time (for every 100000 individuals) caused by contacts from outside the population under investigation."
+'Posterior' uses columns 1 and 2 in 'Posterior/spline/efoi(t).csv'
+'95% CI min' uses columns 1 and 3 in 'Posterior/spline/efoi(t).csv'
+'95% CI max' uses columns 1 and 4 in 'Posterior/spline/efoi(t).csv'
+'True' uses columns 1 and 5 in 'Posterior/spline/efoi(t).csv'
+
+PAGE 78: "Data table IH_area.csv: This shows the temporal variation in the number of individual transitions per unit time moving from the C to the H compartment for S12000005.  The black line shows the raw data (from the input file IH_area.csv).  The red line (with dashed 95% credible intervals) shows the posterior distribution for the inferred underlying system state.  Under a suitable model, and with accurate inferece, it would be expected that the black and red curves exhibit the same temporal behaviour (barring variation coming from the observation model). Large deviations between the two lines indicate that either the model is not able to properly account for the actual observed system dynamics, or that inference has not converged on the true posterior distribution."
+'95% CI min' uses columns 1 and 3 in 'Posterior/state/Transitions_C->H-area=S12000005.csv'
+'95% CI max' uses columns 1 and 4 in 'Posterior/state/Transitions_C->H-area=S12000005.csv'
+'Posterior' uses columns 1 and 2 in 'Posterior/state/Transitions_C->H-area=S12000005.csv'
+'Data' uses columns 1 and 2 in 'Posterior/state/Transitions_C->H-area=S12000005-data.csv'
+
+PAGE 79: "Data table IH_area.csv: This visualises the file IH_area.csv which gives the temporal variation in the number of individual transitions per unit time moving from the C to the H compartment for S12000005."
+'Data' uses columns 1 and 2 in 'Posterior/state/Transitions_C->H-area=S12000005-data.csv'
+
+PAGE 80: "Data table IH_area.csv: This shows the temporal variation in the number of individual transitions per unit time moving from the C to the H compartment for S12000006.  The black line shows the raw data (from the input file IH_area.csv).  The red line (with dashed 95% credible intervals) shows the posterior distribution for the inferred underlying system state.  Under a suitable model, and with accurate inferece, it would be expected that the black and red curves exhibit the same temporal behaviour (barring variation coming from the observation model). Large deviations between the two lines indicate that either the model is not able to properly account for the actual observed system dynamics, or that inference has not converged on the true posterior distribution."
+'95% CI min' uses columns 1 and 3 in 'Posterior/state/Transitions_C->H-area=S12000006.csv'
+'95% CI max' uses columns 1 and 4 in 'Posterior/state/Transitions_C->H-area=S12000006.csv'
+'Posterior' uses columns 1 and 2 in 'Posterior/state/Transitions_C->H-area=S12000006.csv'
+'Data' uses columns 1 and 2 in 'Posterior/state/Transitions_C->H-area=S12000006-data.csv'
+
+PAGE 81: "Data table IH_area.csv: This visualises the file IH_area.csv which gives the temporal variation in the number of individual transitions per unit time moving from the C to the H compartment for S12000006."
+'Data' uses columns 1 and 2 in 'Posterior/state/Transitions_C->H-area=S12000006-data.csv'
+
+PAGE 82: "Data table IH_area.csv: This shows the temporal variation in the number of individual transitions per unit time moving from the C to the H compartment for S12000008.  The black line shows the raw data (from the input file IH_area.csv).  The red line (with dashed 95% credible intervals) shows the posterior distribution for the inferred underlying system state.  Under a suitable model, and with accurate inferece, it would be expected that the black and red curves exhibit the same temporal behaviour (barring variation coming from the observation model). Large deviations between the two lines indicate that either the model is not able to properly account for the actual observed system dynamics, or that inference has not converged on the true posterior distribution."
+'95% CI min' uses columns 1 and 3 in 'Posterior/state/Transitions_C->H-area=S12000008.csv'
+'95% CI max' uses columns 1 and 4 in 'Posterior/state/Transitions_C->H-area=S12000008.csv'
+'Posterior' uses columns 1 and 2 in 'Posterior/state/Transitions_C->H-area=S12000008.csv'
+'Data' uses columns 1 and 2 in 'Posterior/state/Transitions_C->H-area=S12000008-data.csv'
+
+PAGE 83: "Data table IH_area.csv: This visualises the file IH_area.csv which gives the temporal variation in the number of individual transitions per unit time moving from the C to the H compartment for S12000008."
+'Data' uses columns 1 and 2 in 'Posterior/state/Transitions_C->H-area=S12000008-data.csv'
+
+PAGE 84: "Data table IH_area.csv: This shows the temporal variation in the number of individual transitions per unit time moving from the C to the H compartment for S12000010.  The black line shows the raw data (from the input file IH_area.csv).  The red line (with dashed 95% credible intervals) shows the posterior distribution for the inferred underlying system state.  Under a suitable model, and with accurate inferece, it would be expected that the black and red curves exhibit the same temporal behaviour (barring variation coming from the observation model). Large deviations between the two lines indicate that either the model is not able to properly account for the actual observed system dynamics, or that inference has not converged on the true posterior distribution."
+'95% CI min' uses columns 1 and 3 in 'Posterior/state/Transitions_C->H-area=S12000010.csv'
+'95% CI max' uses columns 1 and 4 in 'Posterior/state/Transitions_C->H-area=S12000010.csv'
+'Posterior' uses columns 1 and 2 in 'Posterior/state/Transitions_C->H-area=S12000010.csv'
+'Data' uses columns 1 and 2 in 'Posterior/state/Transitions_C->H-area=S12000010-data.csv'
+
+PAGE 85: "Data table IH_area.csv: This visualises the file IH_area.csv which gives the temporal variation in the number of individual transitions per unit time moving from the C to the H compartment for S12000010."
+'Data' uses columns 1 and 2 in 'Posterior/state/Transitions_C->H-area=S12000010-data.csv'
+
+PAGE 86: "Data table IH_area.csv: This shows the temporal variation in the number of individual transitions per unit time moving from the C to the H compartment for S12000011.  The black line shows the raw data (from the input file IH_area.csv).  The red line (with dashed 95% credible intervals) shows the posterior distribution for the inferred underlying system state.  Under a suitable model, and with accurate inferece, it would be expected that the black and red curves exhibit the same temporal behaviour (barring variation coming from the observation model). Large deviations between the two lines indicate that either the model is not able to properly account for the actual observed system dynamics, or that inference has not converged on the true posterior distribution."
+'95% CI min' uses columns 1 and 3 in 'Posterior/state/Transitions_C->H-area=S12000011.csv'
+'95% CI max' uses columns 1 and 4 in 'Posterior/state/Transitions_C->H-area=S12000011.csv'
+'Posterior' uses columns 1 and 2 in 'Posterior/state/Transitions_C->H-area=S12000011.csv'
+'Data' uses columns 1 and 2 in 'Posterior/state/Transitions_C->H-area=S12000011-data.csv'
+
+PAGE 87: "Data table IH_area.csv: This visualises the file IH_area.csv which gives the temporal variation in the number of individual transitions per unit time moving from the C to the H compartment for S12000011."
+'Data' uses columns 1 and 2 in 'Posterior/state/Transitions_C->H-area=S12000011-data.csv'
+
+PAGE 88: "Data table IH_area.csv: This shows the temporal variation in the number of individual transitions per unit time moving from the C to the H compartment for S12000013.  The black line shows the raw data (from the input file IH_area.csv).  The red line (with dashed 95% credible intervals) shows the posterior distribution for the inferred underlying system state.  Under a suitable model, and with accurate inferece, it would be expected that the black and red curves exhibit the same temporal behaviour (barring variation coming from the observation model). Large deviations between the two lines indicate that either the model is not able to properly account for the actual observed system dynamics, or that inference has not converged on the true posterior distribution."
+'95% CI min' uses columns 1 and 3 in 'Posterior/state/Transitions_C->H-area=S12000013.csv'
+'95% CI max' uses columns 1 and 4 in 'Posterior/state/Transitions_C->H-area=S12000013.csv'
+'Posterior' uses columns 1 and 2 in 'Posterior/state/Transitions_C->H-area=S12000013.csv'
+'Data' uses columns 1 and 2 in 'Posterior/state/Transitions_C->H-area=S12000013-data.csv'
+
+PAGE 89: "Data table IH_area.csv: This visualises the file IH_area.csv which gives the temporal variation in the number of individual transitions per unit time moving from the C to the H compartment for S12000013."
+'Data' uses columns 1 and 2 in 'Posterior/state/Transitions_C->H-area=S12000013-data.csv'
+
+PAGE 90: "Data table IH_area.csv: This shows the temporal variation in the number of individual transitions per unit time moving from the C to the H compartment for S12000014.  The black line shows the raw data (from the input file IH_area.csv).  The red line (with dashed 95% credible intervals) shows the posterior distribution for the inferred underlying system state.  Under a suitable model, and with accurate inferece, it would be expected that the black and red curves exhibit the same temporal behaviour (barring variation coming from the observation model). Large deviations between the two lines indicate that either the model is not able to properly account for the actual observed system dynamics, or that inference has not converged on the true posterior distribution."
+'95% CI min' uses columns 1 and 3 in 'Posterior/state/Transitions_C->H-area=S12000014.csv'
+'95% CI max' uses columns 1 and 4 in 'Posterior/state/Transitions_C->H-area=S12000014.csv'
+'Posterior' uses columns 1 and 2 in 'Posterior/state/Transitions_C->H-area=S12000014.csv'
+'Data' uses columns 1 and 2 in 'Posterior/state/Transitions_C->H-area=S12000014-data.csv'
+
+PAGE 91: "Data table IH_area.csv: This visualises the file IH_area.csv which gives the temporal variation in the number of individual transitions per unit time moving from the C to the H compartment for S12000014."
+'Data' uses columns 1 and 2 in 'Posterior/state/Transitions_C->H-area=S12000014-data.csv'
+
+PAGE 92: "Data table IH_area.csv: This shows the temporal variation in the number of individual transitions per unit time moving from the C to the H compartment for S12000017.  The black line shows the raw data (from the input file IH_area.csv).  The red line (with dashed 95% credible intervals) shows the posterior distribution for the inferred underlying system state.  Under a suitable model, and with accurate inferece, it would be expected that the black and red curves exhibit the same temporal behaviour (barring variation coming from the observation model). Large deviations between the two lines indicate that either the model is not able to properly account for the actual observed system dynamics, or that inference has not converged on the true posterior distribution."
+'95% CI min' uses columns 1 and 3 in 'Posterior/state/Transitions_C->H-area=S12000017.csv'
+'95% CI max' uses columns 1 and 4 in 'Posterior/state/Transitions_C->H-area=S12000017.csv'
+'Posterior' uses columns 1 and 2 in 'Posterior/state/Transitions_C->H-area=S12000017.csv'
+'Data' uses columns 1 and 2 in 'Posterior/state/Transitions_C->H-area=S12000017-data.csv'
+
+PAGE 93: "Data table IH_area.csv: This visualises the file IH_area.csv which gives the temporal variation in the number of individual transitions per unit time moving from the C to the H compartment for S12000017."
+'Data' uses columns 1 and 2 in 'Posterior/state/Transitions_C->H-area=S12000017-data.csv'
+
+PAGE 94: "Data table IH_area.csv: This shows the temporal variation in the number of individual transitions per unit time moving from the C to the H compartment for S12000018.  The black line shows the raw data (from the input file IH_area.csv).  The red line (with dashed 95% credible intervals) shows the posterior distribution for the inferred underlying system state.  Under a suitable model, and with accurate inferece, it would be expected that the black and red curves exhibit the same temporal behaviour (barring variation coming from the observation model). Large deviations between the two lines indicate that either the model is not able to properly account for the actual observed system dynamics, or that inference has not converged on the true posterior distribution."
+'95% CI min' uses columns 1 and 3 in 'Posterior/state/Transitions_C->H-area=S12000018.csv'
+'95% CI max' uses columns 1 and 4 in 'Posterior/state/Transitions_C->H-area=S12000018.csv'
+'Posterior' uses columns 1 and 2 in 'Posterior/state/Transitions_C->H-area=S12000018.csv'
+'Data' uses columns 1 and 2 in 'Posterior/state/Transitions_C->H-area=S12000018-data.csv'
+
+PAGE 95: "Data table IH_area.csv: This visualises the file IH_area.csv which gives the temporal variation in the number of individual transitions per unit time moving from the C to the H compartment for S12000018."
+'Data' uses columns 1 and 2 in 'Posterior/state/Transitions_C->H-area=S12000018-data.csv'
+
+PAGE 96: "Data table IH_area.csv: This shows the temporal variation in the number of individual transitions per unit time moving from the C to the H compartment for S12000019.  The black line shows the raw data (from the input file IH_area.csv).  The red line (with dashed 95% credible intervals) shows the posterior distribution for the inferred underlying system state.  Under a suitable model, and with accurate inferece, it would be expected that the black and red curves exhibit the same temporal behaviour (barring variation coming from the observation model). Large deviations between the two lines indicate that either the model is not able to properly account for the actual observed system dynamics, or that inference has not converged on the true posterior distribution."
+'95% CI min' uses columns 1 and 3 in 'Posterior/state/Transitions_C->H-area=S12000019.csv'
+'95% CI max' uses columns 1 and 4 in 'Posterior/state/Transitions_C->H-area=S12000019.csv'
+'Posterior' uses columns 1 and 2 in 'Posterior/state/Transitions_C->H-area=S12000019.csv'
+'Data' uses columns 1 and 2 in 'Posterior/state/Transitions_C->H-area=S12000019-data.csv'
+
+PAGE 97: "Data table IH_area.csv: This visualises the file IH_area.csv which gives the temporal variation in the number of individual transitions per unit time moving from the C to the H compartment for S12000019."
+'Data' uses columns 1 and 2 in 'Posterior/state/Transitions_C->H-area=S12000019-data.csv'
+
+PAGE 98: "Data table IH_area.csv: This shows the temporal variation in the number of individual transitions per unit time moving from the C to the H compartment for S12000020.  The black line shows the raw data (from the input file IH_area.csv).  The red line (with dashed 95% credible intervals) shows the posterior distribution for the inferred underlying system state.  Under a suitable model, and with accurate inferece, it would be expected that the black and red curves exhibit the same temporal behaviour (barring variation coming from the observation model). Large deviations between the two lines indicate that either the model is not able to properly account for the actual observed system dynamics, or that inference has not converged on the true posterior distribution."
+'95% CI min' uses columns 1 and 3 in 'Posterior/state/Transitions_C->H-area=S12000020.csv'
+'95% CI max' uses columns 1 and 4 in 'Posterior/state/Transitions_C->H-area=S12000020.csv'
+'Posterior' uses columns 1 and 2 in 'Posterior/state/Transitions_C->H-area=S12000020.csv'
+'Data' uses columns 1 and 2 in 'Posterior/state/Transitions_C->H-area=S12000020-data.csv'
+
+PAGE 99: "Data table IH_area.csv: This visualises the file IH_area.csv which gives the temporal variation in the number of individual transitions per unit time moving from the C to the H compartment for S12000020."
+'Data' uses columns 1 and 2 in 'Posterior/state/Transitions_C->H-area=S12000020-data.csv'
+
+PAGE 100: "Data table IH_area.csv: This shows the temporal variation in the number of individual transitions per unit time moving from the C to the H compartment for S12000021.  The black line shows the raw data (from the input file IH_area.csv).  The red line (with dashed 95% credible intervals) shows the posterior distribution for the inferred underlying system state.  Under a suitable model, and with accurate inferece, it would be expected that the black and red curves exhibit the same temporal behaviour (barring variation coming from the observation model). Large deviations between the two lines indicate that either the model is not able to properly account for the actual observed system dynamics, or that inference has not converged on the true posterior distribution."
+'95% CI min' uses columns 1 and 3 in 'Posterior/state/Transitions_C->H-area=S12000021.csv'
+'95% CI max' uses columns 1 and 4 in 'Posterior/state/Transitions_C->H-area=S12000021.csv'
+'Posterior' uses columns 1 and 2 in 'Posterior/state/Transitions_C->H-area=S12000021.csv'
+'Data' uses columns 1 and 2 in 'Posterior/state/Transitions_C->H-area=S12000021-data.csv'
+
+PAGE 101: "Data table IH_area.csv: This visualises the file IH_area.csv which gives the temporal variation in the number of individual transitions per unit time moving from the C to the H compartment for S12000021."
+'Data' uses columns 1 and 2 in 'Posterior/state/Transitions_C->H-area=S12000021-data.csv'
+
+PAGE 102: "Data table IH_area.csv: This shows the temporal variation in the number of individual transitions per unit time moving from the C to the H compartment for S12000023.  The black line shows the raw data (from the input file IH_area.csv).  The red line (with dashed 95% credible intervals) shows the posterior distribution for the inferred underlying system state.  Under a suitable model, and with accurate inferece, it would be expected that the black and red curves exhibit the same temporal behaviour (barring variation coming from the observation model). Large deviations between the two lines indicate that either the model is not able to properly account for the actual observed system dynamics, or that inference has not converged on the true posterior distribution."
+'95% CI min' uses columns 1 and 3 in 'Posterior/state/Transitions_C->H-area=S12000023.csv'
+'95% CI max' uses columns 1 and 4 in 'Posterior/state/Transitions_C->H-area=S12000023.csv'
+'Posterior' uses columns 1 and 2 in 'Posterior/state/Transitions_C->H-area=S12000023.csv'
+'Data' uses columns 1 and 2 in 'Posterior/state/Transitions_C->H-area=S12000023-data.csv'
+
+PAGE 103: "Data table IH_area.csv: This visualises the file IH_area.csv which gives the temporal variation in the number of individual transitions per unit time moving from the C to the H compartment for S12000023."
+'Data' uses columns 1 and 2 in 'Posterior/state/Transitions_C->H-area=S12000023-data.csv'
+
+PAGE 104: "Data table IH_area.csv: This shows the temporal variation in the number of individual transitions per unit time moving from the C to the H compartment for S12000026.  The black line shows the raw data (from the input file IH_area.csv).  The red line (with dashed 95% credible intervals) shows the posterior distribution for the inferred underlying system state.  Under a suitable model, and with accurate inferece, it would be expected that the black and red curves exhibit the same temporal behaviour (barring variation coming from the observation model). Large deviations between the two lines indicate that either the model is not able to properly account for the actual observed system dynamics, or that inference has not converged on the true posterior distribution."
+'95% CI min' uses columns 1 and 3 in 'Posterior/state/Transitions_C->H-area=S12000026.csv'
+'95% CI max' uses columns 1 and 4 in 'Posterior/state/Transitions_C->H-area=S12000026.csv'
+'Posterior' uses columns 1 and 2 in 'Posterior/state/Transitions_C->H-area=S12000026.csv'
+'Data' uses columns 1 and 2 in 'Posterior/state/Transitions_C->H-area=S12000026-data.csv'
+
+PAGE 105: "Data table IH_area.csv: This visualises the file IH_area.csv which gives the temporal variation in the number of individual transitions per unit time moving from the C to the H compartment for S12000026."
+'Data' uses columns 1 and 2 in 'Posterior/state/Transitions_C->H-area=S12000026-data.csv'
+
+PAGE 106: "Data table IH_area.csv: This shows the temporal variation in the number of individual transitions per unit time moving from the C to the H compartment for S12000027.  The black line shows the raw data (from the input file IH_area.csv).  The red line (with dashed 95% credible intervals) shows the posterior distribution for the inferred underlying system state.  Under a suitable model, and with accurate inferece, it would be expected that the black and red curves exhibit the same temporal behaviour (barring variation coming from the observation model). Large deviations between the two lines indicate that either the model is not able to properly account for the actual observed system dynamics, or that inference has not converged on the true posterior distribution."
+'95% CI min' uses columns 1 and 3 in 'Posterior/state/Transitions_C->H-area=S12000027.csv'
+'95% CI max' uses columns 1 and 4 in 'Posterior/state/Transitions_C->H-area=S12000027.csv'
+'Posterior' uses columns 1 and 2 in 'Posterior/state/Transitions_C->H-area=S12000027.csv'
+'Data' uses columns 1 and 2 in 'Posterior/state/Transitions_C->H-area=S12000027-data.csv'
+
+PAGE 107: "Data table IH_area.csv: This visualises the file IH_area.csv which gives the temporal variation in the number of individual transitions per unit time moving from the C to the H compartment for S12000027."
+'Data' uses columns 1 and 2 in 'Posterior/state/Transitions_C->H-area=S12000027-data.csv'
+
+PAGE 108: "Data table IH_area.csv: This shows the temporal variation in the number of individual transitions per unit time moving from the C to the H compartment for S12000028.  The black line shows the raw data (from the input file IH_area.csv).  The red line (with dashed 95% credible intervals) shows the posterior distribution for the inferred underlying system state.  Under a suitable model, and with accurate inferece, it would be expected that the black and red curves exhibit the same temporal behaviour (barring variation coming from the observation model). Large deviations between the two lines indicate that either the model is not able to properly account for the actual observed system dynamics, or that inference has not converged on the true posterior distribution."
+'95% CI min' uses columns 1 and 3 in 'Posterior/state/Transitions_C->H-area=S12000028.csv'
+'95% CI max' uses columns 1 and 4 in 'Posterior/state/Transitions_C->H-area=S12000028.csv'
+'Posterior' uses columns 1 and 2 in 'Posterior/state/Transitions_C->H-area=S12000028.csv'
+'Data' uses columns 1 and 2 in 'Posterior/state/Transitions_C->H-area=S12000028-data.csv'
+
+PAGE 109: "Data table IH_area.csv: This visualises the file IH_area.csv which gives the temporal variation in the number of individual transitions per unit time moving from the C to the H compartment for S12000028."
+'Data' uses columns 1 and 2 in 'Posterior/state/Transitions_C->H-area=S12000028-data.csv'
+
+PAGE 110: "Data table IH_area.csv: This shows the temporal variation in the number of individual transitions per unit time moving from the C to the H compartment for S12000029.  The black line shows the raw data (from the input file IH_area.csv).  The red line (with dashed 95% credible intervals) shows the posterior distribution for the inferred underlying system state.  Under a suitable model, and with accurate inferece, it would be expected that the black and red curves exhibit the same temporal behaviour (barring variation coming from the observation model). Large deviations between the two lines indicate that either the model is not able to properly account for the actual observed system dynamics, or that inference has not converged on the true posterior distribution."
+'95% CI min' uses columns 1 and 3 in 'Posterior/state/Transitions_C->H-area=S12000029.csv'
+'95% CI max' uses columns 1 and 4 in 'Posterior/state/Transitions_C->H-area=S12000029.csv'
+'Posterior' uses columns 1 and 2 in 'Posterior/state/Transitions_C->H-area=S12000029.csv'
+'Data' uses columns 1 and 2 in 'Posterior/state/Transitions_C->H-area=S12000029-data.csv'
+
+PAGE 111: "Data table IH_area.csv: This visualises the file IH_area.csv which gives the temporal variation in the number of individual transitions per unit time moving from the C to the H compartment for S12000029."
+'Data' uses columns 1 and 2 in 'Posterior/state/Transitions_C->H-area=S12000029-data.csv'
+
+PAGE 112: "Data table IH_area.csv: This shows the temporal variation in the number of individual transitions per unit time moving from the C to the H compartment for S12000030.  The black line shows the raw data (from the input file IH_area.csv).  The red line (with dashed 95% credible intervals) shows the posterior distribution for the inferred underlying system state.  Under a suitable model, and with accurate inferece, it would be expected that the black and red curves exhibit the same temporal behaviour (barring variation coming from the observation model). Large deviations between the two lines indicate that either the model is not able to properly account for the actual observed system dynamics, or that inference has not converged on the true posterior distribution."
+'95% CI min' uses columns 1 and 3 in 'Posterior/state/Transitions_C->H-area=S12000030.csv'
+'95% CI max' uses columns 1 and 4 in 'Posterior/state/Transitions_C->H-area=S12000030.csv'
+'Posterior' uses columns 1 and 2 in 'Posterior/state/Transitions_C->H-area=S12000030.csv'
+'Data' uses columns 1 and 2 in 'Posterior/state/Transitions_C->H-area=S12000030-data.csv'
+
+PAGE 113: "Data table IH_area.csv: This visualises the file IH_area.csv which gives the temporal variation in the number of individual transitions per unit time moving from the C to the H compartment for S12000030."
+'Data' uses columns 1 and 2 in 'Posterior/state/Transitions_C->H-area=S12000030-data.csv'
+
+PAGE 114: "Data table IH_area.csv: This shows the temporal variation in the number of individual transitions per unit time moving from the C to the H compartment for S12000033.  The black line shows the raw data (from the input file IH_area.csv).  The red line (with dashed 95% credible intervals) shows the posterior distribution for the inferred underlying system state.  Under a suitable model, and with accurate inferece, it would be expected that the black and red curves exhibit the same temporal behaviour (barring variation coming from the observation model). Large deviations between the two lines indicate that either the model is not able to properly account for the actual observed system dynamics, or that inference has not converged on the true posterior distribution."
+'95% CI min' uses columns 1 and 3 in 'Posterior/state/Transitions_C->H-area=S12000033.csv'
+'95% CI max' uses columns 1 and 4 in 'Posterior/state/Transitions_C->H-area=S12000033.csv'
+'Posterior' uses columns 1 and 2 in 'Posterior/state/Transitions_C->H-area=S12000033.csv'
+'Data' uses columns 1 and 2 in 'Posterior/state/Transitions_C->H-area=S12000033-data.csv'
+
+PAGE 115: "Data table IH_area.csv: This visualises the file IH_area.csv which gives the temporal variation in the number of individual transitions per unit time moving from the C to the H compartment for S12000033."
+'Data' uses columns 1 and 2 in 'Posterior/state/Transitions_C->H-area=S12000033-data.csv'
+
+PAGE 116: "Data table IH_area.csv: This shows the temporal variation in the number of individual transitions per unit time moving from the C to the H compartment for S12000034.  The black line shows the raw data (from the input file IH_area.csv).  The red line (with dashed 95% credible intervals) shows the posterior distribution for the inferred underlying system state.  Under a suitable model, and with accurate inferece, it would be expected that the black and red curves exhibit the same temporal behaviour (barring variation coming from the observation model). Large deviations between the two lines indicate that either the model is not able to properly account for the actual observed system dynamics, or that inference has not converged on the true posterior distribution."
+'95% CI min' uses columns 1 and 3 in 'Posterior/state/Transitions_C->H-area=S12000034.csv'
+'95% CI max' uses columns 1 and 4 in 'Posterior/state/Transitions_C->H-area=S12000034.csv'
+'Posterior' uses columns 1 and 2 in 'Posterior/state/Transitions_C->H-area=S12000034.csv'
+'Data' uses columns 1 and 2 in 'Posterior/state/Transitions_C->H-area=S12000034-data.csv'
+
+PAGE 117: "Data table IH_area.csv: This visualises the file IH_area.csv which gives the temporal variation in the number of individual transitions per unit time moving from the C to the H compartment for S12000034."
+'Data' uses columns 1 and 2 in 'Posterior/state/Transitions_C->H-area=S12000034-data.csv'
+
+PAGE 118: "Data table IH_area.csv: This shows the temporal variation in the number of individual transitions per unit time moving from the C to the H compartment for S12000035.  The black line shows the raw data (from the input file IH_area.csv).  The red line (with dashed 95% credible intervals) shows the posterior distribution for the inferred underlying system state.  Under a suitable model, and with accurate inferece, it would be expected that the black and red curves exhibit the same temporal behaviour (barring variation coming from the observation model). Large deviations between the two lines indicate that either the model is not able to properly account for the actual observed system dynamics, or that inference has not converged on the true posterior distribution."
+'95% CI min' uses columns 1 and 3 in 'Posterior/state/Transitions_C->H-area=S12000035.csv'
+'95% CI max' uses columns 1 and 4 in 'Posterior/state/Transitions_C->H-area=S12000035.csv'
+'Posterior' uses columns 1 and 2 in 'Posterior/state/Transitions_C->H-area=S12000035.csv'
+'Data' uses columns 1 and 2 in 'Posterior/state/Transitions_C->H-area=S12000035-data.csv'
+
+PAGE 119: "Data table IH_area.csv: This visualises the file IH_area.csv which gives the temporal variation in the number of individual transitions per unit time moving from the C to the H compartment for S12000035."
+'Data' uses columns 1 and 2 in 'Posterior/state/Transitions_C->H-area=S12000035-data.csv'
+
+PAGE 120: "Data table IH_area.csv: This shows the temporal variation in the number of individual transitions per unit time moving from the C to the H compartment for S12000036.  The black line shows the raw data (from the input file IH_area.csv).  The red line (with dashed 95% credible intervals) shows the posterior distribution for the inferred underlying system state.  Under a suitable model, and with accurate inferece, it would be expected that the black and red curves exhibit the same temporal behaviour (barring variation coming from the observation model). Large deviations between the two lines indicate that either the model is not able to properly account for the actual observed system dynamics, or that inference has not converged on the true posterior distribution."
+'95% CI min' uses columns 1 and 3 in 'Posterior/state/Transitions_C->H-area=S12000036.csv'
+'95% CI max' uses columns 1 and 4 in 'Posterior/state/Transitions_C->H-area=S12000036.csv'
+'Posterior' uses columns 1 and 2 in 'Posterior/state/Transitions_C->H-area=S12000036.csv'
+'Data' uses columns 1 and 2 in 'Posterior/state/Transitions_C->H-area=S12000036-data.csv'
+
+PAGE 121: "Data table IH_area.csv: This visualises the file IH_area.csv which gives the temporal variation in the number of individual transitions per unit time moving from the C to the H compartment for S12000036."
+'Data' uses columns 1 and 2 in 'Posterior/state/Transitions_C->H-area=S12000036-data.csv'
+
+PAGE 122: "Data table IH_area.csv: This shows the temporal variation in the number of individual transitions per unit time moving from the C to the H compartment for S12000038.  The black line shows the raw data (from the input file IH_area.csv).  The red line (with dashed 95% credible intervals) shows the posterior distribution for the inferred underlying system state.  Under a suitable model, and with accurate inferece, it would be expected that the black and red curves exhibit the same temporal behaviour (barring variation coming from the observation model). Large deviations between the two lines indicate that either the model is not able to properly account for the actual observed system dynamics, or that inference has not converged on the true posterior distribution."
+'95% CI min' uses columns 1 and 3 in 'Posterior/state/Transitions_C->H-area=S12000038.csv'
+'95% CI max' uses columns 1 and 4 in 'Posterior/state/Transitions_C->H-area=S12000038.csv'
+'Posterior' uses columns 1 and 2 in 'Posterior/state/Transitions_C->H-area=S12000038.csv'
+'Data' uses columns 1 and 2 in 'Posterior/state/Transitions_C->H-area=S12000038-data.csv'
+
+PAGE 123: "Data table IH_area.csv: This visualises the file IH_area.csv which gives the temporal variation in the number of individual transitions per unit time moving from the C to the H compartment for S12000038."
+'Data' uses columns 1 and 2 in 'Posterior/state/Transitions_C->H-area=S12000038-data.csv'
+
+PAGE 124: "Data table IH_area.csv: This shows the temporal variation in the number of individual transitions per unit time moving from the C to the H compartment for S12000039.  The black line shows the raw data (from the input file IH_area.csv).  The red line (with dashed 95% credible intervals) shows the posterior distribution for the inferred underlying system state.  Under a suitable model, and with accurate inferece, it would be expected that the black and red curves exhibit the same temporal behaviour (barring variation coming from the observation model). Large deviations between the two lines indicate that either the model is not able to properly account for the actual observed system dynamics, or that inference has not converged on the true posterior distribution."
+'95% CI min' uses columns 1 and 3 in 'Posterior/state/Transitions_C->H-area=S12000039.csv'
+'95% CI max' uses columns 1 and 4 in 'Posterior/state/Transitions_C->H-area=S12000039.csv'
+'Posterior' uses columns 1 and 2 in 'Posterior/state/Transitions_C->H-area=S12000039.csv'
+'Data' uses columns 1 and 2 in 'Posterior/state/Transitions_C->H-area=S12000039-data.csv'
+
+PAGE 125: "Data table IH_area.csv: This visualises the file IH_area.csv which gives the temporal variation in the number of individual transitions per unit time moving from the C to the H compartment for S12000039."
+'Data' uses columns 1 and 2 in 'Posterior/state/Transitions_C->H-area=S12000039-data.csv'
+
+PAGE 126: "Data table IH_area.csv: This shows the temporal variation in the number of individual transitions per unit time moving from the C to the H compartment for S12000040.  The black line shows the raw data (from the input file IH_area.csv).  The red line (with dashed 95% credible intervals) shows the posterior distribution for the inferred underlying system state.  Under a suitable model, and with accurate inferece, it would be expected that the black and red curves exhibit the same temporal behaviour (barring variation coming from the observation model). Large deviations between the two lines indicate that either the model is not able to properly account for the actual observed system dynamics, or that inference has not converged on the true posterior distribution."
+'95% CI min' uses columns 1 and 3 in 'Posterior/state/Transitions_C->H-area=S12000040.csv'
+'95% CI max' uses columns 1 and 4 in 'Posterior/state/Transitions_C->H-area=S12000040.csv'
+'Posterior' uses columns 1 and 2 in 'Posterior/state/Transitions_C->H-area=S12000040.csv'
+'Data' uses columns 1 and 2 in 'Posterior/state/Transitions_C->H-area=S12000040-data.csv'
+
+PAGE 127: "Data table IH_area.csv: This visualises the file IH_area.csv which gives the temporal variation in the number of individual transitions per unit time moving from the C to the H compartment for S12000040."
+'Data' uses columns 1 and 2 in 'Posterior/state/Transitions_C->H-area=S12000040-data.csv'
+
+PAGE 128: "Data table IH_area.csv: This shows the temporal variation in the number of individual transitions per unit time moving from the C to the H compartment for S12000041.  The black line shows the raw data (from the input file IH_area.csv).  The red line (with dashed 95% credible intervals) shows the posterior distribution for the inferred underlying system state.  Under a suitable model, and with accurate inferece, it would be expected that the black and red curves exhibit the same temporal behaviour (barring variation coming from the observation model). Large deviations between the two lines indicate that either the model is not able to properly account for the actual observed system dynamics, or that inference has not converged on the true posterior distribution."
+'95% CI min' uses columns 1 and 3 in 'Posterior/state/Transitions_C->H-area=S12000041.csv'
+'95% CI max' uses columns 1 and 4 in 'Posterior/state/Transitions_C->H-area=S12000041.csv'
+'Posterior' uses columns 1 and 2 in 'Posterior/state/Transitions_C->H-area=S12000041.csv'
+'Data' uses columns 1 and 2 in 'Posterior/state/Transitions_C->H-area=S12000041-data.csv'
+
+PAGE 129: "Data table IH_area.csv: This visualises the file IH_area.csv which gives the temporal variation in the number of individual transitions per unit time moving from the C to the H compartment for S12000041."
+'Data' uses columns 1 and 2 in 'Posterior/state/Transitions_C->H-area=S12000041-data.csv'
+
+PAGE 130: "Data table IH_area.csv: This shows the temporal variation in the number of individual transitions per unit time moving from the C to the H compartment for S12000042.  The black line shows the raw data (from the input file IH_area.csv).  The red line (with dashed 95% credible intervals) shows the posterior distribution for the inferred underlying system state.  Under a suitable model, and with accurate inferece, it would be expected that the black and red curves exhibit the same temporal behaviour (barring variation coming from the observation model). Large deviations between the two lines indicate that either the model is not able to properly account for the actual observed system dynamics, or that inference has not converged on the true posterior distribution."
+'95% CI min' uses columns 1 and 3 in 'Posterior/state/Transitions_C->H-area=S12000042.csv'
+'95% CI max' uses columns 1 and 4 in 'Posterior/state/Transitions_C->H-area=S12000042.csv'
+'Posterior' uses columns 1 and 2 in 'Posterior/state/Transitions_C->H-area=S12000042.csv'
+'Data' uses columns 1 and 2 in 'Posterior/state/Transitions_C->H-area=S12000042-data.csv'
+
+PAGE 131: "Data table IH_area.csv: This visualises the file IH_area.csv which gives the temporal variation in the number of individual transitions per unit time moving from the C to the H compartment for S12000042."
+'Data' uses columns 1 and 2 in 'Posterior/state/Transitions_C->H-area=S12000042-data.csv'
+
+PAGE 132: "Data table IH_area.csv: This shows the temporal variation in the number of individual transitions per unit time moving from the C to the H compartment for S12000045.  The black line shows the raw data (from the input file IH_area.csv).  The red line (with dashed 95% credible intervals) shows the posterior distribution for the inferred underlying system state.  Under a suitable model, and with accurate inferece, it would be expected that the black and red curves exhibit the same temporal behaviour (barring variation coming from the observation model). Large deviations between the two lines indicate that either the model is not able to properly account for the actual observed system dynamics, or that inference has not converged on the true posterior distribution."
+'95% CI min' uses columns 1 and 3 in 'Posterior/state/Transitions_C->H-area=S12000045.csv'
+'95% CI max' uses columns 1 and 4 in 'Posterior/state/Transitions_C->H-area=S12000045.csv'
+'Posterior' uses columns 1 and 2 in 'Posterior/state/Transitions_C->H-area=S12000045.csv'
+'Data' uses columns 1 and 2 in 'Posterior/state/Transitions_C->H-area=S12000045-data.csv'
+
+PAGE 133: "Data table IH_area.csv: This visualises the file IH_area.csv which gives the temporal variation in the number of individual transitions per unit time moving from the C to the H compartment for S12000045."
+'Data' uses columns 1 and 2 in 'Posterior/state/Transitions_C->H-area=S12000045-data.csv'
+
+PAGE 134: "Data table IH_area.csv: This shows the temporal variation in the number of individual transitions per unit time moving from the C to the H compartment for S12000047.  The black line shows the raw data (from the input file IH_area.csv).  The red line (with dashed 95% credible intervals) shows the posterior distribution for the inferred underlying system state.  Under a suitable model, and with accurate inferece, it would be expected that the black and red curves exhibit the same temporal behaviour (barring variation coming from the observation model). Large deviations between the two lines indicate that either the model is not able to properly account for the actual observed system dynamics, or that inference has not converged on the true posterior distribution."
+'95% CI min' uses columns 1 and 3 in 'Posterior/state/Transitions_C->H-area=S12000047.csv'
+'95% CI max' uses columns 1 and 4 in 'Posterior/state/Transitions_C->H-area=S12000047.csv'
+'Posterior' uses columns 1 and 2 in 'Posterior/state/Transitions_C->H-area=S12000047.csv'
+'Data' uses columns 1 and 2 in 'Posterior/state/Transitions_C->H-area=S12000047-data.csv'
+
+PAGE 135: "Data table IH_area.csv: This visualises the file IH_area.csv which gives the temporal variation in the number of individual transitions per unit time moving from the C to the H compartment for S12000047."
+'Data' uses columns 1 and 2 in 'Posterior/state/Transitions_C->H-area=S12000047-data.csv'
+
+PAGE 136: "Data table IH_area.csv: This shows the temporal variation in the number of individual transitions per unit time moving from the C to the H compartment for S12000048.  The black line shows the raw data (from the input file IH_area.csv).  The red line (with dashed 95% credible intervals) shows the posterior distribution for the inferred underlying system state.  Under a suitable model, and with accurate inferece, it would be expected that the black and red curves exhibit the same temporal behaviour (barring variation coming from the observation model). Large deviations between the two lines indicate that either the model is not able to properly account for the actual observed system dynamics, or that inference has not converged on the true posterior distribution."
+'95% CI min' uses columns 1 and 3 in 'Posterior/state/Transitions_C->H-area=S12000048.csv'
+'95% CI max' uses columns 1 and 4 in 'Posterior/state/Transitions_C->H-area=S12000048.csv'
+'Posterior' uses columns 1 and 2 in 'Posterior/state/Transitions_C->H-area=S12000048.csv'
+'Data' uses columns 1 and 2 in 'Posterior/state/Transitions_C->H-area=S12000048-data.csv'
+
+PAGE 137: "Data table IH_area.csv: This visualises the file IH_area.csv which gives the temporal variation in the number of individual transitions per unit time moving from the C to the H compartment for S12000048."
+'Data' uses columns 1 and 2 in 'Posterior/state/Transitions_C->H-area=S12000048-data.csv'
+
+PAGE 138: "Data table IH_area.csv: This shows the temporal variation in the number of individual transitions per unit time moving from the C to the H compartment for S12000049.  The black line shows the raw data (from the input file IH_area.csv).  The red line (with dashed 95% credible intervals) shows the posterior distribution for the inferred underlying system state.  Under a suitable model, and with accurate inferece, it would be expected that the black and red curves exhibit the same temporal behaviour (barring variation coming from the observation model). Large deviations between the two lines indicate that either the model is not able to properly account for the actual observed system dynamics, or that inference has not converged on the true posterior distribution."
+'95% CI min' uses columns 1 and 3 in 'Posterior/state/Transitions_C->H-area=S12000049.csv'
+'95% CI max' uses columns 1 and 4 in 'Posterior/state/Transitions_C->H-area=S12000049.csv'
+'Posterior' uses columns 1 and 2 in 'Posterior/state/Transitions_C->H-area=S12000049.csv'
+'Data' uses columns 1 and 2 in 'Posterior/state/Transitions_C->H-area=S12000049-data.csv'
+
+PAGE 139: "Data table IH_area.csv: This visualises the file IH_area.csv which gives the temporal variation in the number of individual transitions per unit time moving from the C to the H compartment for S12000049."
+'Data' uses columns 1 and 2 in 'Posterior/state/Transitions_C->H-area=S12000049-data.csv'
+
+PAGE 140: "Data table IH_area.csv: This shows the temporal variation in the number of individual transitions per unit time moving from the C to the H compartment for S12000050.  The black line shows the raw data (from the input file IH_area.csv).  The red line (with dashed 95% credible intervals) shows the posterior distribution for the inferred underlying system state.  Under a suitable model, and with accurate inferece, it would be expected that the black and red curves exhibit the same temporal behaviour (barring variation coming from the observation model). Large deviations between the two lines indicate that either the model is not able to properly account for the actual observed system dynamics, or that inference has not converged on the true posterior distribution."
+'95% CI min' uses columns 1 and 3 in 'Posterior/state/Transitions_C->H-area=S12000050.csv'
+'95% CI max' uses columns 1 and 4 in 'Posterior/state/Transitions_C->H-area=S12000050.csv'
+'Posterior' uses columns 1 and 2 in 'Posterior/state/Transitions_C->H-area=S12000050.csv'
+'Data' uses columns 1 and 2 in 'Posterior/state/Transitions_C->H-area=S12000050-data.csv'
+
+PAGE 141: "Data table IH_area.csv: This visualises the file IH_area.csv which gives the temporal variation in the number of individual transitions per unit time moving from the C to the H compartment for S12000050."
+'Data' uses columns 1 and 2 in 'Posterior/state/Transitions_C->H-area=S12000050-data.csv'
+
+PAGE 142: "Data table cases_area_cut.csv: This shows the temporal variation in the number of individual transitions per unit time moving from the E to the I compartment for S12000005.  The black line shows the raw data (from the input file cases_area_cut.csv).  The red line (with dashed 95% credible intervals) shows the posterior distribution for the inferred underlying system state.  Under a suitable model, and with accurate inferece, it would be expected that the black and red curves exhibit the same temporal behaviour (barring variation coming from the observation model). Large deviations between the two lines indicate that either the model is not able to properly account for the actual observed system dynamics, or that inference has not converged on the true posterior distribution."
+'95% CI min' uses columns 1 and 3 in 'Posterior/state/Transitions_E->I-area=S12000005.csv'
+'95% CI max' uses columns 1 and 4 in 'Posterior/state/Transitions_E->I-area=S12000005.csv'
+'Posterior' uses columns 1 and 2 in 'Posterior/state/Transitions_E->I-area=S12000005.csv'
+'Data' uses columns 1 and 2 in 'Posterior/state/Transitions_E->I-area=S12000005-data.csv'
+
+PAGE 143: "Data table cases_area_cut.csv: This visualises the file cases_area_cut.csv which gives the temporal variation in the number of individual transitions per unit time moving from the E to the I compartment for S12000005."
+'Data' uses columns 1 and 2 in 'Posterior/state/Transitions_E->I-area=S12000005-data.csv'
+
+PAGE 144: "Data table cases_area_cut.csv: This shows the temporal variation in the number of individual transitions per unit time moving from the E to the I compartment for S12000006.  The black line shows the raw data (from the input file cases_area_cut.csv).  The red line (with dashed 95% credible intervals) shows the posterior distribution for the inferred underlying system state.  Under a suitable model, and with accurate inferece, it would be expected that the black and red curves exhibit the same temporal behaviour (barring variation coming from the observation model). Large deviations between the two lines indicate that either the model is not able to properly account for the actual observed system dynamics, or that inference has not converged on the true posterior distribution."
+'95% CI min' uses columns 1 and 3 in 'Posterior/state/Transitions_E->I-area=S12000006.csv'
+'95% CI max' uses columns 1 and 4 in 'Posterior/state/Transitions_E->I-area=S12000006.csv'
+'Posterior' uses columns 1 and 2 in 'Posterior/state/Transitions_E->I-area=S12000006.csv'
+'Data' uses columns 1 and 2 in 'Posterior/state/Transitions_E->I-area=S12000006-data.csv'
+
+PAGE 145: "Data table cases_area_cut.csv: This visualises the file cases_area_cut.csv which gives the temporal variation in the number of individual transitions per unit time moving from the E to the I compartment for S12000006."
+'Data' uses columns 1 and 2 in 'Posterior/state/Transitions_E->I-area=S12000006-data.csv'
+
+PAGE 146: "Data table cases_area_cut.csv: This shows the temporal variation in the number of individual transitions per unit time moving from the E to the I compartment for S12000008.  The black line shows the raw data (from the input file cases_area_cut.csv).  The red line (with dashed 95% credible intervals) shows the posterior distribution for the inferred underlying system state.  Under a suitable model, and with accurate inferece, it would be expected that the black and red curves exhibit the same temporal behaviour (barring variation coming from the observation model). Large deviations between the two lines indicate that either the model is not able to properly account for the actual observed system dynamics, or that inference has not converged on the true posterior distribution."
+'95% CI min' uses columns 1 and 3 in 'Posterior/state/Transitions_E->I-area=S12000008.csv'
+'95% CI max' uses columns 1 and 4 in 'Posterior/state/Transitions_E->I-area=S12000008.csv'
+'Posterior' uses columns 1 and 2 in 'Posterior/state/Transitions_E->I-area=S12000008.csv'
+'Data' uses columns 1 and 2 in 'Posterior/state/Transitions_E->I-area=S12000008-data.csv'
+
+PAGE 147: "Data table cases_area_cut.csv: This visualises the file cases_area_cut.csv which gives the temporal variation in the number of individual transitions per unit time moving from the E to the I compartment for S12000008."
+'Data' uses columns 1 and 2 in 'Posterior/state/Transitions_E->I-area=S12000008-data.csv'
+
+PAGE 148: "Data table cases_area_cut.csv: This shows the temporal variation in the number of individual transitions per unit time moving from the E to the I compartment for S12000010.  The black line shows the raw data (from the input file cases_area_cut.csv).  The red line (with dashed 95% credible intervals) shows the posterior distribution for the inferred underlying system state.  Under a suitable model, and with accurate inferece, it would be expected that the black and red curves exhibit the same temporal behaviour (barring variation coming from the observation model). Large deviations between the two lines indicate that either the model is not able to properly account for the actual observed system dynamics, or that inference has not converged on the true posterior distribution."
+'95% CI min' uses columns 1 and 3 in 'Posterior/state/Transitions_E->I-area=S12000010.csv'
+'95% CI max' uses columns 1 and 4 in 'Posterior/state/Transitions_E->I-area=S12000010.csv'
+'Posterior' uses columns 1 and 2 in 'Posterior/state/Transitions_E->I-area=S12000010.csv'
+'Data' uses columns 1 and 2 in 'Posterior/state/Transitions_E->I-area=S12000010-data.csv'
+
+PAGE 149: "Data table cases_area_cut.csv: This visualises the file cases_area_cut.csv which gives the temporal variation in the number of individual transitions per unit time moving from the E to the I compartment for S12000010."
+'Data' uses columns 1 and 2 in 'Posterior/state/Transitions_E->I-area=S12000010-data.csv'
+
+PAGE 150: "Data table cases_area_cut.csv: This shows the temporal variation in the number of individual transitions per unit time moving from the E to the I compartment for S12000011.  The black line shows the raw data (from the input file cases_area_cut.csv).  The red line (with dashed 95% credible intervals) shows the posterior distribution for the inferred underlying system state.  Under a suitable model, and with accurate inferece, it would be expected that the black and red curves exhibit the same temporal behaviour (barring variation coming from the observation model). Large deviations between the two lines indicate that either the model is not able to properly account for the actual observed system dynamics, or that inference has not converged on the true posterior distribution."
+'95% CI min' uses columns 1 and 3 in 'Posterior/state/Transitions_E->I-area=S12000011.csv'
+'95% CI max' uses columns 1 and 4 in 'Posterior/state/Transitions_E->I-area=S12000011.csv'
+'Posterior' uses columns 1 and 2 in 'Posterior/state/Transitions_E->I-area=S12000011.csv'
+'Data' uses columns 1 and 2 in 'Posterior/state/Transitions_E->I-area=S12000011-data.csv'
+
+PAGE 151: "Data table cases_area_cut.csv: This visualises the file cases_area_cut.csv which gives the temporal variation in the number of individual transitions per unit time moving from the E to the I compartment for S12000011."
+'Data' uses columns 1 and 2 in 'Posterior/state/Transitions_E->I-area=S12000011-data.csv'
+
+PAGE 152: "Data table cases_area_cut.csv: This shows the temporal variation in the number of individual transitions per unit time moving from the E to the I compartment for S12000013.  The black line shows the raw data (from the input file cases_area_cut.csv).  The red line (with dashed 95% credible intervals) shows the posterior distribution for the inferred underlying system state.  Under a suitable model, and with accurate inferece, it would be expected that the black and red curves exhibit the same temporal behaviour (barring variation coming from the observation model). Large deviations between the two lines indicate that either the model is not able to properly account for the actual observed system dynamics, or that inference has not converged on the true posterior distribution."
+'95% CI min' uses columns 1 and 3 in 'Posterior/state/Transitions_E->I-area=S12000013.csv'
+'95% CI max' uses columns 1 and 4 in 'Posterior/state/Transitions_E->I-area=S12000013.csv'
+'Posterior' uses columns 1 and 2 in 'Posterior/state/Transitions_E->I-area=S12000013.csv'
+'Data' uses columns 1 and 2 in 'Posterior/state/Transitions_E->I-area=S12000013-data.csv'
+
+PAGE 153: "Data table cases_area_cut.csv: This visualises the file cases_area_cut.csv which gives the temporal variation in the number of individual transitions per unit time moving from the E to the I compartment for S12000013."
+'Data' uses columns 1 and 2 in 'Posterior/state/Transitions_E->I-area=S12000013-data.csv'
+
+PAGE 154: "Data table cases_area_cut.csv: This shows the temporal variation in the number of individual transitions per unit time moving from the E to the I compartment for S12000014.  The black line shows the raw data (from the input file cases_area_cut.csv).  The red line (with dashed 95% credible intervals) shows the posterior distribution for the inferred underlying system state.  Under a suitable model, and with accurate inferece, it would be expected that the black and red curves exhibit the same temporal behaviour (barring variation coming from the observation model). Large deviations between the two lines indicate that either the model is not able to properly account for the actual observed system dynamics, or that inference has not converged on the true posterior distribution."
+'95% CI min' uses columns 1 and 3 in 'Posterior/state/Transitions_E->I-area=S12000014.csv'
+'95% CI max' uses columns 1 and 4 in 'Posterior/state/Transitions_E->I-area=S12000014.csv'
+'Posterior' uses columns 1 and 2 in 'Posterior/state/Transitions_E->I-area=S12000014.csv'
+'Data' uses columns 1 and 2 in 'Posterior/state/Transitions_E->I-area=S12000014-data.csv'
+
+PAGE 155: "Data table cases_area_cut.csv: This visualises the file cases_area_cut.csv which gives the temporal variation in the number of individual transitions per unit time moving from the E to the I compartment for S12000014."
+'Data' uses columns 1 and 2 in 'Posterior/state/Transitions_E->I-area=S12000014-data.csv'
+
+PAGE 156: "Data table cases_area_cut.csv: This shows the temporal variation in the number of individual transitions per unit time moving from the E to the I compartment for S12000017.  The black line shows the raw data (from the input file cases_area_cut.csv).  The red line (with dashed 95% credible intervals) shows the posterior distribution for the inferred underlying system state.  Under a suitable model, and with accurate inferece, it would be expected that the black and red curves exhibit the same temporal behaviour (barring variation coming from the observation model). Large deviations between the two lines indicate that either the model is not able to properly account for the actual observed system dynamics, or that inference has not converged on the true posterior distribution."
+'95% CI min' uses columns 1 and 3 in 'Posterior/state/Transitions_E->I-area=S12000017.csv'
+'95% CI max' uses columns 1 and 4 in 'Posterior/state/Transitions_E->I-area=S12000017.csv'
+'Posterior' uses columns 1 and 2 in 'Posterior/state/Transitions_E->I-area=S12000017.csv'
+'Data' uses columns 1 and 2 in 'Posterior/state/Transitions_E->I-area=S12000017-data.csv'
+
+PAGE 157: "Data table cases_area_cut.csv: This visualises the file cases_area_cut.csv which gives the temporal variation in the number of individual transitions per unit time moving from the E to the I compartment for S12000017."
+'Data' uses columns 1 and 2 in 'Posterior/state/Transitions_E->I-area=S12000017-data.csv'
+
+PAGE 158: "Data table cases_area_cut.csv: This shows the temporal variation in the number of individual transitions per unit time moving from the E to the I compartment for S12000018.  The black line shows the raw data (from the input file cases_area_cut.csv).  The red line (with dashed 95% credible intervals) shows the posterior distribution for the inferred underlying system state.  Under a suitable model, and with accurate inferece, it would be expected that the black and red curves exhibit the same temporal behaviour (barring variation coming from the observation model). Large deviations between the two lines indicate that either the model is not able to properly account for the actual observed system dynamics, or that inference has not converged on the true posterior distribution."
+'95% CI min' uses columns 1 and 3 in 'Posterior/state/Transitions_E->I-area=S12000018.csv'
+'95% CI max' uses columns 1 and 4 in 'Posterior/state/Transitions_E->I-area=S12000018.csv'
+'Posterior' uses columns 1 and 2 in 'Posterior/state/Transitions_E->I-area=S12000018.csv'
+'Data' uses columns 1 and 2 in 'Posterior/state/Transitions_E->I-area=S12000018-data.csv'
+
+PAGE 159: "Data table cases_area_cut.csv: This visualises the file cases_area_cut.csv which gives the temporal variation in the number of individual transitions per unit time moving from the E to the I compartment for S12000018."
+'Data' uses columns 1 and 2 in 'Posterior/state/Transitions_E->I-area=S12000018-data.csv'
+
+PAGE 160: "Data table cases_area_cut.csv: This shows the temporal variation in the number of individual transitions per unit time moving from the E to the I compartment for S12000019.  The black line shows the raw data (from the input file cases_area_cut.csv).  The red line (with dashed 95% credible intervals) shows the posterior distribution for the inferred underlying system state.  Under a suitable model, and with accurate inferece, it would be expected that the black and red curves exhibit the same temporal behaviour (barring variation coming from the observation model). Large deviations between the two lines indicate that either the model is not able to properly account for the actual observed system dynamics, or that inference has not converged on the true posterior distribution."
+'95% CI min' uses columns 1 and 3 in 'Posterior/state/Transitions_E->I-area=S12000019.csv'
+'95% CI max' uses columns 1 and 4 in 'Posterior/state/Transitions_E->I-area=S12000019.csv'
+'Posterior' uses columns 1 and 2 in 'Posterior/state/Transitions_E->I-area=S12000019.csv'
+'Data' uses columns 1 and 2 in 'Posterior/state/Transitions_E->I-area=S12000019-data.csv'
+
+PAGE 161: "Data table cases_area_cut.csv: This visualises the file cases_area_cut.csv which gives the temporal variation in the number of individual transitions per unit time moving from the E to the I compartment for S12000019."
+'Data' uses columns 1 and 2 in 'Posterior/state/Transitions_E->I-area=S12000019-data.csv'
+
+PAGE 162: "Data table cases_area_cut.csv: This shows the temporal variation in the number of individual transitions per unit time moving from the E to the I compartment for S12000020.  The black line shows the raw data (from the input file cases_area_cut.csv).  The red line (with dashed 95% credible intervals) shows the posterior distribution for the inferred underlying system state.  Under a suitable model, and with accurate inferece, it would be expected that the black and red curves exhibit the same temporal behaviour (barring variation coming from the observation model). Large deviations between the two lines indicate that either the model is not able to properly account for the actual observed system dynamics, or that inference has not converged on the true posterior distribution."
+'95% CI min' uses columns 1 and 3 in 'Posterior/state/Transitions_E->I-area=S12000020.csv'
+'95% CI max' uses columns 1 and 4 in 'Posterior/state/Transitions_E->I-area=S12000020.csv'
+'Posterior' uses columns 1 and 2 in 'Posterior/state/Transitions_E->I-area=S12000020.csv'
+'Data' uses columns 1 and 2 in 'Posterior/state/Transitions_E->I-area=S12000020-data.csv'
+
+PAGE 163: "Data table cases_area_cut.csv: This visualises the file cases_area_cut.csv which gives the temporal variation in the number of individual transitions per unit time moving from the E to the I compartment for S12000020."
+'Data' uses columns 1 and 2 in 'Posterior/state/Transitions_E->I-area=S12000020-data.csv'
+
+PAGE 164: "Data table cases_area_cut.csv: This shows the temporal variation in the number of individual transitions per unit time moving from the E to the I compartment for S12000021.  The black line shows the raw data (from the input file cases_area_cut.csv).  The red line (with dashed 95% credible intervals) shows the posterior distribution for the inferred underlying system state.  Under a suitable model, and with accurate inferece, it would be expected that the black and red curves exhibit the same temporal behaviour (barring variation coming from the observation model). Large deviations between the two lines indicate that either the model is not able to properly account for the actual observed system dynamics, or that inference has not converged on the true posterior distribution."
+'95% CI min' uses columns 1 and 3 in 'Posterior/state/Transitions_E->I-area=S12000021.csv'
+'95% CI max' uses columns 1 and 4 in 'Posterior/state/Transitions_E->I-area=S12000021.csv'
+'Posterior' uses columns 1 and 2 in 'Posterior/state/Transitions_E->I-area=S12000021.csv'
+'Data' uses columns 1 and 2 in 'Posterior/state/Transitions_E->I-area=S12000021-data.csv'
+
+PAGE 165: "Data table cases_area_cut.csv: This visualises the file cases_area_cut.csv which gives the temporal variation in the number of individual transitions per unit time moving from the E to the I compartment for S12000021."
+'Data' uses columns 1 and 2 in 'Posterior/state/Transitions_E->I-area=S12000021-data.csv'
+
+PAGE 166: "Data table cases_area_cut.csv: This shows the temporal variation in the number of individual transitions per unit time moving from the E to the I compartment for S12000023.  The black line shows the raw data (from the input file cases_area_cut.csv).  The red line (with dashed 95% credible intervals) shows the posterior distribution for the inferred underlying system state.  Under a suitable model, and with accurate inferece, it would be expected that the black and red curves exhibit the same temporal behaviour (barring variation coming from the observation model). Large deviations between the two lines indicate that either the model is not able to properly account for the actual observed system dynamics, or that inference has not converged on the true posterior distribution."
+'95% CI min' uses columns 1 and 3 in 'Posterior/state/Transitions_E->I-area=S12000023.csv'
+'95% CI max' uses columns 1 and 4 in 'Posterior/state/Transitions_E->I-area=S12000023.csv'
+'Posterior' uses columns 1 and 2 in 'Posterior/state/Transitions_E->I-area=S12000023.csv'
+'Data' uses columns 1 and 2 in 'Posterior/state/Transitions_E->I-area=S12000023-data.csv'
+
+PAGE 167: "Data table cases_area_cut.csv: This visualises the file cases_area_cut.csv which gives the temporal variation in the number of individual transitions per unit time moving from the E to the I compartment for S12000023."
+'Data' uses columns 1 and 2 in 'Posterior/state/Transitions_E->I-area=S12000023-data.csv'
+
+PAGE 168: "Data table cases_area_cut.csv: This shows the temporal variation in the number of individual transitions per unit time moving from the E to the I compartment for S12000026.  The black line shows the raw data (from the input file cases_area_cut.csv).  The red line (with dashed 95% credible intervals) shows the posterior distribution for the inferred underlying system state.  Under a suitable model, and with accurate inferece, it would be expected that the black and red curves exhibit the same temporal behaviour (barring variation coming from the observation model). Large deviations between the two lines indicate that either the model is not able to properly account for the actual observed system dynamics, or that inference has not converged on the true posterior distribution."
+'95% CI min' uses columns 1 and 3 in 'Posterior/state/Transitions_E->I-area=S12000026.csv'
+'95% CI max' uses columns 1 and 4 in 'Posterior/state/Transitions_E->I-area=S12000026.csv'
+'Posterior' uses columns 1 and 2 in 'Posterior/state/Transitions_E->I-area=S12000026.csv'
+'Data' uses columns 1 and 2 in 'Posterior/state/Transitions_E->I-area=S12000026-data.csv'
+
+PAGE 169: "Data table cases_area_cut.csv: This visualises the file cases_area_cut.csv which gives the temporal variation in the number of individual transitions per unit time moving from the E to the I compartment for S12000026."
+'Data' uses columns 1 and 2 in 'Posterior/state/Transitions_E->I-area=S12000026-data.csv'
+
+PAGE 170: "Data table cases_area_cut.csv: This shows the temporal variation in the number of individual transitions per unit time moving from the E to the I compartment for S12000027.  The black line shows the raw data (from the input file cases_area_cut.csv).  The red line (with dashed 95% credible intervals) shows the posterior distribution for the inferred underlying system state.  Under a suitable model, and with accurate inferece, it would be expected that the black and red curves exhibit the same temporal behaviour (barring variation coming from the observation model). Large deviations between the two lines indicate that either the model is not able to properly account for the actual observed system dynamics, or that inference has not converged on the true posterior distribution."
+'95% CI min' uses columns 1 and 3 in 'Posterior/state/Transitions_E->I-area=S12000027.csv'
+'95% CI max' uses columns 1 and 4 in 'Posterior/state/Transitions_E->I-area=S12000027.csv'
+'Posterior' uses columns 1 and 2 in 'Posterior/state/Transitions_E->I-area=S12000027.csv'
+'Data' uses columns 1 and 2 in 'Posterior/state/Transitions_E->I-area=S12000027-data.csv'
+
+PAGE 171: "Data table cases_area_cut.csv: This visualises the file cases_area_cut.csv which gives the temporal variation in the number of individual transitions per unit time moving from the E to the I compartment for S12000027."
+'Data' uses columns 1 and 2 in 'Posterior/state/Transitions_E->I-area=S12000027-data.csv'
+
+PAGE 172: "Data table cases_area_cut.csv: This shows the temporal variation in the number of individual transitions per unit time moving from the E to the I compartment for S12000028.  The black line shows the raw data (from the input file cases_area_cut.csv).  The red line (with dashed 95% credible intervals) shows the posterior distribution for the inferred underlying system state.  Under a suitable model, and with accurate inferece, it would be expected that the black and red curves exhibit the same temporal behaviour (barring variation coming from the observation model). Large deviations between the two lines indicate that either the model is not able to properly account for the actual observed system dynamics, or that inference has not converged on the true posterior distribution."
+'95% CI min' uses columns 1 and 3 in 'Posterior/state/Transitions_E->I-area=S12000028.csv'
+'95% CI max' uses columns 1 and 4 in 'Posterior/state/Transitions_E->I-area=S12000028.csv'
+'Posterior' uses columns 1 and 2 in 'Posterior/state/Transitions_E->I-area=S12000028.csv'
+'Data' uses columns 1 and 2 in 'Posterior/state/Transitions_E->I-area=S12000028-data.csv'
+
+PAGE 173: "Data table cases_area_cut.csv: This visualises the file cases_area_cut.csv which gives the temporal variation in the number of individual transitions per unit time moving from the E to the I compartment for S12000028."
+'Data' uses columns 1 and 2 in 'Posterior/state/Transitions_E->I-area=S12000028-data.csv'
+
+PAGE 174: "Data table cases_area_cut.csv: This shows the temporal variation in the number of individual transitions per unit time moving from the E to the I compartment for S12000029.  The black line shows the raw data (from the input file cases_area_cut.csv).  The red line (with dashed 95% credible intervals) shows the posterior distribution for the inferred underlying system state.  Under a suitable model, and with accurate inferece, it would be expected that the black and red curves exhibit the same temporal behaviour (barring variation coming from the observation model). Large deviations between the two lines indicate that either the model is not able to properly account for the actual observed system dynamics, or that inference has not converged on the true posterior distribution."
+'95% CI min' uses columns 1 and 3 in 'Posterior/state/Transitions_E->I-area=S12000029.csv'
+'95% CI max' uses columns 1 and 4 in 'Posterior/state/Transitions_E->I-area=S12000029.csv'
+'Posterior' uses columns 1 and 2 in 'Posterior/state/Transitions_E->I-area=S12000029.csv'
+'Data' uses columns 1 and 2 in 'Posterior/state/Transitions_E->I-area=S12000029-data.csv'
+
+PAGE 175: "Data table cases_area_cut.csv: This visualises the file cases_area_cut.csv which gives the temporal variation in the number of individual transitions per unit time moving from the E to the I compartment for S12000029."
+'Data' uses columns 1 and 2 in 'Posterior/state/Transitions_E->I-area=S12000029-data.csv'
+
+PAGE 176: "Data table cases_area_cut.csv: This shows the temporal variation in the number of individual transitions per unit time moving from the E to the I compartment for S12000030.  The black line shows the raw data (from the input file cases_area_cut.csv).  The red line (with dashed 95% credible intervals) shows the posterior distribution for the inferred underlying system state.  Under a suitable model, and with accurate inferece, it would be expected that the black and red curves exhibit the same temporal behaviour (barring variation coming from the observation model). Large deviations between the two lines indicate that either the model is not able to properly account for the actual observed system dynamics, or that inference has not converged on the true posterior distribution."
+'95% CI min' uses columns 1 and 3 in 'Posterior/state/Transitions_E->I-area=S12000030.csv'
+'95% CI max' uses columns 1 and 4 in 'Posterior/state/Transitions_E->I-area=S12000030.csv'
+'Posterior' uses columns 1 and 2 in 'Posterior/state/Transitions_E->I-area=S12000030.csv'
+'Data' uses columns 1 and 2 in 'Posterior/state/Transitions_E->I-area=S12000030-data.csv'
+
+PAGE 177: "Data table cases_area_cut.csv: This visualises the file cases_area_cut.csv which gives the temporal variation in the number of individual transitions per unit time moving from the E to the I compartment for S12000030."
+'Data' uses columns 1 and 2 in 'Posterior/state/Transitions_E->I-area=S12000030-data.csv'
+
+PAGE 178: "Data table cases_area_cut.csv: This shows the temporal variation in the number of individual transitions per unit time moving from the E to the I compartment for S12000033.  The black line shows the raw data (from the input file cases_area_cut.csv).  The red line (with dashed 95% credible intervals) shows the posterior distribution for the inferred underlying system state.  Under a suitable model, and with accurate inferece, it would be expected that the black and red curves exhibit the same temporal behaviour (barring variation coming from the observation model). Large deviations between the two lines indicate that either the model is not able to properly account for the actual observed system dynamics, or that inference has not converged on the true posterior distribution."
+'95% CI min' uses columns 1 and 3 in 'Posterior/state/Transitions_E->I-area=S12000033.csv'
+'95% CI max' uses columns 1 and 4 in 'Posterior/state/Transitions_E->I-area=S12000033.csv'
+'Posterior' uses columns 1 and 2 in 'Posterior/state/Transitions_E->I-area=S12000033.csv'
+'Data' uses columns 1 and 2 in 'Posterior/state/Transitions_E->I-area=S12000033-data.csv'
+
+PAGE 179: "Data table cases_area_cut.csv: This visualises the file cases_area_cut.csv which gives the temporal variation in the number of individual transitions per unit time moving from the E to the I compartment for S12000033."
+'Data' uses columns 1 and 2 in 'Posterior/state/Transitions_E->I-area=S12000033-data.csv'
+
+PAGE 180: "Data table cases_area_cut.csv: This shows the temporal variation in the number of individual transitions per unit time moving from the E to the I compartment for S12000034.  The black line shows the raw data (from the input file cases_area_cut.csv).  The red line (with dashed 95% credible intervals) shows the posterior distribution for the inferred underlying system state.  Under a suitable model, and with accurate inferece, it would be expected that the black and red curves exhibit the same temporal behaviour (barring variation coming from the observation model). Large deviations between the two lines indicate that either the model is not able to properly account for the actual observed system dynamics, or that inference has not converged on the true posterior distribution."
+'95% CI min' uses columns 1 and 3 in 'Posterior/state/Transitions_E->I-area=S12000034.csv'
+'95% CI max' uses columns 1 and 4 in 'Posterior/state/Transitions_E->I-area=S12000034.csv'
+'Posterior' uses columns 1 and 2 in 'Posterior/state/Transitions_E->I-area=S12000034.csv'
+'Data' uses columns 1 and 2 in 'Posterior/state/Transitions_E->I-area=S12000034-data.csv'
+
+PAGE 181: "Data table cases_area_cut.csv: This visualises the file cases_area_cut.csv which gives the temporal variation in the number of individual transitions per unit time moving from the E to the I compartment for S12000034."
+'Data' uses columns 1 and 2 in 'Posterior/state/Transitions_E->I-area=S12000034-data.csv'
+
+PAGE 182: "Data table cases_area_cut.csv: This shows the temporal variation in the number of individual transitions per unit time moving from the E to the I compartment for S12000035.  The black line shows the raw data (from the input file cases_area_cut.csv).  The red line (with dashed 95% credible intervals) shows the posterior distribution for the inferred underlying system state.  Under a suitable model, and with accurate inferece, it would be expected that the black and red curves exhibit the same temporal behaviour (barring variation coming from the observation model). Large deviations between the two lines indicate that either the model is not able to properly account for the actual observed system dynamics, or that inference has not converged on the true posterior distribution."
+'95% CI min' uses columns 1 and 3 in 'Posterior/state/Transitions_E->I-area=S12000035.csv'
+'95% CI max' uses columns 1 and 4 in 'Posterior/state/Transitions_E->I-area=S12000035.csv'
+'Posterior' uses columns 1 and 2 in 'Posterior/state/Transitions_E->I-area=S12000035.csv'
+'Data' uses columns 1 and 2 in 'Posterior/state/Transitions_E->I-area=S12000035-data.csv'
+
+PAGE 183: "Data table cases_area_cut.csv: This visualises the file cases_area_cut.csv which gives the temporal variation in the number of individual transitions per unit time moving from the E to the I compartment for S12000035."
+'Data' uses columns 1 and 2 in 'Posterior/state/Transitions_E->I-area=S12000035-data.csv'
+
+PAGE 184: "Data table cases_area_cut.csv: This shows the temporal variation in the number of individual transitions per unit time moving from the E to the I compartment for S12000036.  The black line shows the raw data (from the input file cases_area_cut.csv).  The red line (with dashed 95% credible intervals) shows the posterior distribution for the inferred underlying system state.  Under a suitable model, and with accurate inferece, it would be expected that the black and red curves exhibit the same temporal behaviour (barring variation coming from the observation model). Large deviations between the two lines indicate that either the model is not able to properly account for the actual observed system dynamics, or that inference has not converged on the true posterior distribution."
+'95% CI min' uses columns 1 and 3 in 'Posterior/state/Transitions_E->I-area=S12000036.csv'
+'95% CI max' uses columns 1 and 4 in 'Posterior/state/Transitions_E->I-area=S12000036.csv'
+'Posterior' uses columns 1 and 2 in 'Posterior/state/Transitions_E->I-area=S12000036.csv'
+'Data' uses columns 1 and 2 in 'Posterior/state/Transitions_E->I-area=S12000036-data.csv'
+
+PAGE 185: "Data table cases_area_cut.csv: This visualises the file cases_area_cut.csv which gives the temporal variation in the number of individual transitions per unit time moving from the E to the I compartment for S12000036."
+'Data' uses columns 1 and 2 in 'Posterior/state/Transitions_E->I-area=S12000036-data.csv'
+
+PAGE 186: "Data table cases_area_cut.csv: This shows the temporal variation in the number of individual transitions per unit time moving from the E to the I compartment for S12000038.  The black line shows the raw data (from the input file cases_area_cut.csv).  The red line (with dashed 95% credible intervals) shows the posterior distribution for the inferred underlying system state.  Under a suitable model, and with accurate inferece, it would be expected that the black and red curves exhibit the same temporal behaviour (barring variation coming from the observation model). Large deviations between the two lines indicate that either the model is not able to properly account for the actual observed system dynamics, or that inference has not converged on the true posterior distribution."
+'95% CI min' uses columns 1 and 3 in 'Posterior/state/Transitions_E->I-area=S12000038.csv'
+'95% CI max' uses columns 1 and 4 in 'Posterior/state/Transitions_E->I-area=S12000038.csv'
+'Posterior' uses columns 1 and 2 in 'Posterior/state/Transitions_E->I-area=S12000038.csv'
+'Data' uses columns 1 and 2 in 'Posterior/state/Transitions_E->I-area=S12000038-data.csv'
+
+PAGE 187: "Data table cases_area_cut.csv: This visualises the file cases_area_cut.csv which gives the temporal variation in the number of individual transitions per unit time moving from the E to the I compartment for S12000038."
+'Data' uses columns 1 and 2 in 'Posterior/state/Transitions_E->I-area=S12000038-data.csv'
+
+PAGE 188: "Data table cases_area_cut.csv: This shows the temporal variation in the number of individual transitions per unit time moving from the E to the I compartment for S12000039.  The black line shows the raw data (from the input file cases_area_cut.csv).  The red line (with dashed 95% credible intervals) shows the posterior distribution for the inferred underlying system state.  Under a suitable model, and with accurate inferece, it would be expected that the black and red curves exhibit the same temporal behaviour (barring variation coming from the observation model). Large deviations between the two lines indicate that either the model is not able to properly account for the actual observed system dynamics, or that inference has not converged on the true posterior distribution."
+'95% CI min' uses columns 1 and 3 in 'Posterior/state/Transitions_E->I-area=S12000039.csv'
+'95% CI max' uses columns 1 and 4 in 'Posterior/state/Transitions_E->I-area=S12000039.csv'
+'Posterior' uses columns 1 and 2 in 'Posterior/state/Transitions_E->I-area=S12000039.csv'
+'Data' uses columns 1 and 2 in 'Posterior/state/Transitions_E->I-area=S12000039-data.csv'
+
+PAGE 189: "Data table cases_area_cut.csv: This visualises the file cases_area_cut.csv which gives the temporal variation in the number of individual transitions per unit time moving from the E to the I compartment for S12000039."
+'Data' uses columns 1 and 2 in 'Posterior/state/Transitions_E->I-area=S12000039-data.csv'
+
+PAGE 190: "Data table cases_area_cut.csv: This shows the temporal variation in the number of individual transitions per unit time moving from the E to the I compartment for S12000040.  The black line shows the raw data (from the input file cases_area_cut.csv).  The red line (with dashed 95% credible intervals) shows the posterior distribution for the inferred underlying system state.  Under a suitable model, and with accurate inferece, it would be expected that the black and red curves exhibit the same temporal behaviour (barring variation coming from the observation model). Large deviations between the two lines indicate that either the model is not able to properly account for the actual observed system dynamics, or that inference has not converged on the true posterior distribution."
+'95% CI min' uses columns 1 and 3 in 'Posterior/state/Transitions_E->I-area=S12000040.csv'
+'95% CI max' uses columns 1 and 4 in 'Posterior/state/Transitions_E->I-area=S12000040.csv'
+'Posterior' uses columns 1 and 2 in 'Posterior/state/Transitions_E->I-area=S12000040.csv'
+'Data' uses columns 1 and 2 in 'Posterior/state/Transitions_E->I-area=S12000040-data.csv'
+
+PAGE 191: "Data table cases_area_cut.csv: This visualises the file cases_area_cut.csv which gives the temporal variation in the number of individual transitions per unit time moving from the E to the I compartment for S12000040."
+'Data' uses columns 1 and 2 in 'Posterior/state/Transitions_E->I-area=S12000040-data.csv'
+
+PAGE 192: "Data table cases_area_cut.csv: This shows the temporal variation in the number of individual transitions per unit time moving from the E to the I compartment for S12000041.  The black line shows the raw data (from the input file cases_area_cut.csv).  The red line (with dashed 95% credible intervals) shows the posterior distribution for the inferred underlying system state.  Under a suitable model, and with accurate inferece, it would be expected that the black and red curves exhibit the same temporal behaviour (barring variation coming from the observation model). Large deviations between the two lines indicate that either the model is not able to properly account for the actual observed system dynamics, or that inference has not converged on the true posterior distribution."
+'95% CI min' uses columns 1 and 3 in 'Posterior/state/Transitions_E->I-area=S12000041.csv'
+'95% CI max' uses columns 1 and 4 in 'Posterior/state/Transitions_E->I-area=S12000041.csv'
+'Posterior' uses columns 1 and 2 in 'Posterior/state/Transitions_E->I-area=S12000041.csv'
+'Data' uses columns 1 and 2 in 'Posterior/state/Transitions_E->I-area=S12000041-data.csv'
+
+PAGE 193: "Data table cases_area_cut.csv: This visualises the file cases_area_cut.csv which gives the temporal variation in the number of individual transitions per unit time moving from the E to the I compartment for S12000041."
+'Data' uses columns 1 and 2 in 'Posterior/state/Transitions_E->I-area=S12000041-data.csv'
+
+PAGE 194: "Data table cases_area_cut.csv: This shows the temporal variation in the number of individual transitions per unit time moving from the E to the I compartment for S12000042.  The black line shows the raw data (from the input file cases_area_cut.csv).  The red line (with dashed 95% credible intervals) shows the posterior distribution for the inferred underlying system state.  Under a suitable model, and with accurate inferece, it would be expected that the black and red curves exhibit the same temporal behaviour (barring variation coming from the observation model). Large deviations between the two lines indicate that either the model is not able to properly account for the actual observed system dynamics, or that inference has not converged on the true posterior distribution."
+'95% CI min' uses columns 1 and 3 in 'Posterior/state/Transitions_E->I-area=S12000042.csv'
+'95% CI max' uses columns 1 and 4 in 'Posterior/state/Transitions_E->I-area=S12000042.csv'
+'Posterior' uses columns 1 and 2 in 'Posterior/state/Transitions_E->I-area=S12000042.csv'
+'Data' uses columns 1 and 2 in 'Posterior/state/Transitions_E->I-area=S12000042-data.csv'
+
+PAGE 195: "Data table cases_area_cut.csv: This visualises the file cases_area_cut.csv which gives the temporal variation in the number of individual transitions per unit time moving from the E to the I compartment for S12000042."
+'Data' uses columns 1 and 2 in 'Posterior/state/Transitions_E->I-area=S12000042-data.csv'
+
+PAGE 196: "Data table cases_area_cut.csv: This shows the temporal variation in the number of individual transitions per unit time moving from the E to the I compartment for S12000045.  The black line shows the raw data (from the input file cases_area_cut.csv).  The red line (with dashed 95% credible intervals) shows the posterior distribution for the inferred underlying system state.  Under a suitable model, and with accurate inferece, it would be expected that the black and red curves exhibit the same temporal behaviour (barring variation coming from the observation model). Large deviations between the two lines indicate that either the model is not able to properly account for the actual observed system dynamics, or that inference has not converged on the true posterior distribution."
+'95% CI min' uses columns 1 and 3 in 'Posterior/state/Transitions_E->I-area=S12000045.csv'
+'95% CI max' uses columns 1 and 4 in 'Posterior/state/Transitions_E->I-area=S12000045.csv'
+'Posterior' uses columns 1 and 2 in 'Posterior/state/Transitions_E->I-area=S12000045.csv'
+'Data' uses columns 1 and 2 in 'Posterior/state/Transitions_E->I-area=S12000045-data.csv'
+
+PAGE 197: "Data table cases_area_cut.csv: This visualises the file cases_area_cut.csv which gives the temporal variation in the number of individual transitions per unit time moving from the E to the I compartment for S12000045."
+'Data' uses columns 1 and 2 in 'Posterior/state/Transitions_E->I-area=S12000045-data.csv'
+
+PAGE 198: "Data table cases_area_cut.csv: This shows the temporal variation in the number of individual transitions per unit time moving from the E to the I compartment for S12000047.  The black line shows the raw data (from the input file cases_area_cut.csv).  The red line (with dashed 95% credible intervals) shows the posterior distribution for the inferred underlying system state.  Under a suitable model, and with accurate inferece, it would be expected that the black and red curves exhibit the same temporal behaviour (barring variation coming from the observation model). Large deviations between the two lines indicate that either the model is not able to properly account for the actual observed system dynamics, or that inference has not converged on the true posterior distribution."
+'95% CI min' uses columns 1 and 3 in 'Posterior/state/Transitions_E->I-area=S12000047.csv'
+'95% CI max' uses columns 1 and 4 in 'Posterior/state/Transitions_E->I-area=S12000047.csv'
+'Posterior' uses columns 1 and 2 in 'Posterior/state/Transitions_E->I-area=S12000047.csv'
+'Data' uses columns 1 and 2 in 'Posterior/state/Transitions_E->I-area=S12000047-data.csv'
+
+PAGE 199: "Data table cases_area_cut.csv: This visualises the file cases_area_cut.csv which gives the temporal variation in the number of individual transitions per unit time moving from the E to the I compartment for S12000047."
+'Data' uses columns 1 and 2 in 'Posterior/state/Transitions_E->I-area=S12000047-data.csv'
+
+PAGE 200: "Data table cases_area_cut.csv: This shows the temporal variation in the number of individual transitions per unit time moving from the E to the I compartment for S12000048.  The black line shows the raw data (from the input file cases_area_cut.csv).  The red line (with dashed 95% credible intervals) shows the posterior distribution for the inferred underlying system state.  Under a suitable model, and with accurate inferece, it would be expected that the black and red curves exhibit the same temporal behaviour (barring variation coming from the observation model). Large deviations between the two lines indicate that either the model is not able to properly account for the actual observed system dynamics, or that inference has not converged on the true posterior distribution."
+'95% CI min' uses columns 1 and 3 in 'Posterior/state/Transitions_E->I-area=S12000048.csv'
+'95% CI max' uses columns 1 and 4 in 'Posterior/state/Transitions_E->I-area=S12000048.csv'
+'Posterior' uses columns 1 and 2 in 'Posterior/state/Transitions_E->I-area=S12000048.csv'
+'Data' uses columns 1 and 2 in 'Posterior/state/Transitions_E->I-area=S12000048-data.csv'
+
+PAGE 201: "Data table cases_area_cut.csv: This visualises the file cases_area_cut.csv which gives the temporal variation in the number of individual transitions per unit time moving from the E to the I compartment for S12000048."
+'Data' uses columns 1 and 2 in 'Posterior/state/Transitions_E->I-area=S12000048-data.csv'
+
+PAGE 202: "Data table cases_area_cut.csv: This shows the temporal variation in the number of individual transitions per unit time moving from the E to the I compartment for S12000049.  The black line shows the raw data (from the input file cases_area_cut.csv).  The red line (with dashed 95% credible intervals) shows the posterior distribution for the inferred underlying system state.  Under a suitable model, and with accurate inferece, it would be expected that the black and red curves exhibit the same temporal behaviour (barring variation coming from the observation model). Large deviations between the two lines indicate that either the model is not able to properly account for the actual observed system dynamics, or that inference has not converged on the true posterior distribution."
+'95% CI min' uses columns 1 and 3 in 'Posterior/state/Transitions_E->I-area=S12000049.csv'
+'95% CI max' uses columns 1 and 4 in 'Posterior/state/Transitions_E->I-area=S12000049.csv'
+'Posterior' uses columns 1 and 2 in 'Posterior/state/Transitions_E->I-area=S12000049.csv'
+'Data' uses columns 1 and 2 in 'Posterior/state/Transitions_E->I-area=S12000049-data.csv'
+
+PAGE 203: "Data table cases_area_cut.csv: This visualises the file cases_area_cut.csv which gives the temporal variation in the number of individual transitions per unit time moving from the E to the I compartment for S12000049."
+'Data' uses columns 1 and 2 in 'Posterior/state/Transitions_E->I-area=S12000049-data.csv'
+
+PAGE 204: "Data table cases_area_cut.csv: This shows the temporal variation in the number of individual transitions per unit time moving from the E to the I compartment for S12000050.  The black line shows the raw data (from the input file cases_area_cut.csv).  The red line (with dashed 95% credible intervals) shows the posterior distribution for the inferred underlying system state.  Under a suitable model, and with accurate inferece, it would be expected that the black and red curves exhibit the same temporal behaviour (barring variation coming from the observation model). Large deviations between the two lines indicate that either the model is not able to properly account for the actual observed system dynamics, or that inference has not converged on the true posterior distribution."
+'95% CI min' uses columns 1 and 3 in 'Posterior/state/Transitions_E->I-area=S12000050.csv'
+'95% CI max' uses columns 1 and 4 in 'Posterior/state/Transitions_E->I-area=S12000050.csv'
+'Posterior' uses columns 1 and 2 in 'Posterior/state/Transitions_E->I-area=S12000050.csv'
+'Data' uses columns 1 and 2 in 'Posterior/state/Transitions_E->I-area=S12000050-data.csv'
+
+PAGE 205: "Data table cases_area_cut.csv: This visualises the file cases_area_cut.csv which gives the temporal variation in the number of individual transitions per unit time moving from the E to the I compartment for S12000050."
+'Data' uses columns 1 and 2 in 'Posterior/state/Transitions_E->I-area=S12000050-data.csv'
+
+PAGE 206: "Data table Infection Population.csv: This shows the temporal variation in the sum of the populations in the I, A, C and T compartments.  The black line shows the raw data (from the input file Infection Population.csv).  The red line (with dashed 95% credible intervals) shows the posterior distribution for the inferred underlying system state.  Under a suitable model, and with accurate inferece, it would be expected that the black and red curves exhibit the same temporal behaviour (barring variation coming from the observation model). Large deviations between the two lines indicate that either the model is not able to properly account for the actual observed system dynamics, or that inference has not converged on the true posterior distribution."
+'95% CI min' uses columns 1 and 3 in 'Posterior/state/Population_I,A,C,T.csv'
+'95% CI max' uses columns 1 and 4 in 'Posterior/state/Population_I,A,C,T.csv'
+'Posterior' uses columns 1 and 2 in 'Posterior/state/Population_I,A,C,T.csv'
+'Data' uses columns 1 and 2 in 'Posterior/state/Population_I,A,C,T-data.csv'
+
+PAGE 207: "Data table Infection Population.csv: This visualises the file Infection Population.csv which gives the temporal variation in the sum of the populations in the I, A, C and T compartments."
+'Data' uses columns 1 and 2 in 'Posterior/state/Population_I,A,C,T-data.csv'
+
+PAGE 208: "State Output: This shows the plot *Dynamics*, as specifed in the input TOML file. The dashed lines give 95% credible intervals."
+'95% CI min' uses columns 1 and 3 in 'Posterior/state/Population_S.csv'
+'95% CI max' uses columns 1 and 4 in 'Posterior/state/Population_S.csv'
+'S' uses columns 1 and 2 in 'Posterior/state/Population_S.csv'
+'95% CI min' uses columns 1 and 3 in 'Posterior/state/Population_E.csv'
+'95% CI max' uses columns 1 and 4 in 'Posterior/state/Population_E.csv'
+'E' uses columns 1 and 2 in 'Posterior/state/Population_E.csv'
+'95% CI min' uses columns 1 and 3 in 'Posterior/state/Population_I.csv'
+'95% CI max' uses columns 1 and 4 in 'Posterior/state/Population_I.csv'
+'I' uses columns 1 and 2 in 'Posterior/state/Population_I.csv'
+'95% CI min' uses columns 1 and 3 in 'Posterior/state/Population_A.csv'
+'95% CI max' uses columns 1 and 4 in 'Posterior/state/Population_A.csv'
+'A' uses columns 1 and 2 in 'Posterior/state/Population_A.csv'
+'95% CI min' uses columns 1 and 3 in 'Posterior/state/Population_R.csv'
+'95% CI max' uses columns 1 and 4 in 'Posterior/state/Population_R.csv'
+'R' uses columns 1 and 2 in 'Posterior/state/Population_R.csv'
+'95% CI min' uses columns 1 and 3 in 'Posterior/state/Population_H.csv'
+'95% CI max' uses columns 1 and 4 in 'Posterior/state/Population_H.csv'
+'H' uses columns 1 and 2 in 'Posterior/state/Population_H.csv'
+'95% CI min' uses columns 1 and 3 in 'Posterior/state/Population_D.csv'
+'95% CI max' uses columns 1 and 4 in 'Posterior/state/Population_D.csv'
+'D' uses columns 1 and 2 in 'Posterior/state/Population_D.csv'
+
+PAGE 209: "Area effects: This histogram shows the posterior distribution for the factor &α_a& change in &R& for different areas (note, this factor is defined to have a poplation average of one). The error bars give 95% credible intervals.  The horizontal black lines show the true values used to simulate the data. "
+'Posterior' uses columns 1, 2 and 4 in 'Posterior/area_effect.csv'
+'Value' uses columns 1, 2 and 7 in 'Posterior/area_effect.csv'
+
+  A: Area effect S12000005, B: Area effect S12000006, C: Area effect S12000008, D: Area effect S12000010, E: Area effect S12000011, F: Area effect S12000013, G: Area effect S12000014, H: Area effect S12000017, I: Area effect S12000018, J: Area effect S12000019, K: Area effect S12000020, L: Area effect S12000021, M: Area effect S12000023, N: Area effect S12000026, O: Area effect S12000027, P: Area effect S12000028, Q: Area effect S12000029, R: Area effect S12000030, S: Area effect S12000033, T: Area effect S12000034, U: Area effect S12000035, V: Area effect S12000036, W: Area effect S12000038, X: Area effect S12000039, Y: Area effect S12000040, Z: Area effect S12000041, a: Area effect S12000042, b: Area effect S12000045, c: Area effect S12000047, d: Area effect S12000048, e: Area effect S12000049, f: Area effect S12000050
+

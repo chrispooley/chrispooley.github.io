@@ -1,0 +1,87 @@
+Parameter,Value
+Error function,18.1717
+zero,0
+E mean occupancy,3.8
+I Infectivity,1
+I mean occupancy,4
+C mean occupancy,3.1
+A Infectivity,0.55
+A mean occupancy,4
+H mean occupancy,13
+T mean occupancy,13
+E->A branch prob.,0.513635
+E->I branch prob.,0.369561
+I->T branch prob.,0.482321
+I->C branch prob.,0.517537
+H->D branch prob.,0.15
+H->R branch prob.,0.85
+R_0,3.44783
+R_1,3.65997
+R_2,1.53598
+R_3,0.857109
+R_4,0.523642
+R_5,0.592754
+R_6,0.616845
+R_7,0.80469
+R_8,0.615644
+R_9,0.652302
+R_10,0.6836
+R_11,0.981324
+R_12,1.03954
+R_13,1.44124
+R_14,1.40635
+R_15,1.40396
+R_16,1.44114
+R_17,1.31303
+R_18,1.00281
+R_19,0.958284
+R_20,1.25853
+R_21,1.11759
+R_22,1.26939
+R_23,1.23674
+R_24,1.71609
+R_25,0.955768
+R_26,0.925874
+R_27,0.951219
+R_28,0.888286
+R_29,0.867584
+R_30,0.904141
+R_31,0.881128
+R_32,1.22268
+R_33,1.7773
+R_34,1.93643
+R_35,1.60814
+one,1
+efoi,1
+Area effect S12000005,1.53307
+Area effect S12000006,2.46961
+Area effect S12000008,3.03189
+Area effect S12000010,1.46194
+Area effect S12000011,2.08065
+Area effect S12000013,1.44491
+Area effect S12000014,2.56932
+Area effect S12000017,4.21063
+Area effect S12000018,1.69215
+Area effect S12000019,4.64878
+Area effect S12000020,2.26525
+Area effect S12000021,1.51294
+Area effect S12000023,0.441829
+Area effect S12000026,2.91183
+Area effect S12000027,0.50831
+Area effect S12000028,1.66437
+Area effect S12000029,8.67783
+Area effect S12000030,2.61311
+Area effect S12000033,5.35407
+Area effect S12000034,4.53024
+Area effect S12000035,2.40581
+Area effect S12000036,12.1776
+Area effect S12000038,4.60378
+Area effect S12000039,1.26453
+Area effect S12000040,1.97505
+Area effect S12000041,3.31622
+Area effect S12000042,3.97579
+Area effect S12000045,1.04499
+Area effect S12000047,6.75457
+Area effect S12000048,3.28897
+Area effect S12000049,19.7426
+Area effect S12000050,4.32551

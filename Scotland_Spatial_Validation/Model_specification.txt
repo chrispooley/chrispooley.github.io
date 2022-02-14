@@ -1,0 +1,129 @@
+
+Age categories: 
+  age: population
+
+Demographic categories: 
+  strain: all
+
+Priors:
+  zero = Fixed(0)
+  E mean occupancy = Fixed(3.8)
+  I Infectivity = Fixed(1)
+  I mean occupancy = Fixed(4)
+  C mean occupancy = Fixed(3.1)
+  A Infectivity = Fixed(0.55)
+  A mean occupancy = Fixed(4)
+  H mean occupancy = Fixed(13)
+  T mean occupancy = Fixed(13)
+  E->A branch prob. = Dir(*)
+  E->I branch prob. = Dir(*)
+  I->T branch prob. = Dir(1)
+  I->C branch prob. = Dir(0.3)
+  H->D branch prob. = Fixed(0.15)
+  H->R branch prob. = Fixed(0.85)
+  R_0 = Uniform(0.4,5)
+  R_1 = Uniform(0.4,5)
+  R_2 = Uniform(0.4,5)
+  R_3 = Uniform(0.4,5)
+  R_4 = Uniform(0.4,2.5)
+  R_5 = Uniform(0.4,2.5)
+  R_6 = Uniform(0.4,2.5)
+  R_7 = Uniform(0.4,2.5)
+  R_8 = Uniform(0.4,2.5)
+  R_9 = Uniform(0.4,2.5)
+  R_10 = Uniform(0.4,2.5)
+  R_11 = Uniform(0.4,2.5)
+  R_12 = Uniform(0.4,2.5)
+  R_13 = Uniform(0.4,2.5)
+  R_14 = Uniform(0.4,2.5)
+  R_15 = Uniform(0.4,2.5)
+  R_16 = Uniform(0.4,2.5)
+  R_17 = Uniform(0.4,2.5)
+  R_18 = Uniform(0.4,2.5)
+  R_19 = Uniform(0.4,2.5)
+  R_20 = Uniform(0.4,2.5)
+  R_21 = Uniform(0.4,2.5)
+  R_22 = Uniform(0.4,2.5)
+  R_23 = Uniform(0.4,2.5)
+  R_24 = Uniform(0.4,2.5)
+  R_25 = Uniform(0.4,2.5)
+  R_26 = Uniform(0.4,2.5)
+  R_27 = Uniform(0.4,2.5)
+  R_28 = Uniform(0.4,2.5)
+  R_29 = Uniform(0.4,2.5)
+  R_30 = Uniform(0.4,2.5)
+  R_31 = Uniform(0.4,2.5)
+  R_32 = Uniform(0.4,2.5)
+  R_33 = Uniform(0.4,2.5)
+  R_34 = Uniform(0.4,2.5)
+  R_35 = Uniform(0.4,2.5)
+  one = Fixed(1)
+  efoi = Fixed(1)
+  Area effect S12000005 = MDir(0.5)
+  Area effect S12000006 = MDir(0.5)
+  Area effect S12000008 = MDir(0.5)
+  Area effect S12000010 = MDir(0.5)
+  Area effect S12000011 = MDir(0.5)
+  Area effect S12000013 = MDir(0.5)
+  Area effect S12000014 = MDir(0.5)
+  Area effect S12000017 = MDir(0.5)
+  Area effect S12000018 = MDir(0.5)
+  Area effect S12000019 = MDir(0.5)
+  Area effect S12000020 = MDir(0.5)
+  Area effect S12000021 = MDir(0.5)
+  Area effect S12000023 = MDir(0.5)
+  Area effect S12000026 = MDir(0.5)
+  Area effect S12000027 = MDir(0.5)
+  Area effect S12000028 = MDir(0.5)
+  Area effect S12000029 = MDir(0.5)
+  Area effect S12000030 = MDir(0.5)
+  Area effect S12000033 = MDir(0.5)
+  Area effect S12000034 = MDir(0.5)
+  Area effect S12000035 = MDir(0.5)
+  Area effect S12000036 = MDir(0.5)
+  Area effect S12000038 = MDir(0.5)
+  Area effect S12000039 = MDir(0.5)
+  Area effect S12000040 = MDir(0.5)
+  Area effect S12000041 = MDir(0.5)
+  Area effect S12000042 = MDir(0.5)
+  Area effect S12000045 = MDir(0.5)
+  Area effect S12000047 = MDir(0.5)
+  Area effect S12000048 = MDir(0.5)
+  Area effect S12000049 = MDir(0.5)
+  Area effect S12000050 = MDir(0.5)
+
+Dirichlet distributions:
+  Area effect S12000005 0.00945478   Area effect S12000006 0.0273692   Area effect S12000008 0.0224119   Area effect S12000010 0.0194595   Area effect S12000011 0.0175061   Area effect S12000013 0.00493525   Area effect S12000014 0.0294938   Area effect S12000017 0.0433264   Area effect S12000018 0.0143753   Area effect S12000019 0.0168015   Area effect S12000020 0.0175704   Area effect S12000021 0.0245725   Area effect S12000023 0.00408174   Area effect S12000026 0.0212033   Area effect S12000027 0.0042289   Area effect S12000028 0.020703   Area effect S12000029 0.0586822   Area effect S12000030 0.0173515   Area effect S12000033 0.0418585   Area effect S12000034 0.0480961   Area effect S12000035 0.0158671   Area effect S12000036 0.0953755   Area effect S12000038 0.0327036   Area effect S12000039 0.016395   Area effect S12000040 0.0335038   Area effect S12000041 0.021345   Area effect S12000042 0.0273618   Area effect S12000045 0.0199268   Area effect S12000047 0.068411   Area effect S12000048 0.027829   Area effect S12000049 0.115225   Area effect S12000050 0.0625744   
+  E->A branch prob. 1   E->I branch prob. 1   
+  I->T branch prob. 1   I->C branch prob. 1   
+  H->D branch prob. 1   H->R branch prob. 1   
+
+Compartments:
+  S
+  E   Exponential    mean = 'E mean occupancy'
+  I   Exponential    mean = 'I mean occupancy'  Infectivity: I Infectivity
+  C   Exponential    mean = 'C mean occupancy'
+  A   Exponential    mean = 'A mean occupancy'  Infectivity: A Infectivity
+  H   Exponential    mean = 'H mean occupancy'
+  T   Exponential    mean = 'T mean occupancy'
+  R
+  D
+
+Transitions:
+  S->E Infection
+  E->A with probability 'E->A branch prob.'
+
+  E->I with probability 'E->I branch prob.'
+
+  I->T with probability 'I->T branch prob.'
+
+  I->C with probability 'I->C branch prob.'
+
+  C->H
+  H->D with probability 'H->D branch prob.'
+
+  H->R with probability 'H->R branch prob.'
+
+  A->T
+  T->R
+
